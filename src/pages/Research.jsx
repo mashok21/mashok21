@@ -62,6 +62,7 @@ export default function Research() {
                 <span className="entry__title">{item.title}</span>
                 <span className="entry__meta">{item.date}</span>
                 <div className="entry__note">{item.issuer}</div>
+                <p className="text-muted">{item.description}</p>
               </li>
             ))}
           </ul>
