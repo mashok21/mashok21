@@ -58,7 +58,7 @@ Data and Python
 - Data Analysis with Pandas and Python — Udemy — Issued Feb 2020 — Credential ID UC-54c64218-39de-4e25-9cd3-57191fb605f3 (found via Drive; the file was misfiled under a LangGraph-course filename but its actual content is this certificate)
 - Python 3 Programming Specialization — University of Michigan — Issued Sep 2020 — Credential ID 2NEJHWE9MX2V
 - Python for Everybody Specialization — University of Michigan — Issued Aug 2020 — Credential ID SRB74TUQW5PZ
-- MTA: Introduction to Programming Using Python — Microsoft — Issued 11 Apr 2021 — Certification number C7E3AB-86X6EA (corrects "H751-9138," a typo/OCR error repeated across three resumes; verified against the actual Microsoft Learn credential page, `Credentials - ashokm-9619 _ Microsoft Learn.pdf`, found in the local Windows Downloads folder at `/mnt/c/Users/91994/Downloads/`). Public profile: learn.microsoft.com/en-us/users/ashokm-9619/. Status: Active.
+- MTA: Introduction to Programming Using Python — Microsoft — Issued 11 Apr 2021 — Proctored exam. Certification number C7E3AB-86X6EA (corrects "H751-9138," a typo/OCR error repeated across three resumes; verified against the actual Microsoft Learn credential page, `Credentials - ashokm-9619 _ Microsoft Learn.pdf`, found in the local Windows Downloads folder at `/mnt/c/Users/91994/Downloads/`). Public profile: learn.microsoft.com/en-us/users/ashokm-9619/. Status: Active.
 
 Econometrics and Research Methods
 - Summer Research Methodology Workshop — Indian Institute of Management Bangalore (IIM Bangalore) — Issued Apr 2026 — "Covered advanced research design, empirical methods, and publication-oriented thinking, useful for bridging theory with real-world application."

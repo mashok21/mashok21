@@ -111,7 +111,7 @@ export const certificationGroups = [
         issuer: 'Microsoft',
         url: 'https://learn.microsoft.com/en-us/users/ashokm-9619/',
         date: 'Apr 2021',
-        note: 'Certification number C7E3AB-86X6EA.',
+        note: 'Proctored exam. Certification number C7E3AB-86X6EA.',
       },
       {
         title: 'Python 3 Programming Specialization',
