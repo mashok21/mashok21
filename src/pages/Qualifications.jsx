@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import EntryList from '../components/EntryList'
+import ExternalLink from '../components/ExternalLink'
 import { qualifications, honors } from '../data/qualifications'
 import { education } from '../data/education'
 
@@ -17,8 +19,13 @@ export default function Qualifications() {
           <EntryList items={qualifications}>
             {(q) => (
               <>
-                <span className="entry__title">{q.title}</span>
-                <span className="entry__meta">{q.meta}</span>
+                <span className="entry__title">
+                  {q.path ? <Link to={q.path}>{q.title}</Link> : q.title}
+                </span>
+                <span className="entry__meta">
+                  {q.url ? <ExternalLink href={q.url}>{q.meta}</ExternalLink> : q.meta}
+                </span>
+                {q.note ? <div className="entry__note">{q.note}</div> : null}
               </>
             )}
           </EntryList>

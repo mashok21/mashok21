@@ -166,13 +166,6 @@ export const certificationGroups = [
     theme: 'Finance and Markets',
     entries: [
       {
-        title: 'Registered Valuer, Securities or Financial Assets',
-        issuer: 'Insolvency and Bankruptcy Board of India',
-        url: 'https://ibbi.gov.in',
-        date: 'Jan 2021',
-        note: 'Statutory valuation credential for securities and financial assets.',
-      },
-      {
         title: 'Decentralized Finance (DeFi) Infrastructure',
         issuer: 'Duke University (Coursera)',
         url: 'https://www.coursera.org/account/accomplishments/verify/WKHX4AEGA7JX',
