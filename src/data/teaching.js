@@ -37,12 +37,12 @@ export const teachingRoles = [
       'Taught to undergraduate management students. Emphasis on classical moral philosophy, particularly Adam Smith’s framework, applied to contemporary financial decision-making. Focus on developing normative reasoning alongside technical competence.',
   },
   {
-    title: 'Visiting Faculty, Blockchain Basics',
+    title: 'Visiting Faculty, Digital Technology in Finance (MBA545F)',
     institution: 'School of Business and Management, CHRIST (Deemed to be University), Bangalore',
-    period: 'Aug 2024 – Nov 2024',
+    period: 'Nov 2022 – Feb 2023',
     status: 'past',
     description:
-      'Taught blockchain fundamentals at MBA level, situating the technology within broader capital market and institutional contexts.',
+      'Taught to MBA Finance-specialization students at the Kengeri campus, situating technologies like blockchain within broader capital market and institutional contexts.',
   },
   {
     title: 'Faculty, Economics for Finance (CA Intermediate)',
