@@ -23,7 +23,17 @@ export default function Research() {
           <h2 className="entry-group__title">Journal articles</h2>
           {publications.map((pub) => (
             <div className="citation" key={pub.citation}>
-              <p>{pub.citation}</p>
+              <p>
+                {pub.citation}
+                {pub.url && (
+                  <>
+                    {' '}
+                    <a href={pub.url} target="_blank" rel="noopener noreferrer">
+                      {pub.url}
+                    </a>
+                  </>
+                )}
+              </p>
               <p className="text-muted">{pub.note}</p>
             </div>
           ))}

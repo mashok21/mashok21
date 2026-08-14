@@ -137,16 +137,16 @@ Doctoral research in Austrian economics, capital theory, and business cycles, wi
 
 ### Journal Articles (Publications — 4 total, all captured)
 
-1. Ashok M. (2025). A Review of the Austrian Economic Paradigm. *World Journal of Economics, Business and Management*, 2(1), 27–30.
+1. Ashok M. (2025). A Review of the Austrian Economic Paradigm. *World Journal of Economics, Business and Management*, 2(1), 27–30. https://wasrpublication.com/index.php/wjebm/article/view/132
    Published Jan 24, 2025. A review of the core principles of the Austrian school of economics, including subjectivism, entrepreneurship, market processes, and methodological foundations.
 
-2. Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. *Kronika Journal*.
+2. Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. *Kronika Journal*. https://doi.org/10.5281/zenodo.16888842
    Published Nov 1, 2025. An introductory overview of key ideas in Austrian economics, including subjectivism, market processes, entrepreneurship, and disequilibrium.
    `[Note: full APA volume/issue/page detail not captured in PDF export — verify before publishing citation]`
 
 3. Ashok, M., & Hans, V. B. (2025). Intertemporal coordination mechanism: Austrian insights on market coordination through time. *International Journal of Management, Technology, and Social Sciences (IJMTS)*, 10(1). https://doi.org/10.5281/zenodo.15233720
 
-4. Ashok, M., & Hans, V. B. (2025). Sustainable growth ideas by the Austrian School of Economics: A market-based approach to environmental sustainability. *Juni Khyat*, 15(1), Art. 03. ISSN 2278-4632 (UGC CARE List, Impact Factor 6.625).
+4. Ashok, M., & Hans, V. B. (2025). Sustainable growth ideas by the Austrian School of Economics: A market-based approach to environmental sustainability. *Juni Khyat*, 15(1), Art. 03. ISSN 2278-4632 (UGC CARE List, Impact Factor 6.625). http://junikhyatjournal.in/no_1_Online_25/29_online_jan.pdf
 
 ### Conference Presentations (Projects — 3 total, complete)
 
