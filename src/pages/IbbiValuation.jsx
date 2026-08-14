@@ -66,12 +66,12 @@ export default function IbbiValuation() {
         <Section title="Assignments">
           <p>
             Assignments to date have been equity share valuations for unlisted private limited
-            companies, principally for the further issue of share capital by way of preferential
-            allotment under Section 62 of the Companies Act, 2013 — the valuation is a statutory
-            requirement of that process, not a discretionary exercise. Fair value is determined
-            under the Income Approach (Discounted Free Cash Flow method) on a going-concern basis,
-            drawing on audited financials, management-certified projections and a CAPM-derived
-            cost of equity.
+            companies. An SFA Registered Valuer is typically required for the further issue of
+            share capital by way of preferential allotment (Section 62(1)(c) of the Companies
+            Act, 2013, read with Rule 13(1) of the Companies (Share Capital and Debentures)
+            Rules, 2014) and for share buy-backs (Section 68 of the Companies Act, 2013, read
+            with the same Rules) — a statutory requirement of those processes, not a
+            discretionary exercise.
           </p>
         </Section>
 

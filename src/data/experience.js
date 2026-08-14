@@ -21,7 +21,7 @@ export const experienceRoles = [
     status: 'current',
     path: '/mannheim-capital',
     description:
-      'Boutique wealth practice offering mutual fund distribution and IBBI-registered valuation services, alongside portfolio construction and macro-driven asset allocation for HNW clients.',
+      'Boutique wealth practice offering mutual fund distribution and, separately, IBBI-registered valuation services for securities and financial assets, alongside portfolio construction and macro-driven asset allocation for HNW clients.',
   },
   {
     title: 'Chief Financial Officer',
