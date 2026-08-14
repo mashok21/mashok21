@@ -6,7 +6,7 @@ export default function AustrianProcess() {
       <div className="container">
         <SectionHeader
           eyebrow="Applied Project"
-          title="austrianprocess.com"
+          title="Austrian Process"
           intro="An educational platform that turns Austrian capital theory into interactive tools: a visual model of capital structure, live interest-rate data, and a research assistant grounded in primary texts."
         />
 

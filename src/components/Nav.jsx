@@ -4,8 +4,9 @@ const links = [
   { to: '/', label: 'Home', end: true },
   { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/research', label: 'Research' },
-  { to: '/austrianprocess', label: 'austrianprocess.com' },
+  { to: '/austrianprocess', label: 'Austrian Process' },
   { to: '/mannheim-capital', label: 'Mannheim Capital' },
+  { to: '/ibbi-valuation', label: 'IBBI Valuation' },
   { to: '/teaching', label: 'Teaching' },
   { to: '/writing', label: 'Writing' },
 ]
