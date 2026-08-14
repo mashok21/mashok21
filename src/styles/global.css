@@ -1,0 +1,257 @@
+@import './tokens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  color: var(--navy);
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 var(--space-2);
+}
+
+h1 {
+  font-size: 2.1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+p {
+  margin: 0 0 var(--space-2);
+}
+
+a {
+  color: var(--navy);
+  text-decoration-color: var(--gold);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+.eyebrow {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: var(--space-1);
+}
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: var(--space-4) 0;
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* Nav */
+.site-nav {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.site-nav__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.site-nav__name {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav__links a {
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav__links a:hover,
+.site-nav__links a.active {
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 4px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: var(--space-5);
+}
+
+.site-footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-3);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.site-footer a {
+  color: var(--text-muted);
+}
+
+/* Page layout */
+.page {
+  padding: var(--space-4) 0 var(--space-5);
+}
+
+.page-intro {
+  max-width: 38rem;
+}
+
+/* Entry list (certifications, publications, roles) */
+.entry-group {
+  margin-bottom: var(--space-4);
+}
+
+.entry-group__title {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+
+.entry-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry {
+  padding: var(--space-1) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.entry:last-child {
+  border-bottom: none;
+}
+
+.entry__title {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.entry__meta {
+  font-size: 0.85rem;
+  color: var(--gold);
+  margin-left: 0.4em;
+}
+
+.entry__note {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin-top: 0.15em;
+}
+
+/* Buttons / links-as-actions */
+.btn {
+  display: inline-block;
+  padding: 0.55em 1.1em;
+  border: 1px solid var(--navy);
+  border-radius: 2px;
+  color: var(--navy);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: var(--navy);
+  color: var(--bg-elevated);
+}
+
+.btn--gold {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.btn--gold:hover {
+  background: var(--gold);
+  color: var(--bg-elevated);
+}
+
+.action-row {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-top: var(--space-3);
+}
+
+/* Placeholder / pending content */
+.pending {
+  border: 1px dashed var(--border);
+  padding: var(--space-3);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  border-radius: 2px;
+}
+
+.citation {
+  font-size: 0.95rem;
+}
+
+.citation + .citation {
+  margin-top: var(--space-3);
+}

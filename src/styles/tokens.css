@@ -1,0 +1,39 @@
+:root {
+  --navy: #1b3561;
+  --navy-deep: #10213b;
+  --gold: #b8912a;
+  --gold-soft: #d9b768;
+
+  --bg: #faf8f4;
+  --bg-elevated: #ffffff;
+  --text: #1f242c;
+  --text-muted: #5b6472;
+  --border: rgba(27, 53, 97, 0.14);
+  --rule: rgba(184, 145, 42, 0.55);
+
+  --font-serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --max-width: 46rem;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.75rem;
+  --space-4: 3rem;
+  --space-5: 5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --navy: #a9c0e6;
+    --navy-deep: #dfe8f7;
+    --gold: #d9b768;
+    --gold-soft: #e8cd8f;
+
+    --bg: #0e1a2e;
+    --bg-elevated: #142443;
+    --text: #e9e6dd;
+    --text-muted: #a9b2c0;
+    --border: rgba(217, 183, 104, 0.16);
+    --rule: rgba(217, 183, 104, 0.4);
+  }
+}
