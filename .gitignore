@@ -6,3 +6,5 @@ dist
 
 # Raw source data, not meant for a public repo
 Ashok_M_LinkedIn_Full_Profile.pdf
+.vercel
+.env*
