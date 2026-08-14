@@ -86,6 +86,13 @@ export const certificationGroups = [
     theme: 'Data and Python',
     entries: [
       {
+        title: 'Master Data Science & Machine Learning in Python',
+        issuer: 'Great Learning',
+        url: 'https://www.mygreatlearning.com/certificate/IWMLJKTM',
+        date: 'Aug 2026',
+        note: 'Applied data science and machine learning workflows in Python.',
+      },
+      {
         title: 'Python for Data Science and Machine Learning Bootcamp',
         issuer: 'Udemy',
         url: 'https://www.udemy.com/certificate/UC-59e88d7a-0769-4a20-8004-8e92567a536d/',
@@ -115,17 +122,17 @@ export const certificationGroups = [
       },
       {
         title: 'Python 3 Programming Specialization',
-        issuer: 'University of Michigan',
+        issuer: 'University of Michigan (Coursera)',
         url: 'https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V',
         date: 'Sep 2020',
-        note: 'Structured programming foundations.',
+        note: 'Coursera course certificate. Structured programming foundations.',
       },
       {
         title: 'Python for Everybody Specialization',
-        issuer: 'University of Michigan',
+        issuer: 'University of Michigan (Coursera)',
         url: 'https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ',
         date: 'Aug 2020',
-        note: 'Python for data retrieval, analysis and visualization.',
+        note: 'Coursera course certificate. Python for data retrieval, analysis and visualization.',
       },
     ],
   },
@@ -148,30 +155,16 @@ export const certificationGroups = [
       },
       {
         title: 'Qualitative Research Methods',
-        issuer: 'University of Amsterdam',
+        issuer: 'University of Amsterdam (Coursera)',
         url: 'https://www.coursera.org/account/accomplishments/verify/0DMS583FLKID',
         date: 'Jul 2025',
-        note: 'Complements quantitative training for mixed-methods economic research.',
+        note: 'Coursera course certificate. Complements quantitative training for mixed-methods economic research.',
       },
     ],
   },
   {
     theme: 'Finance and Markets',
     entries: [
-      {
-        title: 'CFA Charterholder',
-        issuer: 'CFA Institute',
-        url: 'https://credentials.cfainstitute.org/d9c923b3-0c64-4dd1-9e1d-b3a6d5facf13#acc.kOMDRatq',
-        date: 'Jan 2011',
-        note: 'Core credential underlying investment practice and research.',
-      },
-      {
-        title: 'Fellow Chartered Accountant (FCA)',
-        issuer: 'Institute of Chartered Accountants of India',
-        url: 'https://www.icai.org',
-        date: 'ACA Feb 2005, FCA Oct 2015',
-        note: 'Foundation in accounting, audit and financial reporting.',
-      },
       {
         title: 'Registered Valuer, Securities or Financial Assets',
         issuer: 'Insolvency and Bankruptcy Board of India',
@@ -181,10 +174,10 @@ export const certificationGroups = [
       },
       {
         title: 'Decentralized Finance (DeFi) Infrastructure',
-        issuer: 'Duke University',
+        issuer: 'Duke University (Coursera)',
         url: 'https://www.coursera.org/account/accomplishments/verify/WKHX4AEGA7JX',
         date: 'Nov 2022',
-        note: 'Structural understanding of DeFi protocols and infrastructure.',
+        note: 'Coursera course certificate. Structural understanding of DeFi protocols and infrastructure.',
       },
     ],
   },
