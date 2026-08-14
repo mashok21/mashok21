@@ -45,6 +45,19 @@ export default function IbbiValuation() {
         </section>
 
         <section className="entry-group">
+          <h2 className="entry-group__title">Assignments</h2>
+          <p>
+            Assignments to date have been equity share valuations for unlisted private limited
+            companies, principally for the further issue of share capital by way of preferential
+            allotment under Section 62 of the Companies Act, 2013 — the valuation is a statutory
+            requirement of that process, not a discretionary exercise. Fair value is determined
+            under the Income Approach (Discounted Free Cash Flow method) on a going-concern basis,
+            drawing on audited financials, management-certified projections and a CAPM-derived
+            cost of equity.
+          </p>
+        </section>
+
+        <section className="entry-group">
           <h2 className="entry-group__title">Resources</h2>
           <ul className="entry-list">
             <li className="entry">

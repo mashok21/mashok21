@@ -9,6 +9,7 @@ import Teaching from './pages/Teaching'
 import Writing from './pages/Writing'
 import MannheimCapital from './pages/MannheimCapital'
 import IbbiValuation from './pages/IbbiValuation'
+import TechStack from './pages/TechStack'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/writing" element={<Writing />} />
           <Route path="/mannheim-capital" element={<MannheimCapital />} />
           <Route path="/ibbi-valuation" element={<IbbiValuation />} />
+          <Route path="/tech-stack" element={<TechStack />} />
         </Routes>
       </main>
       <Footer />
