@@ -18,7 +18,7 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 **Research interests (CV, verbatim):** Austrian capital theory and business cycles. Intertemporal coordination and entrepreneurship. Interest-rate dynamics and credit cycles in Indian markets. Disequilibrium economics.
 
-**Home page treatment:** the identity paragraph stays credential-free (practice, teaching, research focus only); qualifications and research interests are broken out into their own labelled lists below it (`src/data/home.js`), so the paragraph reads as orientation rather than a CV dump.
+**Home page treatment (redesigned, user-directed):** the Home page is now a deliberately minimal, centered landing page — headshot, eyebrow location, name, bio paragraph, action row (LinkedIn, Download CV), and a single italic line of research interests, all center-aligned via a scoped `.home-hero` class (`src/styles/global.css`). Qualifications, Education and Honors were moved off Home entirely onto a new dedicated `/qualifications` subpage (nav tier alongside the other subpages), reusing the same `EntryList` component and page layout as the rest of the site — that page is left-aligned like every other subpage; only Home is centered, deliberately, to read as a distinct landing page. Data: `src/data/qualifications.js` (qualifications + honors) and `src/data/education.js` (unchanged); Home's own data trimmed to just `interests` in `src/data/home.js`.
 
 **Headshot:** cropped from the LinkedIn profile photo (the current professional headshot, not a passport photo) — `public/images/ashok-headshot.jpg`. Used as a small circular image on the Mannheim Capital subpage.
 

@@ -1,27 +1,18 @@
-import { qualifications, interests, honors } from '../data/home'
-import { education } from '../data/education'
+import { interests } from '../data/home'
 import ExternalLink from '../components/ExternalLink'
-import EntryList from '../components/EntryList'
 
 export default function Home() {
   return (
-    <div className="page">
+    <div className="page home-hero">
       <div className="container">
         <img
           src="/images/ashok-headshot.jpg"
           alt="Ashok M"
-          style={{
-            width: '84px',
-            height: '84px',
-            borderRadius: '50%',
-            objectFit: 'cover',
-            border: '2px solid var(--gold)',
-            marginBottom: '1rem',
-          }}
+          className="home-hero__avatar"
         />
         <p className="eyebrow">Bengaluru, India</p>
         <h1>Ashok M</h1>
-        <p style={{ fontSize: '1.1rem', maxWidth: '38rem' }}>
+        <p className="home-hero__bio">
           Ashok M is a research economist working at the intersection of economic theory and
           capital markets. He runs Mannheim Capital, a boutique wealth practice in Bengaluru. It
           offers mutual fund distribution and IBBI-registered valuation services for securities
@@ -38,53 +29,9 @@ export default function Home() {
           </a>
         </div>
 
-        <section className="entry-group" style={{ marginTop: '3rem' }}>
-          <h2 className="entry-group__title">Interests</h2>
-          <EntryList items={interests} itemKey={(item) => item}>
-            {(item) => item}
-          </EntryList>
-        </section>
-
-        <section className="entry-group">
-          <h2 className="entry-group__title">Qualifications</h2>
-          <EntryList items={qualifications}>
-            {(q) => (
-              <>
-                <span className="entry__title">{q.title}</span>
-                <span className="entry__meta">{q.meta}</span>
-              </>
-            )}
-          </EntryList>
-        </section>
-
-        <section className="entry-group">
-          <h2 className="entry-group__title">Education</h2>
-          <EntryList items={education} itemKey={(item) => item.degree}>
-            {(item) => (
-              <>
-                <span className="entry__title">{item.degree}</span>
-                <span className="entry__meta">
-                  {item.institution}
-                  {item.period ? ` · ${item.period}` : ''}
-                </span>
-              </>
-            )}
-          </EntryList>
-        </section>
-
-        <section className="entry-group">
-          <h2 className="entry-group__title">Honors</h2>
-          <EntryList items={honors}>
-            {(item) => (
-              <>
-                <span className="entry__title">{item.title}</span>
-                <span className="entry__meta">{item.date}</span>
-                <div className="entry__note">{item.issuer}</div>
-                <p className="text-muted">{item.description}</p>
-              </>
-            )}
-          </EntryList>
-        </section>
+        <p className="home-hero__interests">
+          {interests.join(' · ')}
+        </p>
       </div>
     </div>
   )

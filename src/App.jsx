@@ -10,6 +10,7 @@ import Writing from './pages/Writing'
 import MannheimCapital from './pages/MannheimCapital'
 import IbbiValuation from './pages/IbbiValuation'
 import TechStack from './pages/TechStack'
+import Qualifications from './pages/Qualifications'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/qualifications" element={<Qualifications />} />
           <Route path="/continuous-learning" element={<ContinuousLearning />} />
           <Route path="/research" element={<Research />} />
           <Route path="/austrianprocess" element={<AustrianProcess />} />
