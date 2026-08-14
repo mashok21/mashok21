@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import ExternalLink from '../components/ExternalLink'
 
 export default function AustrianProcess() {
@@ -15,8 +16,7 @@ export default function AustrianProcess() {
           <ExternalLink href="https://www.austrianprocess.com">austrianprocess.com</ExternalLink>
         </p>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">The Hayekian-Garrison Triangle</h2>
+        <Section title="The Hayekian-Garrison Triangle">
           <p>
             The triangle shows how time preference shapes the structure of capital. A single
             slider sets the balance between saving and consumption. Move it toward saving and the
@@ -32,20 +32,18 @@ export default function AustrianProcess() {
           <p className="text-muted" style={{ fontSize: '0.85rem', marginTop: '0.4rem' }}>
             The live tool at austrianprocess.com/garrison-triangle.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Ask Austrian: the research assistant</h2>
+        <Section title="Ask Austrian: the research assistant">
           <p>
             Ask Austrian is a research assistant grounded in 28 primary Austrian economics texts,
             including Mises, Rothbard, Menger, Böhm-Bawerk and Hayek. It answers from the texts
             directly, not from a general model's prior knowledge, and two independent guardrails
             stop it from giving financial or investment advice.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Also on the platform</h2>
+        <Section title="Also on the platform">
           <p>
             Live interest-rate telemetry pulled from FRED data with historical crisis annotations,
             a central-planning simulator built around the economic calculation problem, a scored
@@ -53,7 +51,7 @@ export default function AustrianProcess() {
             autonomous build loop: an AI assessment pass, an implementation pass, and an automated
             test pass, repeated until a change is verified.
           </p>
-        </section>
+        </Section>
 
         <div className="action-row">
           <ExternalLink className="btn" href="https://www.austrianprocess.com">

@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import { qualifications, honors } from '../data/qualifications'
 import { education } from '../data/education'
@@ -12,8 +13,7 @@ export default function Qualifications() {
           title="Qualifications, education and honors"
         />
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Qualifications</h2>
+        <Section title="Qualifications">
           <EntryList items={qualifications}>
             {(q) => (
               <>
@@ -22,10 +22,9 @@ export default function Qualifications() {
               </>
             )}
           </EntryList>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Education</h2>
+        <Section title="Education">
           <EntryList items={education} itemKey={(item) => item.degree}>
             {(item) => (
               <>
@@ -37,10 +36,9 @@ export default function Qualifications() {
               </>
             )}
           </EntryList>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Honors</h2>
+        <Section title="Honors">
           <EntryList items={honors}>
             {(item) => (
               <>
@@ -51,7 +49,7 @@ export default function Qualifications() {
               </>
             )}
           </EntryList>
-        </section>
+        </Section>
       </div>
     </div>
   )

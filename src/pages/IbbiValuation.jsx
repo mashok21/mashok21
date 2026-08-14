@@ -1,5 +1,35 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
+import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
+
+const credentials = [
+  {
+    title: 'Registered Valuer, Securities or Financial Assets',
+    meta: 'Jan 2021',
+    note: (
+      <>
+        Insolvency and Bankruptcy Board of India (IBBI). Credential ID
+        IBBI/RV/13/2021/13794.
+      </>
+    ),
+  },
+  {
+    title: 'Valuation Examination, Securities or Financial Assets',
+    meta: 'Oct 2020',
+    note: (
+      <>
+        Passed under the Companies (Registered Valuers and Valuation) Rules, 2017.
+        Certificate No. IBBI/SFA/001706.
+      </>
+    ),
+  },
+]
+
+const resources = [
+  { label: 'Insolvency and Bankruptcy Board of India (IBBI)', href: 'https://ibbi.gov.in' },
+  { label: 'IOV Registered Valuers Foundation (IOV RVF)', href: 'https://iovrvf.org' },
+]
 
 export default function IbbiValuation() {
   return (
@@ -11,30 +41,19 @@ export default function IbbiValuation() {
           intro="Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
         />
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Credential</h2>
-          <ul className="entry-list">
-            <li className="entry">
-              <span className="entry__title">Registered Valuer, Securities or Financial Assets</span>
-              <span className="entry__meta">Jan 2021</span>
-              <div className="entry__note">
-                Insolvency and Bankruptcy Board of India (IBBI). Credential ID
-                IBBI/RV/13/2021/13794.
-              </div>
-            </li>
-            <li className="entry">
-              <span className="entry__title">Valuation Examination, Securities or Financial Assets</span>
-              <span className="entry__meta">Oct 2020</span>
-              <div className="entry__note">
-                Passed under the Companies (Registered Valuers and Valuation) Rules, 2017.
-                Certificate No. IBBI/SFA/001706.
-              </div>
-            </li>
-          </ul>
-        </section>
+        <Section title="Credential">
+          <EntryList items={credentials} itemKey={(item) => item.title}>
+            {(item) => (
+              <>
+                <span className="entry__title">{item.title}</span>
+                <span className="entry__meta">{item.meta}</span>
+                <div className="entry__note">{item.note}</div>
+              </>
+            )}
+          </EntryList>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Scope</h2>
+        <Section title="Scope">
           <p>
             The Securities or Financial Assets category covers valuation of shares, financial
             instruments and other financial assets under the Companies (Registered Valuers and
@@ -42,10 +61,9 @@ export default function IbbiValuation() {
             including insolvency resolution, corporate restructuring and statutory valuation
             requirements under Indian company law.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Assignments</h2>
+        <Section title="Assignments">
           <p>
             Assignments to date have been equity share valuations for unlisted private limited
             companies, principally for the further issue of share capital by way of preferential
@@ -55,23 +73,13 @@ export default function IbbiValuation() {
             drawing on audited financials, management-certified projections and a CAPM-derived
             cost of equity.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Resources</h2>
-          <ul className="entry-list">
-            <li className="entry">
-              <ExternalLink href="https://ibbi.gov.in">
-                Insolvency and Bankruptcy Board of India (IBBI)
-              </ExternalLink>
-            </li>
-            <li className="entry">
-              <ExternalLink href="https://iovrvf.org">
-                IOV Registered Valuers Foundation (IOV RVF)
-              </ExternalLink>
-            </li>
-          </ul>
-        </section>
+        <Section title="Resources">
+          <EntryList items={resources} itemKey={(item) => item.href}>
+            {(item) => <ExternalLink href={item.href}>{item.label}</ExternalLink>}
+          </EntryList>
+        </Section>
       </div>
     </div>
   )

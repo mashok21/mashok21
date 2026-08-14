@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import ExternalLink from '../components/ExternalLink'
 
 export default function TechStack() {
@@ -11,8 +12,7 @@ export default function TechStack() {
           intro="A blend of formal training and self-taught, project-driven learning, applied across this site, austrianprocess.com and independent research work."
         />
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Full-stack web development (MERN)</h2>
+        <Section title="Full-stack web development (MERN)">
           <p>
             React, Node.js, Express and MongoDB, the stack behind both this site and
             austrianprocess.com. Trained through{' '}
@@ -22,10 +22,9 @@ export default function TechStack() {
             Node/Express/MongoDB backend, and through Great Learning's Full Stack Web Development
             with MERN Stack certificate.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Python and data</h2>
+        <Section title="Python and data">
           <p>
             Formal grounding via the University of Michigan's{' '}
             <ExternalLink href="https://www.coursera.org/specializations/python">
@@ -49,10 +48,9 @@ export default function TechStack() {
             curriculum at <ExternalLink href="https://www.learnbay.co">Learnbay</ExternalLink> and{' '}
             <ExternalLink href="https://www.excelr.com">ExcelR</ExternalLink>.
           </p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Projects</h2>
+        <Section title="Projects">
           <p>
             <strong>Stonelink Monte Carlo Portfolio Risk Simulation Engine.</strong> A Django/DRF
             backend running a NumPy-vectorized Monte Carlo engine (3,000-path simulations with
@@ -84,7 +82,7 @@ export default function TechStack() {
             model with Claude as an automatic fallback. Two independent guardrails, a pre-filter
             and a post-generation check, stop it from giving financial or investment advice.
           </p>
-        </section>
+        </Section>
       </div>
     </div>
   )

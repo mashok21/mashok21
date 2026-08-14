@@ -1,12 +1,12 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import { pedagogyNote, teachingRoles } from '../data/teaching'
 
 function RoleList({ roles, label }) {
   if (roles.length === 0) return null
   return (
-    <section className="entry-group">
-      <h2 className="entry-group__title">{label}</h2>
+    <Section title={label}>
       <EntryList items={roles}>
         {(role) => (
           <>
@@ -18,7 +18,7 @@ function RoleList({ roles, label }) {
           </>
         )}
       </EntryList>
-    </section>
+    </Section>
   )
 }
 

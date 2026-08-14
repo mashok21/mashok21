@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
 import { certificationGroups } from '../data/certifications'
@@ -14,8 +15,7 @@ export default function ContinuousLearning() {
         />
 
         {certificationGroups.map((group) => (
-          <section className="entry-group" key={group.theme}>
-            <h2 className="entry-group__title">{group.theme}</h2>
+          <Section title={group.theme} key={group.theme}>
             <EntryList items={group.entries}>
               {(entry) => (
                 <>
@@ -32,7 +32,7 @@ export default function ContinuousLearning() {
                 </>
               )}
             </EntryList>
-          </section>
+          </Section>
         ))}
       </div>
     </div>

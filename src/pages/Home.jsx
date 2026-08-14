@@ -1,6 +1,7 @@
 import { interests } from '../data/home'
 import ExternalLink from '../components/ExternalLink'
 import EntryList from '../components/EntryList'
+import Section from '../components/Section'
 
 export default function Home() {
   return (
@@ -37,12 +38,11 @@ export default function Home() {
           </a>
         </div>
 
-        <section className="entry-group" style={{ marginTop: '3rem' }}>
-          <h2 className="entry-group__title">Interests</h2>
+        <Section title="Interests" style={{ marginTop: '3rem' }}>
           <EntryList items={interests} itemKey={(item) => item}>
             {(item) => item}
           </EntryList>
-        </section>
+        </Section>
       </div>
     </div>
   )

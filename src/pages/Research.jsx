@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
 import { phd, publications, presentations } from '../data/research'
@@ -9,8 +10,7 @@ export default function Research() {
       <div className="container">
         <SectionHeader eyebrow="Research" title="Doctoral work, publications and presentations" />
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">PhD progress</h2>
+        <Section title="PhD progress">
           <p>
             <strong>{phd.degree}</strong>
             <br />
@@ -19,10 +19,9 @@ export default function Research() {
             </span>
           </p>
           <p>{phd.description}</p>
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Journal articles</h2>
+        <Section title="Journal articles">
           {publications.map((pub) => (
             <div className="citation" key={pub.citation}>
               <p>
@@ -37,10 +36,9 @@ export default function Research() {
               <p className="text-muted">{pub.note}</p>
             </div>
           ))}
-        </section>
+        </Section>
 
-        <section className="entry-group">
-          <h2 className="entry-group__title">Conference presentations</h2>
+        <Section title="Conference presentations">
           <EntryList items={presentations}>
             {(item) => (
               <>
@@ -52,7 +50,7 @@ export default function Research() {
               </>
             )}
           </EntryList>
-        </section>
+        </Section>
       </div>
     </div>
   )

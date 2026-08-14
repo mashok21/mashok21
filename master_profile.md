@@ -3,6 +3,8 @@
 Source: LinkedIn profile PDF export (`Ashok_M_LinkedIn_Full_Profile.pdf`), parsed 2026-08-14.
 This file is the single source of truth for mashok21.com. Items marked `[MISSING]` need input before the relevant section can be finalized.
 
+**Shared components (`src/components/`):** `SectionHeader` (page eyebrow/title/intro), `Section` (the `<section className="entry-group"><h2 className="entry-group__title">` wrapper, used by every named subsection across every page), `EntryList` (the `<ul className="entry-list"><li className="entry">` wrapper for title/meta/note rows), `ExternalLink` (`target="_blank" rel="noreferrer"` anchor). Page components should reuse these rather than hand-rolling the markup.
+
 ---
 
 ## 1. Identity & Positioning
