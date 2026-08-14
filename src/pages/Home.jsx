@@ -1,4 +1,4 @@
-import { qualifications, interests } from '../data/home'
+import { qualifications, interests, honors } from '../data/home'
 import { education } from '../data/education'
 import ExternalLink from '../components/ExternalLink'
 import EntryList from '../components/EntryList'
@@ -67,6 +67,20 @@ export default function Home() {
                   {item.institution}
                   {item.period ? ` · ${item.period}` : ''}
                 </span>
+              </>
+            )}
+          </EntryList>
+        </section>
+
+        <section className="entry-group">
+          <h2 className="entry-group__title">Honors</h2>
+          <EntryList items={honors}>
+            {(item) => (
+              <>
+                <span className="entry__title">{item.title}</span>
+                <span className="entry__meta">{item.date}</span>
+                <div className="entry__note">{item.issuer}</div>
+                <p className="text-muted">{item.description}</p>
               </>
             )}
           </EntryList>

@@ -15,21 +15,39 @@ export default function TechStack() {
           <h2 className="entry-group__title">Full-stack web development (MERN)</h2>
           <p>
             React, Node.js, Express and MongoDB, the stack behind both this site and
-            austrianprocess.com. Trained through DCT Academy's Post Graduate Program in Full Stack
-            Web Development, a dual-certification program (Front End, then Full Stack) covering
-            core and advanced JavaScript, React and Redux, and a Node/Express/MongoDB backend, and
-            through Great Learning's Full Stack Web Development with MERN Stack certificate.
+            austrianprocess.com. Trained through{' '}
+            <ExternalLink href="https://www.dctacademy.com">DCT Academy's</ExternalLink> Post
+            Graduate Program in Full Stack Web Development, a dual-certification program (Front
+            End, then Full Stack) covering core and advanced JavaScript, React and Redux, and a
+            Node/Express/MongoDB backend, and through Great Learning's Full Stack Web Development
+            with MERN Stack certificate.
           </p>
         </section>
 
         <section className="entry-group">
           <h2 className="entry-group__title">Python and data</h2>
           <p>
-            Formal grounding via the University of Michigan's Python for Everybody and Python 3
-            Programming specializations on Coursera. The broader data science toolkit, pandas,
-            scikit-learn, statistical modelling and machine learning, is self-taught through applied
-            project work, later reinforced by two years instructing a full-cycle professional data
-            science curriculum at Learnbay and ExcelR.
+            Formal grounding via the University of Michigan's{' '}
+            <ExternalLink href="https://www.coursera.org/specializations/python">
+              Python for Everybody
+            </ExternalLink>{' '}
+            (
+            <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ">
+              certificate
+            </ExternalLink>
+            ) and{' '}
+            <ExternalLink href="https://www.coursera.org/specializations/python-3-programming">
+              Python 3 Programming
+            </ExternalLink>{' '}
+            (
+            <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V">
+              certificate
+            </ExternalLink>
+            ) specializations on Coursera. The broader data science toolkit, pandas, scikit-learn,
+            statistical modelling and machine learning, is self-taught through applied project
+            work, later reinforced by two years instructing a full-cycle professional data science
+            curriculum at <ExternalLink href="https://www.learnbay.co">Learnbay</ExternalLink> and{' '}
+            <ExternalLink href="https://www.excelr.com">ExcelR</ExternalLink>.
           </p>
         </section>
 
@@ -40,7 +58,15 @@ export default function TechStack() {
             backend running a NumPy-vectorized Monte Carlo engine (3,000-path simulations with
             positive semi-definite covariance repair), paired with a React/Vite frontend, deployed
             on Railway and Vercel. Built for Stonelink Investment Labs; the codebase is
-            client-confidential, so no public repository link is available.
+            client-confidential.{' '}
+            <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
+              Backend
+            </ExternalLink>{' '}
+            /{' '}
+            <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation-frontend">
+              Frontend
+            </ExternalLink>{' '}
+            (private repositories).
           </p>
           <p>
             <strong>Mutual Fund Analysis.</strong> A modular Python project analyzing mutual fund
@@ -50,6 +76,13 @@ export default function TechStack() {
             <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
               github.com/mashok21/mutualfundsanalysis
             </ExternalLink>
+          </p>
+          <p>
+            <strong>Ask Austrian (austrianprocess.com).</strong> A retrieval-augmented research
+            assistant: a LangGraph agent retrieves passages from a MongoDB Atlas vector index built
+            on local sentence-transformer embeddings, then answers using Gemini as the primary
+            model with Claude as an automatic fallback. Two independent guardrails, a pre-filter
+            and a post-generation check, stop it from giving financial or investment advice.
           </p>
         </section>
       </div>

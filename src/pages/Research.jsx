@@ -1,7 +1,7 @@
 import SectionHeader from '../components/SectionHeader'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
-import { phd, publications, presentations, honors } from '../data/research'
+import { phd, publications, presentations } from '../data/research'
 
 export default function Research() {
   return (
@@ -49,20 +49,6 @@ export default function Research() {
                 <div className="entry__note">
                   {item.venue}. {item.description}
                 </div>
-              </>
-            )}
-          </EntryList>
-        </section>
-
-        <section className="entry-group">
-          <h2 className="entry-group__title">Honors and awards</h2>
-          <EntryList items={honors}>
-            {(item) => (
-              <>
-                <span className="entry__title">{item.title}</span>
-                <span className="entry__meta">{item.date}</span>
-                <div className="entry__note">{item.issuer}</div>
-                <p className="text-muted">{item.description}</p>
               </>
             )}
           </EntryList>

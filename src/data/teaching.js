@@ -13,6 +13,14 @@ export const teachingRoles = [
       'Teaching Statistics for Decision Making, Managerial Economics and Business Research Methods to MBA students across two semesters. All three courses are practitioner-anchored, with emphasis on reading quantitative patterns and economic reasoning in real business contexts.',
   },
   {
+    title: 'Adjunct Faculty, Business Economics (Foundation Course, MBA & BBA)',
+    institution: 'JAIN Online, JAIN (Deemed-to-be University), Bengaluru',
+    period: 'Aug 2026',
+    status: 'current',
+    description:
+      'Foundation Course Series for MBA and BBA students, delivered fully online across four live Saturday sessions.',
+  },
+  {
     title: 'Adjunct Faculty, Indian Ethos and Business Ethics (EMBA)',
     institution: 'RV University, School for Continuing Education & Professional Studies (SCEPS)',
     period: 'Apr 2026 – Jun 2026',
@@ -35,6 +43,28 @@ export const teachingRoles = [
     status: 'past',
     description:
       'Taught blockchain fundamentals at MBA level, situating the technology within broader capital market and institutional contexts.',
+  },
+  {
+    title: 'Faculty, Economics for Finance (CA Intermediate)',
+    institution: 'The Institute of Chartered Accountants of India (ICAI), Bengaluru Branch',
+    period: '2022',
+    status: 'past',
+    description: 'Taught Economics for Finance to CA Intermediate students.',
+  },
+  {
+    title: 'Faculty, Advanced Corporate Accounting (CMA Final)',
+    institution: 'The Institute of Cost Accountants of India (ICMAI)',
+    period: '2022',
+    status: 'past',
+    description: 'Taught Advanced Corporate Accounting to CMA Final students.',
+  },
+  {
+    title: 'CFA Trainer',
+    institution: 'EduPristine',
+    period: '2012 – 2016, guest sessions resumed 2020',
+    status: 'past',
+    description:
+      'Taught Financial Reporting and Analysis, Economics and Alternative Investments for CFA Levels I and II. Over 100 hours of classes, with feedback ratings above 4.2/5.',
   },
   {
     title: 'Instructor, Data Science',

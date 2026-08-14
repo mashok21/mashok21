@@ -37,13 +37,10 @@ export default function AustrianProcess() {
         <section className="entry-group">
           <h2 className="entry-group__title">Ask Austrian: the research assistant</h2>
           <p>
-            Ask Austrian is a retrieval-augmented assistant grounded in 28 primary Austrian
-            economics texts, including Mises, Rothbard, Menger, Böhm-Bawerk and Hayek. A LangGraph
-            agent retrieves passages from a MongoDB Atlas vector index built on local
-            sentence-transformer embeddings, then answers using Gemini as the primary model with
-            Claude as an automatic fallback. Two independent guardrails, a pre-filter and a
-            post-generation check, stop it from giving financial or investment advice. It answers
-            from the texts directly, not from a general model's prior knowledge.
+            Ask Austrian is a research assistant grounded in 28 primary Austrian economics texts,
+            including Mises, Rothbard, Menger, Böhm-Bawerk and Hayek. It answers from the texts
+            directly, not from a general model's prior knowledge, and two independent guardrails
+            stop it from giving financial or investment advice.
           </p>
         </section>
 

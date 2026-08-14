@@ -13,3 +13,12 @@ export const interests = [
   'Interest-rate dynamics and credit cycles in Indian markets',
   'Disequilibrium economics',
 ]
+
+export const honors = [
+  {
+    title: 'All-India Rank 45, ICAI Professional Education Examination-II',
+    issuer: 'The Institute of Chartered Accountants of India',
+    description: 'Secured All-India Rank 45 in the ICAI Professional Education Examination-II.',
+    date: 'May 2003',
+  },
+]

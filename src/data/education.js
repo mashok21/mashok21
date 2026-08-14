@@ -7,12 +7,12 @@ export const education = [
     period: 'In progress',
   },
   {
-    degree: 'Master of Arts (MA), Economics',
+    degree: 'Master of Arts (MA), Economics, Online',
     institution: 'Jain (Deemed-to-be University)',
     period: 'Degree conferred with Distinction, Jul 2024',
   },
   {
-    degree: 'Master of Business Administration (MBA), Finance',
+    degree: 'Master of Business Administration (MBA), Finance, Online',
     institution: 'University of Mysore',
     period: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735',
   },
