@@ -18,7 +18,7 @@ export default function IbbiValuation() {
               <span className="entry__meta">Jan 2021</span>
               <div className="entry__note">
                 Insolvency and Bankruptcy Board of India (IBBI). Credential ID
-                IBBI/RV/02/2021/13794.
+                IBBI/RV/13/2021/13794.
               </div>
             </li>
           </ul>

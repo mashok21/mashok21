@@ -14,7 +14,7 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 **Role order (per site brief):** research economist, investment practitioner, educator.
 
-**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/02/2021/13794).
+**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/13/2021/13794).
 
 **Research interests (CV, verbatim):** Austrian capital theory and business cycles. Intertemporal coordination and entrepreneurship. Interest-rate dynamics and credit cycles in Indian markets. Disequilibrium economics.
 
@@ -61,7 +61,7 @@ Econometrics and Research Methods
 Finance and Markets
 - CFA Charterholder — CFA Institute — Issued Jan 2011 — Credential ID 113338648
 - Fellow Chartered Accountant (FCA) — Institute of Chartered Accountants of India — Membership No. 208365. Admitted as Associate (ACA) 15 May 2003; admitted to Fellowship (FCA) May 2013. (LinkedIn badge shows "Associate Member," Issued Feb 2005, Credential ID 215655 — that appears to be when the badge was added to LinkedIn, not the actual admission date; ICAI record above is authoritative.)
-- Registered Valuer – Securities or Financial Assets — Insolvency & Bankruptcy Board of India (IBBI) — Issued Jan 2021 — Credential ID IBBI/RV/02/2021/13794
+- Registered Valuer – Securities or Financial Assets — Insolvency & Bankruptcy Board of India (IBBI) — Issued Jan 2021 — Credential ID IBBI/RV/13/2021/13794
 - Decentralized Finance (DeFi) Infrastructure — Duke University — Issued Nov 2022 — Credential ID WKHX4AEGA7JX
 
 ---
@@ -73,7 +73,7 @@ Finance and Markets
 
 **Site treatment:** a dedicated `/mannheim-capital` subpage sits in the main nav, alongside Austrian Process and IBBI Valuation, carrying a brief practice description plus links to the practice's own published articles at mannheimcapital.com/writing. Deliberately kept to a link-out list, not a sales page, since the practice is a live regulated advisory business, not a portfolio project. Article list sourced live from mannheimcapital.com/writing on 2026-08-14 (10 articles, titles/dates/URLs in `src/data/mannheimWriting.js`) — re-check that page periodically since it will grow. The footer's "Mannheim Capital" and "LinkedIn" links both go straight to the external sites, not internal routes.
 
-**IBBI valuation, site treatment:** its own dedicated `/ibbi-valuation` subpage, same main-nav tier as Austrian Process and Mannheim Capital. Content is limited to the verified credential (Registered Valuer, Securities or Financial Assets, IBBI, issued Jan 2021, Credential ID IBBI/RV/02/2021/13794) plus a generic factual description of what that IBBI category covers (Companies (Registered Valuers and Valuation) Rules, 2017). No specific engagement history or client detail exists to add — deliberately left out rather than invented.
+**IBBI valuation, site treatment:** its own dedicated `/ibbi-valuation` subpage, same main-nav tier as Austrian Process and Mannheim Capital. Content is limited to the verified credential (Registered Valuer, Securities or Financial Assets, IBBI, issued Jan 2021, Credential ID IBBI/RV/13/2021/13794) plus a generic factual description of what that IBBI category covers (Companies (Registered Valuers and Valuation) Rules, 2017). No specific engagement history or client detail exists to add — deliberately left out rather than invented.
 - **Chief Financial Officer**, Medicount India — Jan 2018–Mar 2021. Led financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.
 - **Investment Banking Analyst (Private Markets)**, RiverBridge Investment Advisors Private Limited — Feb 2013–Feb 2014, Chennai Area. Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.
 - **Wealth Management & Portfolio Research**, Wealth Advisors (India) Pvt Ltd — Jan 2011–Feb 2013, Chennai Area. Fund and manager research across asset classes to support portfolio construction and asset allocation. Evaluated portfolio performance and risk metrics and translated market views into client investment guidance.
