@@ -2,13 +2,13 @@ import { NavLink } from 'react-router-dom'
 
 const links = [
   { to: '/', label: 'Home', end: true },
-  { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/research', label: 'Research' },
   { to: '/austrianprocess', label: 'Austrian Process' },
   { to: '/mannheim-capital', label: 'Mannheim Capital' },
   { to: '/ibbi-valuation', label: 'IBBI Valuation' },
   { to: '/teaching', label: 'Teaching' },
   { to: '/writing', label: 'Writing' },
+  { to: '/continuous-learning', label: 'Continuous Learning' },
 ]
 
 export default function Nav() {
