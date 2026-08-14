@@ -1,4 +1,6 @@
 import SectionHeader from '../components/SectionHeader'
+import EntryList from '../components/EntryList'
+import ExternalLink from '../components/ExternalLink'
 import { certificationGroups } from '../data/certifications'
 
 export default function ContinuousLearning() {
@@ -14,24 +16,22 @@ export default function ContinuousLearning() {
         {certificationGroups.map((group) => (
           <section className="entry-group" key={group.theme}>
             <h2 className="entry-group__title">{group.theme}</h2>
-            <ul className="entry-list">
-              {group.entries.map((entry) => (
-                <li className="entry" key={entry.title}>
+            <EntryList items={group.entries}>
+              {(entry) => (
+                <>
                   <span className="entry__title">{entry.title}</span>
                   <span className="entry__meta">
                     {entry.url ? (
-                      <a href={entry.url} target="_blank" rel="noreferrer">
-                        {entry.issuer}
-                      </a>
+                      <ExternalLink href={entry.url}>{entry.issuer}</ExternalLink>
                     ) : (
                       entry.issuer
                     )}
                     , {entry.date}
                   </span>
                   <div className="entry__note">{entry.note}</div>
-                </li>
-              ))}
-            </ul>
+                </>
+              )}
+            </EntryList>
           </section>
         ))}
       </div>

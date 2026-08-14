@@ -1,4 +1,6 @@
 import SectionHeader from '../components/SectionHeader'
+import EntryList from '../components/EntryList'
+import ExternalLink from '../components/ExternalLink'
 import { phd, publications, presentations, honors } from '../data/research'
 
 export default function Research() {
@@ -28,9 +30,7 @@ export default function Research() {
                 {pub.url && (
                   <>
                     {' '}
-                    <a href={pub.url} target="_blank" rel="noopener noreferrer">
-                      {pub.url}
-                    </a>
+                    <ExternalLink href={pub.url}>{pub.url}</ExternalLink>
                   </>
                 )}
               </p>
@@ -41,31 +41,31 @@ export default function Research() {
 
         <section className="entry-group">
           <h2 className="entry-group__title">Conference presentations</h2>
-          <ul className="entry-list">
-            {presentations.map((item) => (
-              <li className="entry" key={item.title}>
+          <EntryList items={presentations}>
+            {(item) => (
+              <>
                 <span className="entry__title">{item.title}</span>
                 <span className="entry__meta">{item.date}</span>
                 <div className="entry__note">
                   {item.venue}. {item.description}
                 </div>
-              </li>
-            ))}
-          </ul>
+              </>
+            )}
+          </EntryList>
         </section>
 
         <section className="entry-group">
           <h2 className="entry-group__title">Honors and awards</h2>
-          <ul className="entry-list">
-            {honors.map((item) => (
-              <li className="entry" key={item.title}>
+          <EntryList items={honors}>
+            {(item) => (
+              <>
                 <span className="entry__title">{item.title}</span>
                 <span className="entry__meta">{item.date}</span>
                 <div className="entry__note">{item.issuer}</div>
                 <p className="text-muted">{item.description}</p>
-              </li>
-            ))}
-          </ul>
+              </>
+            )}
+          </EntryList>
         </section>
       </div>
     </div>

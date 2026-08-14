@@ -1,4 +1,7 @@
 import { qualifications, interests } from '../data/home'
+import { education } from '../data/education'
+import ExternalLink from '../components/ExternalLink'
+import EntryList from '../components/EntryList'
 
 export default function Home() {
   return (
@@ -27,14 +30,9 @@ export default function Home() {
           economics and ethics in finance to MBA and executive students in Bengaluru.
         </p>
         <div className="action-row">
-          <a
-            className="btn"
-            href="https://www.linkedin.com/in/ashokm-ca-cfa"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <ExternalLink className="btn" href="https://www.linkedin.com/in/ashokm-ca-cfa">
             LinkedIn
-          </a>
+          </ExternalLink>
           <a className="btn btn--gold" href="/cv/Ashok-M-CV.pdf" download>
             Download CV
           </a>
@@ -42,25 +40,36 @@ export default function Home() {
 
         <section className="entry-group" style={{ marginTop: '3rem' }}>
           <h2 className="entry-group__title">Interests</h2>
-          <ul className="entry-list">
-            {interests.map((item) => (
-              <li className="entry" key={item}>
-                {item}
-              </li>
-            ))}
-          </ul>
+          <EntryList items={interests} itemKey={(item) => item}>
+            {(item) => item}
+          </EntryList>
         </section>
 
         <section className="entry-group">
           <h2 className="entry-group__title">Qualifications</h2>
-          <ul className="entry-list">
-            {qualifications.map((q) => (
-              <li className="entry" key={q.title}>
+          <EntryList items={qualifications}>
+            {(q) => (
+              <>
                 <span className="entry__title">{q.title}</span>
                 <span className="entry__meta">{q.meta}</span>
-              </li>
-            ))}
-          </ul>
+              </>
+            )}
+          </EntryList>
+        </section>
+
+        <section className="entry-group">
+          <h2 className="entry-group__title">Education</h2>
+          <EntryList items={education} itemKey={(item) => item.degree}>
+            {(item) => (
+              <>
+                <span className="entry__title">{item.degree}</span>
+                <span className="entry__meta">
+                  {item.institution}
+                  {item.period ? ` · ${item.period}` : ''}
+                </span>
+              </>
+            )}
+          </EntryList>
         </section>
       </div>
     </div>

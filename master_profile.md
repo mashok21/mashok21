@@ -14,7 +14,7 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 **Role order (per site brief):** research economist, investment practitioner, educator.
 
-**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/13/2021/13794).
+**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 215655, admitted as Associate (ACA) 22 Feb 2005, admitted to Fellowship (FCA) 26 Oct 2015; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/13/2021/13794).
 
 **Research interests (CV, verbatim):** Austrian capital theory and business cycles. Intertemporal coordination and entrepreneurship. Interest-rate dynamics and credit cycles in Indian markets. Disequilibrium economics.
 
@@ -35,18 +35,24 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 ## 2. Continuous Learning (Licenses & Certifications — 21 total)
 
-**Site treatment:** each entry's issuer name links out where the author supplied a live verification URL (14 of 21, corrected several credential-ID OCR misreads from the original LinkedIn screenshots in the process — see below). The remaining 7 fall back to the issuing organization's homepage rather than a guessed or constructed verify link. Implemented in `src/data/certifications.js`.
+**Site treatment:** each entry's issuer name links out where the author supplied a live verification URL (14 of 21, corrected several credential-ID OCR misreads from the original LinkedIn screenshots in the process — see below). The remaining 7 fall back to the issuing organization's homepage rather than a guessed or constructed verify link. Implemented in `src/data/certifications.js`. The former "AI and Tooling" bucket is split into four groups (Frontend; Backend and Full-Stack; AI and Agent Orchestration; Data and Python) that mirror the architecture layers of austrianprocess.com — the same tech-stack-as-narrative principle used on the Austrian Process page.
 
-AI and Tooling
+Frontend
+- Introduction to JavaScript — Great Learning — Issued Aug 2026 — Credential ID BJWLOGFC
+
+Backend and Full-Stack
+- Full Stack Web Development with MERN Stack — Great Learning — Issued Aug 2026 — Credential ID QTVXTJMW
+- C for Beginners — Great Learning — Issued Aug 2026 — Credential ID RXEIULLC
+
+AI and Agent Orchestration
 - Claude Code in Action — Anthropic — Issued Aug 2026 — Credential ID jn4pet5dsqgu
 - Certificate of Completion: AI Fluency Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Fluency: Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Agent Workflows Using LangGraph — Great Learning — Issued Aug 2026 — Credential ID NBLBREOQ (corrected; verify URL extracted directly from the certificate PDF's text layer)
 - Foundation: Introduction to LangGraph - Python — LangChain — Issued Aug 2026 — Credential ID lcopyzzetp
 - AI For Everyone — DeepLearning.AI — Issued Oct 2021 — Credential ID DQNYV34AHLSS
-- Full Stack Web Development with MERN Stack — Great Learning — Issued Aug 2026 — Credential ID QTVXTJMW
-- Introduction to JavaScript — Great Learning — Issued Aug 2026 — Credential ID BJWLOGFC
-- C for Beginners — Great Learning — Issued Aug 2026 — Credential ID RXEIULLC
+
+Data and Python
 - Python for Data Science and Machine Learning Bootcamp — Udemy — Issued Oct 2021 — Credential ID UC-59e88d7a-0769-4a20-8004-8e92567a536d
 - The Complete Python Bootcamp From Zero to Hero in Python — Udemy — Issued Oct 2021 — Credential ID UC-80ffc661-0276-4f33-bcc8-019f44d2cac6
 - Data Analysis with Pandas and Python — Udemy — Issued Feb 2020 — Credential ID UC-54c64218-39de-4e25-9cd3-57191fb605f3 (found via Drive; the file was misfiled under a LangGraph-course filename but its actual content is this certificate)
@@ -60,8 +66,8 @@ Econometrics and Research Methods
 
 Finance and Markets
 - CFA Charterholder — CFA Institute — Issued Jan 2011 — Credential ID 113338648
-- Fellow Chartered Accountant (FCA) — Institute of Chartered Accountants of India — Membership No. 208365. Admitted as Associate (ACA) 15 May 2003; admitted to Fellowship (FCA) May 2013. (LinkedIn badge shows "Associate Member," Issued Feb 2005, Credential ID 215655 — that appears to be when the badge was added to LinkedIn, not the actual admission date; ICAI record above is authoritative.)
-- Registered Valuer – Securities or Financial Assets — Insolvency & Bankruptcy Board of India (IBBI) — Issued Jan 2021 — Credential ID IBBI/RV/13/2021/13794
+- Fellow Chartered Accountant (FCA) — Institute of Chartered Accountants of India — Membership No. 215655. Admitted as Associate (ACA) 22 February 2005; admitted to Fellowship (FCA) 26 October 2015. Verified against the scanned ICAI Certificates of Membership themselves (ACA certificate dated 31 Mar 2005; FCA certificate dated 31 Oct 2015), found via Drive — corrects an earlier version of this file that had guessed 208365 / May 2003 / May 2013 and wrongly dismissed 215655 as just a LinkedIn badge artifact.
+- Registered Valuer – Securities or Financial Assets — Insolvency & Bankruptcy Board of India (IBBI) — Issued Jan 2021 — Credential ID IBBI/RV/13/2021/13794. Preceded by the underlying Valuation Examination, passed 22 Oct 2020 (Certificate No. IBBI/SFA/001706, Enrolment No. 2000113029), source: exam certificate (Google Drive).
 - Decentralized Finance (DeFi) Infrastructure — Duke University — Issued Nov 2022 — Credential ID WKHX4AEGA7JX
 
 ---
@@ -73,7 +79,7 @@ Finance and Markets
 
 **Site treatment:** a dedicated `/mannheim-capital` subpage sits in the main nav, alongside Austrian Process and IBBI Valuation, carrying a brief practice description plus links to the practice's own published articles at mannheimcapital.com/writing. Deliberately kept to a link-out list, not a sales page, since the practice is a live regulated advisory business, not a portfolio project. Article list sourced live from mannheimcapital.com/writing on 2026-08-14 (10 articles, titles/dates/URLs in `src/data/mannheimWriting.js`) — re-check that page periodically since it will grow. The footer's "Mannheim Capital" and "LinkedIn" links both go straight to the external sites, not internal routes.
 
-**IBBI valuation, site treatment:** its own dedicated `/ibbi-valuation` subpage, same main-nav tier as Austrian Process and Mannheim Capital. Content is limited to the verified credential (Registered Valuer, Securities or Financial Assets, IBBI, issued Jan 2021, Credential ID IBBI/RV/13/2021/13794) plus a generic factual description of what that IBBI category covers (Companies (Registered Valuers and Valuation) Rules, 2017). No specific engagement history or client detail exists to add — deliberately left out rather than invented.
+**IBBI valuation, site treatment:** its own dedicated `/ibbi-valuation` subpage, same main-nav tier as Austrian Process and Mannheim Capital. Content covers the verified credential (Registered Valuer, Securities or Financial Assets, IBBI, issued Jan 2021, Credential ID IBBI/RV/13/2021/13794) and the underlying Valuation Examination passed Oct 2020, plus a generic factual description of what that IBBI category covers (Companies (Registered Valuers and Valuation) Rules, 2017), plus a Resources section linking to ibbi.gov.in and the IOV Registered Valuers Foundation (iovrvf.org). No specific engagement history or client detail exists to add — deliberately left out rather than invented.
 - **Chief Financial Officer**, Medicount India — Jan 2018–Mar 2021. Led financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.
 - **Investment Banking Analyst (Private Markets)**, RiverBridge Investment Advisors Private Limited — Feb 2013–Feb 2014, Chennai Area. Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.
 - **Wealth Management & Portfolio Research**, Wealth Advisors (India) Pvt Ltd — Jan 2011–Feb 2013, Chennai Area. Fund and manager research across asset classes to support portfolio construction and asset allocation. Evaluated portfolio performance and risk metrics and translated market views into client investment guidance.
@@ -171,12 +177,14 @@ Placeholder — no content yet. Route and layout only.
 2. Srinivas University — Doctor of Philosophy (PhD), Economics — In Progress (see Section 6)
 3. The Institute of Chartered Accountants of India — Chartered Accountant, Accounting and Finance — 2001–2004
 4. Jain (Deemed-to-be University) — Master of Arts (MA), Economics — examined February 2024, degree conferred with Distinction 25 July 2024. Reg. No. 21VMAR00052. Source: convocation certificate (Google Drive).
-5. University of Mysore — Master of Business Administration (MBA), Finance — Admission July 2021, completion November 2023. First Class, CGPA 7.735 (77.35%). Register No. MBF21024. Source: official transcript (Google Drive).
-6. Annamalai University — Bachelor of Commerce (BCom) — May 2002–May 2005
-7. SSMRV College — Pre-University, Accounting — May 1998–May 2000
-8. The Hyderabad Public School Ramanthapur (HPS-R) — High School
+5. University of Mysore — Master of Business Administration (MBA), Finance — Admission July 2021, completion November 2023, First Class (CGPA 7.735 / 77.35%), convocation 18 January 2025. Register No. MBF21024. Source: official transcript and convocation certificate (Google Drive).
+6. Annamalai University — Bachelor of Commerce (BCom), Distance Education — May 2002–May 2005. Source: year-by-year statements of marks (Google Drive); one Year 1 subject (Elements of Insurance) required a supplementary pass in Dec 2002.
+7. SSMRV College (Sivananda Sarma Memorial R.V. College), Bengaluru — Pre-University Course, Commerce — 1st year Mar 1999 (Reg. No. 182, First Class, 472/600), 2nd year Apr–Jun 2000 (Reg. No. 145839, 500/600). Source: statements of marks (Google Drive). Corrects an earlier version of this file that labeled the stream "Accounting" — the actual PUC stream is Commerce, with Accountancy as one subject among several (English, Kannada/Hindi, Statistics, Economics, Business Studies, Accountancy).
+8. The Hyderabad Public School Ramanthapur (HPS-R) — High School, CBSE, All India Secondary School Examination 1998, Roll No. 4101343 — PASS.
 
 Note: the BCom (Annamalai University, 2002–2005 per LinkedIn) and MA (Jain, examined 2024) dates as recorded do not overlap or sequence oddly with the MBA (2021–2023) — this mirrors what the source records literally say and hasn't been reconciled further; flag if any of these need correcting.
+
+**Site treatment:** an "Education" section on the Home page, below Qualifications, listing PhD, MA, MBA, CA, BCom, Pre-University and High School in reverse-chronological order (by completion/target date). The standalone CFA Institute entry is omitted here since it's already covered under Qualifications as "CFA Charterholder." Data in `src/data/education.js`.
 
 ## Appendix: Languages (4 total, per user-provided list; LinkedIn header said 5)
 

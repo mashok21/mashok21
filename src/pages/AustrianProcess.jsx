@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import ExternalLink from '../components/ExternalLink'
 
 export default function AustrianProcess() {
   return (
@@ -11,9 +12,7 @@ export default function AustrianProcess() {
         />
 
         <p>
-          <a href="https://www.austrianprocess.com" target="_blank" rel="noreferrer">
-            austrianprocess.com
-          </a>
+          <ExternalLink href="https://www.austrianprocess.com">austrianprocess.com</ExternalLink>
         </p>
 
         <section className="entry-group">
@@ -76,14 +75,9 @@ export default function AustrianProcess() {
         </section>
 
         <div className="action-row">
-          <a
-            className="btn"
-            href="https://www.austrianprocess.com"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <ExternalLink className="btn" href="https://www.austrianprocess.com">
             Visit austrianprocess.com
-          </a>
+          </ExternalLink>
         </div>
       </div>
     </div>

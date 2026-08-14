@@ -1,4 +1,6 @@
 import SectionHeader from '../components/SectionHeader'
+import EntryList from '../components/EntryList'
+import ExternalLink from '../components/ExternalLink'
 import { mannheimArticles } from '../data/mannheimWriting'
 
 export default function MannheimCapital() {
@@ -13,22 +15,22 @@ export default function MannheimCapital() {
 
         <section className="entry-group">
           <h2 className="entry-group__title">Writing</h2>
-          <ul className="entry-list">
-            {mannheimArticles.map((article) => (
-              <li className="entry" key={article.url}>
-                <a href={article.url} target="_blank" rel="noreferrer">
+          <EntryList items={mannheimArticles} itemKey={(article) => article.url}>
+            {(article) => (
+              <>
+                <ExternalLink href={article.url}>
                   <span className="entry__title">{article.title}</span>
-                </a>
+                </ExternalLink>
                 <span className="entry__meta">{article.date}</span>
-              </li>
-            ))}
-          </ul>
+              </>
+            )}
+          </EntryList>
         </section>
 
         <div className="action-row">
-          <a className="btn" href="https://mannheimcapital.com" target="_blank" rel="noreferrer">
+          <ExternalLink className="btn" href="https://mannheimcapital.com">
             mannheimcapital.com
-          </a>
+          </ExternalLink>
         </div>
       </div>
     </div>

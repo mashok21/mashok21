@@ -4,10 +4,46 @@
 // author provided one directly; otherwise it falls back to the issuing
 // organization's official site (LinkedIn's source export was a flat
 // rasterized PDF with no extractable verification links of its own).
+//
+// The former "AI and Tooling" bucket is split into four groups that mirror
+// the actual architecture layers of austrianprocess.com (frontend, backend,
+// AI/agent orchestration, data), the same tech-stack-as-narrative principle
+// used to describe that project on the Austrian Process page.
 
 export const certificationGroups = [
   {
-    theme: 'AI and Tooling',
+    theme: 'Frontend',
+    entries: [
+      {
+        title: 'Introduction to JavaScript',
+        issuer: 'Great Learning',
+        url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
+        date: 'Aug 2026',
+        note: 'Core language for the front end of this site.',
+      },
+    ],
+  },
+  {
+    theme: 'Backend and Full-Stack',
+    entries: [
+      {
+        title: 'Full Stack Web Development with MERN Stack',
+        issuer: 'Great Learning',
+        url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
+        date: 'Aug 2026',
+        note: 'MongoDB, Express, React and Node, the stack behind this site.',
+      },
+      {
+        title: 'C for Beginners',
+        issuer: 'Great Learning',
+        url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
+        date: 'Aug 2026',
+        note: 'Foundational systems programming.',
+      },
+    ],
+  },
+  {
+    theme: 'AI and Agent Orchestration',
     entries: [
       {
         title: 'Claude Code in Action',
@@ -44,27 +80,11 @@ export const certificationGroups = [
         date: 'Oct 2021',
         note: 'Early grounding in AI capability and limitation for non-technical decisions.',
       },
-      {
-        title: 'Full Stack Web Development with MERN Stack',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
-        date: 'Aug 2026',
-        note: 'MongoDB, Express, React and Node, the stack behind this site.',
-      },
-      {
-        title: 'Introduction to JavaScript',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
-        date: 'Aug 2026',
-        note: 'Core language for the front end of this site.',
-      },
-      {
-        title: 'C for Beginners',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
-        date: 'Aug 2026',
-        note: 'Foundational systems programming.',
-      },
+    ],
+  },
+  {
+    theme: 'Data and Python',
+    entries: [
       {
         title: 'Python for Data Science and Machine Learning Bootcamp',
         issuer: 'Udemy',
@@ -142,7 +162,7 @@ export const certificationGroups = [
         title: 'Fellow Chartered Accountant (FCA)',
         issuer: 'Institute of Chartered Accountants of India',
         url: 'https://www.icai.org',
-        date: 'ACA May 2003, FCA May 2013',
+        date: 'ACA Feb 2005, FCA Oct 2015',
         note: 'Foundation in accounting, audit and financial reporting.',
       },
       {

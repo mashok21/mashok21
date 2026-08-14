@@ -1,4 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
+import EntryList from '../components/EntryList'
 import { pedagogyNote, teachingRoles } from '../data/teaching'
 
 function RoleList({ roles, label }) {
@@ -6,17 +7,17 @@ function RoleList({ roles, label }) {
   return (
     <section className="entry-group">
       <h2 className="entry-group__title">{label}</h2>
-      <ul className="entry-list">
-        {roles.map((role) => (
-          <li className="entry" key={role.title}>
+      <EntryList items={roles}>
+        {(role) => (
+          <>
             <span className="entry__title">{role.title}</span>
             <span className="entry__meta">{role.period}</span>
             <div className="entry__note">
               <strong>{role.institution}</strong>. {role.description}
             </div>
-          </li>
-        ))}
-      </ul>
+          </>
+        )}
+      </EntryList>
     </section>
   )
 }
