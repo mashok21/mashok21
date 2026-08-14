@@ -7,6 +7,7 @@ import Research from './pages/Research'
 import AustrianProcess from './pages/AustrianProcess'
 import Teaching from './pages/Teaching'
 import Writing from './pages/Writing'
+import MannheimCapital from './pages/MannheimCapital'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/austrianprocess" element={<AustrianProcess />} />
           <Route path="/teaching" element={<Teaching />} />
           <Route path="/writing" element={<Writing />} />
+          <Route path="/mannheim-capital" element={<MannheimCapital />} />
         </Routes>
       </main>
       <Footer />
