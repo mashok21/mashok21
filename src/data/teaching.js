@@ -38,7 +38,7 @@ export const teachingRoles = [
   },
   {
     title: 'Instructor, Data Science',
-    institution: 'Learnbay',
+    institution: 'Learnbay and ExcelR',
     period: 'Jan 2022 – Dec 2023',
     status: 'past',
     description:

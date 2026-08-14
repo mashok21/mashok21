@@ -45,11 +45,16 @@ export default function AustrianProcess() {
         <section className="entry-group">
           <h2 className="entry-group__title">Tech stack</h2>
           <p>
-            The frontend is React. It deploys on Vercel. The backend is split into two services:
-            an Express gateway handles routing and rate limiting, and a separate Python FastAPI
-            service runs the LangGraph agent. Persistence and vector search both run on MongoDB
-            Atlas. The backend deploys on Railway. Both services deploy through native git
-            integration rather than a custom CI/CD pipeline.
+            The split follows the shape of the workload, not habit. React on Vercel handles a
+            mostly static, CDN-friendly frontend. The backend is deliberately two services rather
+            than one: a thin Express gateway does routing, rate limiting and CORS, while a
+            separate Python FastAPI service owns the LangGraph agent, since the AI workload has
+            different scaling and cold-start behaviour than the request layer sitting in front of
+            it. MongoDB Atlas does double duty as the application database and the vector store,
+            which avoids standing up a second piece of infrastructure for a corpus this size. Both
+            services deploy through native git integration, Vercel for the frontend and Railway
+            for the backend, rather than a custom CI/CD pipeline, since at this scale a pipeline
+            would be overhead rather than leverage.
           </p>
         </section>
 

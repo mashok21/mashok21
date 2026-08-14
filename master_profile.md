@@ -170,11 +170,13 @@ Placeholder — no content yet. Route and layout only.
 1. CFA Institute — Investments and Securities — 2011
 2. Srinivas University — Doctor of Philosophy (PhD), Economics — In Progress (see Section 6)
 3. The Institute of Chartered Accountants of India — Chartered Accountant, Accounting and Finance — 2001–2004
-4. Jain (Deemed-to-be University) — Master of Arts (MA), Economics
-5. University of Mysore — Master of Business Administration (MBA), Finance
+4. Jain (Deemed-to-be University) — Master of Arts (MA), Economics — examined February 2024, degree conferred with Distinction 25 July 2024. Reg. No. 21VMAR00052. Source: convocation certificate (Google Drive).
+5. University of Mysore — Master of Business Administration (MBA), Finance — Admission July 2021, completion November 2023. First Class, CGPA 7.735 (77.35%). Register No. MBF21024. Source: official transcript (Google Drive).
 6. Annamalai University — Bachelor of Commerce (BCom) — May 2002–May 2005
 7. SSMRV College — Pre-University, Accounting — May 1998–May 2000
 8. The Hyderabad Public School Ramanthapur (HPS-R) — High School
+
+Note: the BCom (Annamalai University, 2002–2005 per LinkedIn) and MA (Jain, examined 2024) dates as recorded do not overlap or sequence oddly with the MBA (2021–2023) — this mirrors what the source records literally say and hasn't been reconciled further; flag if any of these need correcting.
 
 ## Appendix: Languages (4 total, per user-provided list; LinkedIn header said 5)
 
