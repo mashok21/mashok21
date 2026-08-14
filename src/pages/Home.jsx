@@ -1,18 +1,26 @@
 import { interests } from '../data/home'
 import ExternalLink from '../components/ExternalLink'
+import EntryList from '../components/EntryList'
 
 export default function Home() {
   return (
-    <div className="page home-hero">
+    <div className="page">
       <div className="container">
         <img
           src="/images/ashok-headshot.jpg"
           alt="Ashok M"
-          className="home-hero__avatar"
+          style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            objectFit: 'cover',
+            border: '2px solid var(--gold)',
+            marginBottom: '1rem',
+          }}
         />
         <p className="eyebrow">Bengaluru, India</p>
         <h1>Ashok M</h1>
-        <p className="home-hero__bio">
+        <p style={{ fontSize: '1.1rem', maxWidth: '38rem' }}>
           Ashok M is a research economist working at the intersection of economic theory and
           capital markets. He runs Mannheim Capital, a boutique wealth practice in Bengaluru. It
           offers mutual fund distribution and IBBI-registered valuation services for securities
@@ -29,9 +37,12 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="home-hero__interests">
-          {interests.join(' · ')}
-        </p>
+        <section className="entry-group" style={{ marginTop: '3rem' }}>
+          <h2 className="entry-group__title">Interests</h2>
+          <EntryList items={interests} itemKey={(item) => item}>
+            {(item) => item}
+          </EntryList>
+        </section>
       </div>
     </div>
   )
