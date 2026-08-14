@@ -8,7 +8,7 @@ export const experienceRoles = [
     title: 'Research Economist',
     employer: 'Stonelink Investment Labs Pvt Ltd',
     period: 'Jan 2026 – Present',
-    location: 'Bengaluru, Hybrid',
+    location: 'Bengaluru',
     status: 'current',
     description:
       'Independent macro research engagement focused on capital markets. Produces periodic commentary on credit conditions, liquidity cycles, and interest-rate transmission, analysed through an Austrian capital theory lens, to inform capital allocation decisions for investment teams.',
@@ -17,7 +17,7 @@ export const experienceRoles = [
     title: 'Founder',
     employer: 'Mannheim Capital',
     period: 'Apr 2014 – Present',
-    location: 'Bengaluru, Full-time, On-site',
+    location: 'Bengaluru',
     status: 'current',
     path: '/mannheim-capital',
     description:
@@ -53,7 +53,7 @@ export const experienceRoles = [
     title: 'Senior Research Analyst',
     employer: 'Crisil Intelligence',
     period: 'Jun 2006 – Dec 2010',
-    location: 'Chennai, Hybrid',
+    location: 'Chennai',
     status: 'past',
     description:
       'Equity research covering company valuation, financial statement analysis and sector coverage. Produced research reports and investment insights grounded in fundamental and comparative valuation.',
@@ -70,7 +70,7 @@ export const experienceRoles = [
     title: 'Article Trainee',
     employer: 'S B Billimoria & Co, Chartered Accountants (Member firm of Deloitte)',
     period: 'Jul 2001 – Jun 2004',
-    location: 'Bengaluru, Apprenticeship',
+    location: 'Bengaluru',
     status: 'past',
     description: 'CA articleship covering audit, accounting and compliance functions.',
   },
