@@ -14,7 +14,9 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 **Role order (per site brief):** research economist, investment practitioner, educator.
 
-**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress).
+**Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/02/2021/13794).
+
+**Mannheim Capital, professional practice areas:** boutique wealth practice, Bengaluru. Offers mutual fund distribution (MFD) and IBBI-registered valuation services for securities and financial assets, alongside portfolio construction and macro-driven asset allocation for HNW clients. Source: CV (`Ashok_M_CV_IIM_Calcutta_2026.pdf`).
 
 **About (LinkedIn, verbatim):**
 > I work at the intersection of economic theory, capital markets and real-world investment practice. My focus is on capital allocation, credit dynamics and business cycles in the Indian economy.
@@ -59,7 +61,7 @@ Finance and Markets
 ## 3. Professional / Practitioner Experience
 
 - **Research Economist**, Stonelink Investment Labs Pvt Ltd — Jan 2026–Present, Bengaluru, Hybrid. Independent macro research engagement focused on capital markets. Produces periodic commentary on credit conditions, liquidity cycles, and interest-rate transmission, analysed through an Austrian capital theory lens, to inform capital allocation decisions for investment teams.
-- **Founder**, Mannheim Capital — Apr 2014–Present, Bengaluru, Full-time, On-site. Boutique wealth practice: "for investors who have moved past the noise and want one trusted relationship to bring order to their financial life." mannheimcapital.com
+- **Founder**, Mannheim Capital — Apr 2014–Present, Bengaluru, Full-time, On-site. Boutique wealth practice: "for investors who have moved past the noise and want one trusted relationship to bring order to their financial life." Offers mutual fund distribution (MFD) and IBBI-registered valuation services for securities and financial assets, alongside portfolio construction and macro-driven asset allocation for HNW clients. mannheimcapital.com
 - **Chief Financial Officer**, Medicount India — Jan 2018–Mar 2021. Led financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.
 - **Investment Banking Analyst (Private Markets)**, RiverBridge Investment Advisors Private Limited — Feb 2013–Feb 2014, Chennai Area. Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.
 - **Wealth Management & Portfolio Research**, Wealth Advisors (India) Pvt Ltd — Jan 2011–Feb 2013, Chennai Area. Fund and manager research across asset classes to support portfolio construction and asset allocation. Evaluated portfolio performance and risk metrics and translated market views into client investment guidance.
