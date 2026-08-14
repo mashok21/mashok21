@@ -41,7 +41,7 @@ AI and Tooling
 - Claude Code in Action — Anthropic — Issued Aug 2026 — Credential ID jn4pet5dsqgu
 - Certificate of Completion: AI Fluency Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Fluency: Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
-- AI Agent Workflows Using LangGraph — Great Learning — Issued Aug 2026 — Credential ID N8L8REOQ
+- AI Agent Workflows Using LangGraph — Great Learning — Issued Aug 2026 — Credential ID NBLBREOQ (corrected; verify URL extracted directly from the certificate PDF's text layer)
 - Foundation: Introduction to LangGraph - Python — LangChain — Issued Aug 2026 — Credential ID lcopyzzetp
 - AI For Everyone — DeepLearning.AI — Issued Oct 2021 — Credential ID DQNYV34AHLSS
 - Full Stack Web Development with MERN Stack — Great Learning — Issued Aug 2026 — Credential ID QTVXTJMW
@@ -49,7 +49,7 @@ AI and Tooling
 - C for Beginners — Great Learning — Issued Aug 2026 — Credential ID RXEIULLC
 - Python for Data Science and Machine Learning Bootcamp — Udemy — Issued Oct 2021 — Credential ID UC-59e88d7a-0769-4a20-8004-8e92567a536d
 - The Complete Python Bootcamp From Zero to Hero in Python — Udemy — Issued Oct 2021 — Credential ID UC-80ffc661-0276-4f33-bcc8-019f44d2cac6
-- Data Analysis with Pandas and Python — Udemy — Issued Feb 2020
+- Data Analysis with Pandas and Python — Udemy — Issued Feb 2020 — Credential ID UC-54c64218-39de-4e25-9cd3-57191fb605f3 (found via Drive; the file was misfiled under a LangGraph-course filename but its actual content is this certificate)
 - Python 3 Programming Specialization — University of Michigan — Issued Sep 2020 — Credential ID 2NEJHWE9MX2V
 - Python for Everybody Specialization — University of Michigan — Issued Aug 2020 — Credential ID SRB74TUQW5PZ
 

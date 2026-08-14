@@ -26,7 +26,7 @@ export const certificationGroups = [
       {
         title: 'AI Agent Workflows Using LangGraph',
         issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com',
+        url: 'https://www.mygreatlearning.com/certificate/NBLBREOQ',
         date: 'Aug 2026',
         note: 'Multi-step agent orchestration, informs the RAG system behind austrianprocess.com.',
       },
@@ -82,7 +82,7 @@ export const certificationGroups = [
       {
         title: 'Data Analysis with Pandas and Python',
         issuer: 'Udemy',
-        url: 'https://www.udemy.com',
+        url: 'https://www.udemy.com/certificate/UC-54c64218-39de-4e25-9cd3-57191fb605f3/',
         date: 'Feb 2020',
         note: 'Data wrangling for empirical research.',
       },
