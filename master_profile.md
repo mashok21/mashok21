@@ -35,21 +35,23 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 ## 2. Continuous Learning (Licenses & Certifications — 21 total)
 
+**Site treatment:** each entry's issuer name links out where the author supplied a live verification URL (14 of 21, corrected several credential-ID OCR misreads from the original LinkedIn screenshots in the process — see below). The remaining 7 fall back to the issuing organization's homepage rather than a guessed or constructed verify link. Implemented in `src/data/certifications.js`.
+
 AI and Tooling
 - Claude Code in Action — Anthropic — Issued Aug 2026 — Credential ID jn4pet5dsqgu
-- Certificate of Completion: AI Fluency Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID csi7mj9yzs8h
-- AI Fluency: Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID csi7mj9yzs8h
+- Certificate of Completion: AI Fluency Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
+- AI Fluency: Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Agent Workflows Using LangGraph — Great Learning — Issued Aug 2026 — Credential ID N8L8REOQ
 - Foundation: Introduction to LangGraph - Python — LangChain — Issued Aug 2026 — Credential ID lcopyzzetp
-- AI For Everyone — DeepLearning.AI — Issued Oct 2021 — Credential ID DQNYV34AHLS5
+- AI For Everyone — DeepLearning.AI — Issued Oct 2021 — Credential ID DQNYV34AHLSS
 - Full Stack Web Development with MERN Stack — Great Learning — Issued Aug 2026 — Credential ID QTVXTJMW
-- Introduction to JavaScript — Great Learning — Issued Aug 2026 — Credential ID EIWLOGFC
-- C for Beginners — Great Learning — Issued Aug 2026 — Credential ID RXEULLC
+- Introduction to JavaScript — Great Learning — Issued Aug 2026 — Credential ID BJWLOGFC
+- C for Beginners — Great Learning — Issued Aug 2026 — Credential ID RXEIULLC
 - Python for Data Science and Machine Learning Bootcamp — Udemy — Issued Oct 2021 — Credential ID UC-59e88d7a-0769-4a20-8004-8e92567a536d
 - The Complete Python Bootcamp From Zero to Hero in Python — Udemy — Issued Oct 2021 — Credential ID UC-80ffc661-0276-4f33-bcc8-019f44d2cac6
 - Data Analysis with Pandas and Python — Udemy — Issued Feb 2020
 - Python 3 Programming Specialization — University of Michigan — Issued Sep 2020 — Credential ID 2NEJHWE9MX2V
-- Python for Everybody Specialization — University of Michigan — Issued Aug 2020 — Credential ID SR874TUQW5PZ
+- Python for Everybody Specialization — University of Michigan — Issued Aug 2020 — Credential ID SRB74TUQW5PZ
 
 Econometrics and Research Methods
 - Summer Research Methodology Workshop — Indian Institute of Management Bangalore (IIM Bangalore) — Issued Apr 2026 — "Covered advanced research design, empirical methods, and publication-oriented thinking, useful for bridging theory with real-world application."

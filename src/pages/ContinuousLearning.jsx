@@ -19,7 +19,14 @@ export default function ContinuousLearning() {
                 <li className="entry" key={entry.title}>
                   <span className="entry__title">{entry.title}</span>
                   <span className="entry__meta">
-                    {entry.issuer}, {entry.date}
+                    {entry.url ? (
+                      <a href={entry.url} target="_blank" rel="noreferrer">
+                        {entry.issuer}
+                      </a>
+                    ) : (
+                      entry.issuer
+                    )}
+                    , {entry.date}
                   </span>
                   <div className="entry__note">{entry.note}</div>
                 </li>

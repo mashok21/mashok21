@@ -199,6 +199,15 @@ a:hover {
   margin-left: 0.4em;
 }
 
+.entry__meta a {
+  color: inherit;
+  text-decoration-color: currentColor;
+}
+
+.entry__meta a:hover {
+  color: var(--navy);
+}
+
 .entry__note {
   color: var(--text-muted);
   font-size: 0.92rem;
