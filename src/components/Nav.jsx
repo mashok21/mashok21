@@ -5,6 +5,7 @@ const links = [
   { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/research', label: 'Research' },
   { to: '/austrianprocess', label: 'austrianprocess.com' },
+  { to: '/mannheim-capital', label: 'Mannheim Capital' },
   { to: '/teaching', label: 'Teaching' },
   { to: '/writing', label: 'Writing' },
 ]
