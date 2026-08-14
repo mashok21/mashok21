@@ -16,6 +16,12 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 **Credentials:** CFA Charterholder (CFA Institute, Jan 2011, Credential ID 113338648); Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of India — Membership No. 208365, admitted as Associate (ACA) 15 May 2003, admitted to Fellowship (FCA) May 2013; PhD scholar in Economics, Srinivas University (in progress); Registered Valuer, Securities or Financial Assets (Insolvency and Bankruptcy Board of India, IBBI, Jan 2021, Credential ID IBBI/RV/02/2021/13794).
 
+**Research interests (CV, verbatim):** Austrian capital theory and business cycles. Intertemporal coordination and entrepreneurship. Interest-rate dynamics and credit cycles in Indian markets. Disequilibrium economics.
+
+**Home page treatment:** the identity paragraph stays credential-free (practice, teaching, research focus only); qualifications and research interests are broken out into their own labelled lists below it (`src/data/home.js`), so the paragraph reads as orientation rather than a CV dump.
+
+**Headshot:** cropped from the LinkedIn profile photo (the current professional headshot, not a passport photo) — `public/images/ashok-headshot.jpg`. Used as a small circular image on the Mannheim Capital subpage.
+
 **Mannheim Capital, professional practice areas:** boutique wealth practice, Bengaluru. Offers mutual fund distribution (MFD) and IBBI-registered valuation services for securities and financial assets, alongside portfolio construction and macro-driven asset allocation for HNW clients. Source: CV (`Ashok_M_CV_IIM_Calcutta_2026.pdf`).
 
 **About (LinkedIn, verbatim):**

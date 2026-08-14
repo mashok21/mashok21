@@ -5,6 +5,18 @@ export default function MannheimCapital() {
   return (
     <div className="page">
       <div className="container">
+        <img
+          src="/images/ashok-headshot.jpg"
+          alt="Ashok M"
+          style={{
+            width: '84px',
+            height: '84px',
+            borderRadius: '50%',
+            objectFit: 'cover',
+            border: '2px solid var(--gold)',
+            marginBottom: '1rem',
+          }}
+        />
         <SectionHeader
           eyebrow="Practice"
           title="Mannheim Capital"
