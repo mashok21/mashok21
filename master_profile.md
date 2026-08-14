@@ -61,8 +61,8 @@ Data and Python
 - MTA: Introduction to Programming Using Python — Microsoft — Issued 11 Apr 2021 — Proctored exam. Certification number C7E3AB-86X6EA (corrects "H751-9138," a typo/OCR error repeated across three resumes; verified against the actual Microsoft Learn credential page, `Credentials - ashokm-9619 _ Microsoft Learn.pdf`, found in the local Windows Downloads folder at `/mnt/c/Users/91994/Downloads/`). Public profile: learn.microsoft.com/en-us/users/ashokm-9619/. Status: Active.
 
 Econometrics and Research Methods
-- Summer Research Methodology Workshop — Indian Institute of Management Bangalore (IIM Bangalore) — Issued Apr 2026 — "Covered advanced research design, empirical methods, and publication-oriented thinking, useful for bridging theory with real-world application."
-- Workshop on Applied Econometrics Using STATA, R and Python — Dr. B.R. Ambedkar School of Economics University, Bengaluru — Issued Jul 2025 — One-week applied econometrics workshop focused on empirical modelling using STATA, R, and Python.
+- Summer Research Methodology Workshop — Indian Institute of Management Bangalore (IIM Bangalore) — 20–25 Apr 2026, six days. Source: IIMB Research & Publications Department acceptance/confirmation emails ("Summer Research Methodology Workshop 2026 (April 20-25, 2026)"), found via Gmail. "Covered advanced research design, empirical methods, and publication-oriented thinking, useful for bridging theory with real-world application."
+- Workshop on Applied Econometrics Using STATA, R and Python — Dr. B.R. Ambedkar School of Economics University (BASE University), Bengaluru, jointly with RV University — 21–25 Jul 2025, one week. Source: certificate of participation (`2025_BASE_RVU_Applied_Econometrics_Workshop_Participation_Certificate.jpg`), found via Drive. Focused on empirical modelling using STATA, R, and Python.
 - Qualitative Research Methods — University of Amsterdam — Issued Jul 2025 — Credential ID 0DMS583FLKID
 
 Finance and Markets
