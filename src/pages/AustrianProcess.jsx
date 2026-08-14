@@ -10,6 +10,12 @@ export default function AustrianProcess() {
           intro="An educational platform that turns Austrian capital theory into interactive tools: a visual model of capital structure, live interest-rate data, and a research assistant grounded in primary texts."
         />
 
+        <p>
+          <a href="https://www.austrianprocess.com" target="_blank" rel="noreferrer">
+            austrianprocess.com
+          </a>
+        </p>
+
         <section className="entry-group">
           <h2 className="entry-group__title">The Hayekian-Garrison Triangle</h2>
           <p>

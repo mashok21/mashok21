@@ -7,7 +7,7 @@ export default function IbbiValuation() {
         <SectionHeader
           eyebrow="Practice"
           title="IBBI Registered Valuer"
-          intro="Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India. Offered through Mannheim Capital."
+          intro="Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
         />
 
         <section className="entry-group">
@@ -35,11 +35,21 @@ export default function IbbiValuation() {
           </p>
         </section>
 
-        <div className="action-row">
-          <a className="btn" href="https://mannheimcapital.com" target="_blank" rel="noreferrer">
-            mannheimcapital.com
-          </a>
-        </div>
+        <section className="entry-group">
+          <h2 className="entry-group__title">Resources</h2>
+          <ul className="entry-list">
+            <li className="entry">
+              <a href="https://ibbi.gov.in" target="_blank" rel="noreferrer">
+                Insolvency and Bankruptcy Board of India (IBBI)
+              </a>
+            </li>
+            <li className="entry">
+              <a href="https://iovrvf.org" target="_blank" rel="noreferrer">
+                IOV Registered Valuers Foundation (IOV RVF)
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
   )
