@@ -180,7 +180,7 @@ Doctoral research in Austrian economics, capital theory, and business cycles, wi
 
 ## 7. Writing
 
-Placeholder — no content yet. Route and layout only.
+Removed (user-directed). The `/writing` route, nav link and page component were a content-free placeholder ("New essays and notes are in progress. Check back soon.") and have been deleted rather than left live.
 
 ---
 

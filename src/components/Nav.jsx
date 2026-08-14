@@ -9,7 +9,6 @@ const links = [
   { to: '/ibbi-valuation', label: 'IBBI Valuation' },
   { to: '/tech-stack', label: 'Tech Stack' },
   { to: '/teaching', label: 'Teaching' },
-  { to: '/writing', label: 'Writing' },
   { to: '/continuous-learning', label: 'Continuous Learning' },
 ]
 
