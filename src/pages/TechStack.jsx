@@ -213,23 +213,48 @@ export default function TechStack() {
             </div>
           </div>
 
-          <ProjectCard
-            name="mutualfundsanalysis"
-            tags={['Python', 'PCA', 'k-means', 'forecasting']}
-            tree
-            items={[
-              'Descriptive analysis of scheme characteristics',
-              'Structural PCA — dimensionality reduction on scheme features',
-              'Unsupervised clustering (k-means) — groups schemes by behavior',
-              'Contemporaneous explanatory analysis',
-              'Governed next-month forecasting on scheme-level panel data',
-            ]}
-            links={
-              <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
-                github.com/mashok21/mutualfundsanalysis
-              </ExternalLink>
-            }
-          />
+          <div className="code-block">
+            <div className="code-block__head">
+              <span className="code-block__dots">
+                <span />
+                <span />
+                <span />
+              </span>
+              <span className="code-block__filename">pipeline.py</span>
+            </div>
+            <div className="code-block__body">
+              <div className="tech-tags">
+                {['Python', 'pandas', 'PCA', 'k-means', 'forecasting'].map((tag) => (
+                  <span className="tech-tag" key={tag}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className="code-block__line">pipeline = Pipeline([</div>
+              <div className="code-block__line code-indent-1">("pca", PCA(n_components=5)),</div>
+              <div className="code-block__line code-indent-1">("cluster", KMeans(n_clusters=4)),</div>
+              <div className="code-block__line">])</div>
+              <ul className="code-list code-list--tree" style={{ marginTop: '1em' }}>
+                {[
+                  'Descriptive analysis of scheme characteristics',
+                  'Structural PCA — dimensionality reduction on scheme features',
+                  'Unsupervised clustering (k-means) — groups schemes by behavior',
+                  'Contemporaneous explanatory analysis',
+                  'Governed next-month forecasting on scheme-level panel data',
+                ].map((item, i, arr) => (
+                  <li key={i}>
+                    <span className="tree-connector">{i === arr.length - 1 ? '└──' : '├──'}</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <div className="code-block__links">
+                <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
+                  github.com/mashok21/mutualfundsanalysis
+                </ExternalLink>
+              </div>
+            </div>
+          </div>
 
           <ProjectCard
             name="ask-austrian"
