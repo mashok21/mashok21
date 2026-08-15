@@ -64,41 +64,6 @@ function CodeBlock({ filename, lang = 'ts', name, tags, items }) {
   )
 }
 
-function ProjectCard({ name, tags, items, links, tree = false }) {
-  return (
-    <div className="term-card">
-      <div className="term-card__prompt">
-        <span className="term-card__prompt-sign">$</span>
-        <span className="term-card__title">{name}</span>
-      </div>
-      <div className="term-card__tags">
-        {tags.map((tag) => (
-          <span className="tech-tag" key={tag}>
-            {tag}
-          </span>
-        ))}
-      </div>
-      {tree ? (
-        <ul className="code-list code-list--tree">
-          {items.map((item, i) => (
-            <li key={i}>
-              <span className="tree-connector">{i === items.length - 1 ? '└──' : '├──'}</span>
-              {item}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <ul className="code-list">
-          {items.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
-      )}
-      {links ? <div className="term-card__links">{links}</div> : null}
-    </div>
-  )
-}
-
 export default function TechStack() {
   return (
     <div className="page tech-page">
@@ -256,17 +221,45 @@ export default function TechStack() {
             </div>
           </div>
 
-          <ProjectCard
-            name="ask-austrian"
-            tags={['LangGraph', 'MongoDB Atlas Vector Search', 'sentence-transformers', 'Gemini', 'Claude']}
-            items={[
-              'Retrieval-augmented research assistant — LangGraph agent',
-              'Retrieval: MongoDB Atlas vector index, local sentence-transformer embeddings',
-              'Generation: Gemini (primary) → Claude (automatic fallback)',
-              'Guardrails: pre-filter + post-generation check block financial/investment advice',
-            ]}
-            links={<ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>}
-          />
+          <div className="code-block">
+            <div className="code-block__head">
+              <span className="code-block__dots">
+                <span />
+                <span />
+                <span />
+              </span>
+              <span className="code-block__filename">graph.py</span>
+            </div>
+            <div className="code-block__body">
+              <div className="tech-tags">
+                {['LangGraph', 'MongoDB Atlas Vector Search', 'sentence-transformers', 'Gemini', 'Claude'].map(
+                  (tag) => (
+                    <span className="tech-tag" key={tag}>
+                      {tag}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="code-block__line">graph = StateGraph(AgentState)</div>
+              <div className="code-block__line">graph.add_node("retrieve", vector_search)</div>
+              <div className="code-block__line">graph.add_node("guard_pre", block_advice)</div>
+              <div className="code-block__line">graph.add_node("generate", gemini_or_claude)</div>
+              <div className="code-block__line">graph.add_node("guard_post", verify_answer)</div>
+              <div className="code-block__line" style={{ marginTop: '0.6em' }}>
+                graph.add_edge("retrieve", "guard_pre")
+              </div>
+              <div className="code-block__line">graph.add_edge("guard_pre", "generate")</div>
+              <div className="code-block__line">graph.add_edge("generate", "guard_post")</div>
+              <ul className="code-list" style={{ marginTop: '1em' }}>
+                <li>Retrieval: MongoDB Atlas vector index, local sentence-transformer embeddings</li>
+                <li>Generation: Gemini (primary) → Claude (automatic fallback)</li>
+                <li>Guardrails: pre-filter + post-generation check block financial/investment advice</li>
+              </ul>
+              <div className="code-block__links">
+                <ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
