@@ -64,7 +64,7 @@ function CodeBlock({ filename, lang = 'ts', name, tags, items }) {
   )
 }
 
-function ProjectCard({ name, tags, items, links }) {
+function ProjectCard({ name, tags, items, links, tree = false }) {
   return (
     <div className="term-card">
       <div className="term-card__prompt">
@@ -78,11 +78,22 @@ function ProjectCard({ name, tags, items, links }) {
           </span>
         ))}
       </div>
-      <ul className="code-list">
-        {items.map((item, i) => (
-          <li key={i}>{item}</li>
-        ))}
-      </ul>
+      {tree ? (
+        <ul className="code-list code-list--tree">
+          {items.map((item, i) => (
+            <li key={i}>
+              <span className="tree-connector">{i === items.length - 1 ? '└──' : '├──'}</span>
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <ul className="code-list">
+          {items.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      )}
       {links ? <div className="term-card__links">{links}</div> : null}
     </div>
   )
@@ -122,7 +133,7 @@ export default function TechStack() {
             filename="python_data.py"
             lang="py"
             name="python_data"
-            tags={['Python', 'pandas', 'scikit-learn', 'NumPy', 'statistical modeling', 'ML']}
+            tags={['Python', 'Django', 'pandas', 'scikit-learn', 'NumPy', 'statistical modeling', 'ML']}
             items={[
               <>
                 <ExternalLink href="https://www.coursera.org/specializations/python">
@@ -180,10 +191,12 @@ export default function TechStack() {
 
           <ProjectCard
             name="mutualfundsanalysis"
-            tags={['Python', 'PCA', 'clustering', 'forecasting']}
+            tags={['Python', 'PCA', 'k-means', 'forecasting']}
+            tree
             items={[
-              'Descriptive analysis of mutual fund scheme characteristics',
-              'Structural PCA + unsupervised clustering',
+              'Descriptive analysis of scheme characteristics',
+              'Structural PCA — dimensionality reduction on scheme features',
+              'Unsupervised clustering (k-means) — groups schemes by behavior',
               'Contemporaneous explanatory analysis',
               'Governed next-month forecasting on scheme-level panel data',
             ]}

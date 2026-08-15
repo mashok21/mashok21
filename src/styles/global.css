@@ -413,6 +413,19 @@ a:hover {
   color: var(--gold-soft);
 }
 
+.code-list--tree li {
+  padding-left: 0;
+}
+
+.code-list--tree li::before {
+  content: none;
+}
+
+.tree-connector {
+  color: var(--code-accent);
+  margin-right: 0.55em;
+}
+
 .code-block__brace {
   color: var(--code-muted);
   margin-top: 1em;
