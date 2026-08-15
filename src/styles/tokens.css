@@ -13,6 +13,14 @@
 
   --font-serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  --code-bg: #0f1c33;
+  --code-bg-head: #0a1526;
+  --code-text: #dbe4f3;
+  --code-muted: #7c8fb0;
+  --code-accent: #d9b768;
+  --code-border: rgba(217, 183, 104, 0.22);
 
   --max-width: 46rem;
   --space-1: 0.5rem;

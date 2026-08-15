@@ -1,88 +1,211 @@
 import SectionHeader from '../components/SectionHeader'
-import Section from '../components/Section'
 import ExternalLink from '../components/ExternalLink'
+
+function CodeBlock({ filename, lang = 'ts', name, tags, items }) {
+  const tagList = (
+    <div className="tech-tags code-indent-2">
+      {tags.map((tag) => (
+        <span className="tech-tag" key={tag}>
+          {tag}
+        </span>
+      ))}
+    </div>
+  )
+  const bulletList = (
+    <ul className="code-list code-indent-2">
+      {items.map((item, i) => (
+        <li key={i}>{item}</li>
+      ))}
+    </ul>
+  )
+
+  return (
+    <div className="code-block">
+      <div className="code-block__head">
+        <span className="code-block__dots">
+          <span />
+          <span />
+          <span />
+        </span>
+        <span className="code-block__filename">{filename}</span>
+      </div>
+      <div className="code-block__body">
+        {lang === 'py' ? (
+          <>
+            <div className="code-block__line">
+              <span className="code-block__key">@stack</span>
+            </div>
+            <div className="code-block__line">
+              <span className="code-block__key">def</span> {name}():
+            </div>
+            <div className="code-block__line code-indent-1">
+              <span className="code-block__key">return</span> {'{'}
+            </div>
+            <div className="code-block__line code-indent-2">"tags": [</div>
+            {tagList}
+            <div className="code-block__line code-indent-2">],</div>
+            <div className="code-block__line code-indent-2">"notes": [</div>
+            {bulletList}
+            <div className="code-block__line code-indent-2">],</div>
+            <div className="code-block__line code-indent-1">{'}'}</div>
+          </>
+        ) : (
+          <>
+            <div className="code-block__line">
+              <span className="code-block__key">const</span> {name} = {'{'}
+            </div>
+            {tagList}
+            {bulletList}
+            <div className="code-block__brace">{'}'}</div>
+          </>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function ProjectCard({ name, tags, items, links }) {
+  return (
+    <div className="term-card">
+      <div className="term-card__prompt">
+        <span className="term-card__prompt-sign">$</span>
+        <span className="term-card__title">{name}</span>
+      </div>
+      <div className="term-card__tags">
+        {tags.map((tag) => (
+          <span className="tech-tag" key={tag}>
+            {tag}
+          </span>
+        ))}
+      </div>
+      <ul className="code-list">
+        {items.map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul>
+      {links ? <div className="term-card__links">{links}</div> : null}
+    </div>
+  )
+}
 
 export default function TechStack() {
   return (
-    <div className="page">
+    <div className="page tech-page">
       <div className="container">
         <SectionHeader
-          eyebrow="Tech Stack"
-          title="Full-stack, Python and applied data science"
-          intro="A blend of formal training and self-taught, project-driven learning, applied across this site, austrianprocess.com and independent research work."
+          eyebrow="$ cat tech_stack.json"
+          title="{ full-stack · python · applied data science }"
         />
+        <div className="tech-page__links">
+          <ExternalLink href="https://github.com/mashok21">github.com/mashok21</ExternalLink>
+        </div>
 
-        <Section title="Full-stack web development (MERN)">
-          <p>
-            React, Node.js, Express and MongoDB, the stack behind both this site and
-            austrianprocess.com. Trained through{' '}
-            <ExternalLink href="https://www.dctacademy.com">DCT Academy's</ExternalLink> Post
-            Graduate Program in Full Stack Web Development, a dual-certification program (Front
-            End, then Full Stack) covering core and advanced JavaScript, React and Redux, and a
-            Node/Express/MongoDB backend, and through Great Learning's Full Stack Web Development
-            with MERN Stack certificate.
-          </p>
-        </Section>
+        <div className="tech-stack">
+          <CodeBlock
+            filename="full_stack.ts"
+            name="full_stack"
+            tags={['React', 'Node.js', 'Express', 'MongoDB', 'Vite']}
+            items={[
+              <>
+                <ExternalLink href="https://www.dctacademy.com">DCT Academy</ExternalLink> — PG
+                Program, Full Stack Web Development (dual-certified: Front End → Full Stack)
+              </>,
+              'Core & advanced JavaScript, React + Redux, Node/Express/MongoDB backend',
+              'Great Learning — Full Stack Web Development with MERN Stack certificate',
+              <>
+                shipped: this site, <ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>
+              </>,
+            ]}
+          />
 
-        <Section title="Python and data">
-          <p>
-            Formal grounding via the University of Michigan's{' '}
-            <ExternalLink href="https://www.coursera.org/specializations/python">
-              Python for Everybody
-            </ExternalLink>{' '}
-            (
-            <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ">
-              certificate
-            </ExternalLink>
-            ) and{' '}
-            <ExternalLink href="https://www.coursera.org/specializations/python-3-programming">
-              Python 3 Programming
-            </ExternalLink>{' '}
-            (
-            <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V">
-              certificate
-            </ExternalLink>
-            ) specializations on Coursera. The broader data science toolkit, pandas, scikit-learn,
-            statistical modelling and machine learning, is self-taught through applied project
-            work, later reinforced by two years instructing a full-cycle professional data science
-            curriculum at <ExternalLink href="https://www.learnbay.co">Learnbay</ExternalLink> and{' '}
-            <ExternalLink href="https://www.excelr.com">ExcelR</ExternalLink>.
-          </p>
-        </Section>
+          <CodeBlock
+            filename="python_data.py"
+            lang="py"
+            name="python_data"
+            tags={['Python', 'pandas', 'scikit-learn', 'NumPy', 'statistical modeling', 'ML']}
+            items={[
+              <>
+                <ExternalLink href="https://www.coursera.org/specializations/python">
+                  Python for Everybody
+                </ExternalLink>{' '}
+                — University of Michigan (
+                <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ">
+                  certificate
+                </ExternalLink>
+                )
+              </>,
+              <>
+                <ExternalLink href="https://www.coursera.org/specializations/python-3-programming">
+                  Python 3 Programming
+                </ExternalLink>{' '}
+                — University of Michigan (
+                <ExternalLink href="https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V">
+                  certificate
+                </ExternalLink>
+                )
+              </>,
+              'pandas, scikit-learn, statistical modelling & ML — self-taught, project-driven',
+              <>
+                2 years teaching full-cycle data science curriculum at{' '}
+                <ExternalLink href="https://www.learnbay.co">Learnbay</ExternalLink> and{' '}
+                <ExternalLink href="https://www.excelr.com">ExcelR</ExternalLink>
+              </>,
+            ]}
+          />
+        </div>
 
-        <Section title="Projects">
-          <p>
-            <strong>Stonelink Monte Carlo Portfolio Risk Simulation Engine.</strong> A Django/DRF
-            backend running a NumPy-vectorized Monte Carlo engine (3,000-path simulations with
-            positive semi-definite covariance repair), paired with a React/Vite frontend, deployed
-            on Railway and Vercel. Built for Stonelink Investment Labs; the codebase is
-            client-confidential.{' '}
-            <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
-              Backend
-            </ExternalLink>{' '}
-            /{' '}
-            <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation-frontend">
-              Frontend
-            </ExternalLink>{' '}
-            (private repositories).
-          </p>
-          <p>
-            <strong>Mutual Fund Analysis.</strong> A modular Python project analyzing mutual fund
-            scheme characteristics: descriptive analysis, structural PCA, unsupervised clustering,
-            contemporaneous explanatory analysis and a governed next-month forecasting exercise on
-            scheme-level panel data.{' '}
-            <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
-              github.com/mashok21/mutualfundsanalysis
-            </ExternalLink>
-          </p>
-          <p>
-            <strong>Ask Austrian (austrianprocess.com).</strong> A retrieval-augmented research
-            assistant: a LangGraph agent retrieves passages from a MongoDB Atlas vector index built
-            on local sentence-transformer embeddings, then answers using Gemini as the primary
-            model with Claude as an automatic fallback. Two independent guardrails, a pre-filter
-            and a post-generation check, stop it from giving financial or investment advice.
-          </p>
-        </Section>
+        <h2 className="tech-section-label">// projects</h2>
+        <div className="tech-projects">
+          <ProjectCard
+            name="stonelink-monte-carlo-simulation"
+            tags={['Django', 'DRF', 'NumPy', 'React', 'Vite', 'Railway', 'Vercel']}
+            items={[
+              'Monte Carlo portfolio risk engine — 3,000-path simulations, NumPy-vectorized',
+              'Positive semi-definite covariance repair',
+              'Backend: Django/DRF · Frontend: React/Vite',
+              'Deployed: Railway (API) + Vercel (frontend)',
+              'Built for Stonelink Investment Labs — codebase client-confidential',
+            ]}
+            links={
+              <>
+                <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
+                  backend (private)
+                </ExternalLink>
+                <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation-frontend">
+                  frontend (private)
+                </ExternalLink>
+              </>
+            }
+          />
+
+          <ProjectCard
+            name="mutualfundsanalysis"
+            tags={['Python', 'PCA', 'clustering', 'forecasting']}
+            items={[
+              'Descriptive analysis of mutual fund scheme characteristics',
+              'Structural PCA + unsupervised clustering',
+              'Contemporaneous explanatory analysis',
+              'Governed next-month forecasting on scheme-level panel data',
+            ]}
+            links={
+              <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
+                github.com/mashok21/mutualfundsanalysis
+              </ExternalLink>
+            }
+          />
+
+          <ProjectCard
+            name="ask-austrian"
+            tags={['LangGraph', 'MongoDB Atlas Vector Search', 'sentence-transformers', 'Gemini', 'Claude']}
+            items={[
+              'Retrieval-augmented research assistant — LangGraph agent',
+              'Retrieval: MongoDB Atlas vector index, local sentence-transformer embeddings',
+              'Generation: Gemini (primary) → Claude (automatic fallback)',
+              'Guardrails: pre-filter + post-generation check block financial/investment advice',
+            ]}
+            links={<ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>}
+          />
+        </div>
       </div>
     </div>
   )
