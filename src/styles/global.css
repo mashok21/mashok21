@@ -431,6 +431,24 @@ a:hover {
   margin-top: 1em;
 }
 
+.code-block__links {
+  margin-top: 1.1em;
+  padding-top: 0.9em;
+  border-top: 1px solid var(--code-border);
+  display: flex;
+  gap: 1.25em;
+  font-size: 0.85rem;
+}
+
+.code-block__links a {
+  color: var(--code-text);
+  text-decoration-color: var(--code-accent);
+}
+
+.code-block__links a:hover {
+  color: var(--gold-soft);
+}
+
 .code-indent-1 {
   padding-left: 1.4em;
 }

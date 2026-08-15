@@ -113,8 +113,8 @@ export default function TechStack() {
 
         <div className="tech-stack">
           <CodeBlock
-            filename="full_stack.ts"
-            name="full_stack"
+            filename="fullStack.ts"
+            name="fullStack"
             tags={['React', 'Node.js', 'Express', 'MongoDB', 'Vite']}
             items={[
               <>
@@ -167,27 +167,51 @@ export default function TechStack() {
 
         <h2 className="tech-section-label">// projects</h2>
         <div className="tech-projects">
-          <ProjectCard
-            name="stonelink-monte-carlo-simulation"
-            tags={['Django', 'DRF', 'NumPy', 'React', 'Vite', 'Railway', 'Vercel']}
-            items={[
-              'Monte Carlo portfolio risk engine — 3,000-path simulations, NumPy-vectorized',
-              'Positive semi-definite covariance repair',
-              'Backend: Django/DRF · Frontend: React/Vite',
-              'Deployed: Railway (API) + Vercel (frontend)',
-              'Built for Stonelink Investment Labs — codebase client-confidential',
-            ]}
-            links={
-              <>
+          <div className="code-block">
+            <div className="code-block__head">
+              <span className="code-block__dots">
+                <span />
+                <span />
+                <span />
+              </span>
+              <span className="code-block__filename">views.py</span>
+            </div>
+            <div className="code-block__body">
+              <div className="tech-tags">
+                {['Django', 'DRF', 'NumPy', 'React', 'Vite', 'Railway', 'Vercel'].map((tag) => (
+                  <span className="tech-tag" key={tag}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className="code-block__line">
+                <span className="code-block__key">class</span> StonelinkMonteCarloEngine(APIView):
+              </div>
+              <div className="code-block__line code-indent-1">"""</div>
+              <ul className="code-list code-indent-1">
+                <li>3,000-path Monte Carlo simulation — NumPy-vectorized</li>
+                <li>Positive semi-definite covariance repair</li>
+                <li>Backend: Django/DRF · Frontend: React/Vite</li>
+                <li>Deployed: Railway (API) + Vercel (frontend)</li>
+                <li>Built for Stonelink Investment Labs — codebase client-confidential</li>
+              </ul>
+              <div className="code-block__line code-indent-1">"""</div>
+              <div className="code-block__line code-indent-1">
+                <span className="code-block__key">def</span> post(self, request):
+              </div>
+              <div className="code-block__line code-indent-2">
+                <span className="code-block__key">return</span> Response(run_simulation(request.data))
+              </div>
+              <div className="code-block__links">
                 <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
                   backend (private)
                 </ExternalLink>
                 <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation-frontend">
                   frontend (private)
                 </ExternalLink>
-              </>
-            }
-          />
+              </div>
+            </div>
+          </div>
 
           <ProjectCard
             name="mutualfundsanalysis"
