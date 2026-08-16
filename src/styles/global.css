@@ -278,28 +278,44 @@ a:hover {
   letter-spacing: 0;
 }
 
-.tech-page__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25em;
-  margin-top: var(--space-1);
+.skills-block {
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.skills-row + .skills-row {
+  margin-top: 1em;
+}
+
+.skills-row__label {
+  display: block;
   font-family: var(--font-mono);
-  font-size: 0.88rem;
-}
-
-.tech-page__links a {
+  font-size: 0.85rem;
   color: var(--text-muted);
+  margin-bottom: 0.5em;
 }
 
-.tech-page__links a:hover {
+.skills-row .tech-tags {
+  margin: 0;
+}
+
+.tech-note {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: var(--space-2) 0 0;
+  line-height: 1.7;
+}
+
+.tech-note a {
+  color: var(--text-muted);
+  text-decoration-color: var(--gold);
+}
+
+.tech-note a:hover {
   color: var(--gold);
-}
-
-.tech-stack {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-  margin-top: var(--space-4);
 }
 
 .code-block {
@@ -424,11 +440,6 @@ a:hover {
 .tree-connector {
   color: var(--code-accent);
   margin-right: 0.55em;
-}
-
-.code-block__brace {
-  color: var(--code-muted);
-  margin-top: 1em;
 }
 
 .code-block__links {
