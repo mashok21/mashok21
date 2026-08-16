@@ -22,12 +22,9 @@ export default function Home() {
         <p className="eyebrow">Bengaluru, India</p>
         <h1>Ashok M</h1>
         <p style={{ fontSize: '1.1rem', maxWidth: '38rem' }}>
-          Ashok M is a research economist working at the intersection of economic theory and
-          capital markets. He runs Mannheim Capital, a boutique wealth practice in Bengaluru,
-          offering mutual fund distribution. He also provides IBBI-registered valuation services
-          for securities and financial assets. Separately, he produces independent macro research
-          on Indian capital markets through an Austrian capital theory lens. He teaches statistics,
-          managerial economics and ethics in finance to MBA and executive students in Bengaluru.
+          Ashok M works at the intersection of economic theory and capital markets — through
+          independent macro research, a boutique valuation and wealth advisory practice (Mannheim
+          Capital), and teaching at Bengaluru business schools.
         </p>
         <div className="action-row">
           <ExternalLink className="btn" href="https://www.linkedin.com/in/ashokm-ca-cfa">

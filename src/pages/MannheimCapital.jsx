@@ -11,7 +11,7 @@ export default function MannheimCapital() {
         <SectionHeader
           eyebrow="Practice"
           title="Mannheim Capital"
-          intro="A boutique mutual fund distribution practice in Bengaluru. It also offers IBBI-registered valuation services for securities and financial assets. The practice is built on capital stewardship aligned with time, not prediction or market timing."
+          intro="A boutique mutual fund distribution practice in Bengaluru. The practice is built on capital stewardship aligned with time, not prediction or market timing."
         />
 
         <Section title="Writing">
