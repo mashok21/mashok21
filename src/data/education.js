@@ -17,11 +17,6 @@ export const education = [
     period: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735',
   },
   {
-    degree: 'Chartered Accountant, Accounting and Finance',
-    institution: 'The Institute of Chartered Accountants of India',
-    period: '2001–2004',
-  },
-  {
     degree: 'Bachelor of Commerce (BCom), Distance Education',
     institution: 'Annamalai University',
     period: 'May 2002 – May 2005',
