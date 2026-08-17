@@ -173,6 +173,46 @@ a:hover {
   margin-bottom: var(--space-2);
 }
 
+/* Tech Stack tree: a parent theme with nested layer sub-groups */
+.entry-tree {
+  margin-bottom: var(--space-4);
+}
+
+.entry-tree__title {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: var(--space-1);
+  margin-bottom: var(--space-1);
+}
+
+.entry-tree__note {
+  margin-bottom: var(--space-3);
+}
+
+.entry-tree__branches {
+  border-left: 2px solid var(--border);
+  padding-left: var(--space-3);
+  margin-left: var(--space-1);
+}
+
+.entry-tree__branches .entry-group {
+  position: relative;
+}
+
+.entry-tree__branches .entry-group::before {
+  content: '';
+  position: absolute;
+  top: 0.6em;
+  left: calc(-1 * var(--space-3) - 2px);
+  width: var(--space-3);
+  height: 1px;
+  background: var(--border);
+}
+
+.entry-tree__branches .entry-group__title {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 .entry-list {
   list-style: none;
   margin: 0;

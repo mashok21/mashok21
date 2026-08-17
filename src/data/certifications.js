@@ -5,134 +5,143 @@
 // organization's official site (LinkedIn's source export was a flat
 // rasterized PDF with no extractable verification links of its own).
 //
-// The former "AI and Tooling" bucket is split into four groups that mirror
-// the actual architecture layers of austrianprocess.com (frontend, backend,
-// AI/agent orchestration, data), the same tech-stack-as-narrative principle
-// used to describe that project on the Austrian Process page.
+// The former "AI and Tooling" bucket is split into four sub-groups that
+// mirror the actual architecture layers of austrianprocess.com (frontend,
+// backend, AI/agent orchestration, data), the same tech-stack-as-narrative
+// principle used to describe that project on the Austrian Process page.
+// Those four are nested under a "Tech Stack" parent group (see
+// `subgroups` below) so the page reads as a tree rather than a flat list
+// of same-weight headings.
 
 export const certificationGroups = [
   {
-    theme: 'Frontend',
-    entries: [
+    theme: 'Tech Stack',
+    note: 'The layers behind austrianprocess.com, from the browser down to the data.',
+    subgroups: [
       {
-        title: 'Introduction to JavaScript',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
-        date: 'Aug 2026',
-        note: 'Core language for the front end of this site.',
-      },
-    ],
-  },
-  {
-    theme: 'Backend and Full-Stack',
-    entries: [
-      {
-        title: 'Full Stack Web Development with MERN Stack',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
-        date: 'Aug 2026',
-        note: 'MongoDB, Express, React and Node, the stack behind this site.',
+        theme: 'Frontend',
+        entries: [
+          {
+            title: 'Introduction to JavaScript',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
+            date: 'Aug 2026',
+            note: 'Core language for the front end of this site.',
+          },
+        ],
       },
       {
-        title: 'C for Beginners',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
-        date: 'Aug 2026',
-        note: 'Foundational systems programming.',
-      },
-    ],
-  },
-  {
-    theme: 'AI and Agent Orchestration',
-    entries: [
-      {
-        title: 'Claude Code in Action',
-        issuer: 'Anthropic',
-        url: 'https://verify.skilljar.com/c/jn4pet5dsqgu',
-        date: 'Aug 2026',
-        note: 'Applied directly to building this site and other software projects.',
-      },
-      {
-        title: 'AI Fluency: Framework & Foundations',
-        issuer: 'Anthropic',
-        url: 'https://verify.skilljar.com/c/cxi7mj9yzs8h',
-        date: 'Aug 2026',
-        note: 'Framework for working with AI systems as a practitioner, not just a user.',
+        theme: 'Backend and Full-Stack',
+        entries: [
+          {
+            title: 'Full Stack Web Development with MERN Stack',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
+            date: 'Aug 2026',
+            note: 'MongoDB, Express, React and Node, the stack behind this site.',
+          },
+          {
+            title: 'C for Beginners',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
+            date: 'Aug 2026',
+            note: 'Foundational systems programming.',
+          },
+        ],
       },
       {
-        title: 'AI Agent Workflows Using LangGraph',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/NBLBREOQ',
-        date: 'Aug 2026',
-        note: 'Multi-step agent orchestration, informs the RAG system behind austrianprocess.com.',
+        theme: 'AI and Agent Orchestration',
+        entries: [
+          {
+            title: 'Claude Code in Action',
+            issuer: 'Anthropic',
+            url: 'https://verify.skilljar.com/c/jn4pet5dsqgu',
+            date: 'Aug 2026',
+            note: 'Applied directly to building this site and other software projects.',
+          },
+          {
+            title: 'AI Fluency: Framework & Foundations',
+            issuer: 'Anthropic',
+            url: 'https://verify.skilljar.com/c/cxi7mj9yzs8h',
+            date: 'Aug 2026',
+            note: 'Framework for working with AI systems as a practitioner, not just a user.',
+          },
+          {
+            title: 'AI Agent Workflows Using LangGraph',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/NBLBREOQ',
+            date: 'Aug 2026',
+            note: 'Multi-step agent orchestration, informs the RAG system behind austrianprocess.com.',
+          },
+          {
+            title: 'Foundation: Introduction to LangGraph (Python)',
+            issuer: 'LangChain',
+            url: 'https://academy.langchain.com/certificates/lcopyzzetp',
+            date: 'Aug 2026',
+            note: 'Graph-based orchestration for LLM applications.',
+          },
+          {
+            title: 'AI For Everyone',
+            issuer: 'DeepLearning.AI',
+            url: 'https://www.coursera.org/account/accomplishments/verify/DQNYV34AHLSS',
+            date: 'Oct 2021',
+            note: 'Early grounding in AI capability and limitation for non-technical decisions.',
+          },
+        ],
       },
       {
-        title: 'Foundation: Introduction to LangGraph (Python)',
-        issuer: 'LangChain',
-        url: 'https://academy.langchain.com/certificates/lcopyzzetp',
-        date: 'Aug 2026',
-        note: 'Graph-based orchestration for LLM applications.',
-      },
-      {
-        title: 'AI For Everyone',
-        issuer: 'DeepLearning.AI',
-        url: 'https://www.coursera.org/account/accomplishments/verify/DQNYV34AHLSS',
-        date: 'Oct 2021',
-        note: 'Early grounding in AI capability and limitation for non-technical decisions.',
-      },
-    ],
-  },
-  {
-    theme: 'Data and Python',
-    entries: [
-      {
-        title: 'Master Data Science & Machine Learning in Python',
-        issuer: 'Great Learning',
-        url: 'https://www.mygreatlearning.com/certificate/IWMLJKTM',
-        date: 'Aug 2026',
-        note: 'Applied data science and machine learning workflows in Python.',
-      },
-      {
-        title: 'Python for Data Science and Machine Learning Bootcamp',
-        issuer: 'Udemy',
-        url: 'https://www.udemy.com/certificate/UC-59e88d7a-0769-4a20-8004-8e92567a536d/',
-        date: 'Oct 2021',
-        note: 'Applied Python for statistical modelling and machine learning workflows.',
-      },
-      {
-        title: 'The Complete Python Bootcamp: From Zero to Hero in Python',
-        issuer: 'Udemy',
-        url: 'https://www.udemy.com/certificate/UC-80ffc661-0276-4f33-bcc8-019f44d2cac6/',
-        date: 'Oct 2021',
-        note: 'Python fundamentals for research tooling and automation.',
-      },
-      {
-        title: 'Data Analysis with Pandas and Python',
-        issuer: 'Udemy',
-        url: 'https://www.udemy.com/certificate/UC-54c64218-39de-4e25-9cd3-57191fb605f3/',
-        date: 'Feb 2020',
-        note: 'Data wrangling for empirical research.',
-      },
-      {
-        title: 'MTA: Introduction to Programming Using Python',
-        issuer: 'Microsoft',
-        url: 'https://learn.microsoft.com/en-us/users/ashokm-9619/',
-        date: 'Apr 2021',
-        note: 'Proctored exam. Certification number C7E3AB-86X6EA.',
-      },
-      {
-        title: 'Python 3 Programming Specialization',
-        issuer: 'University of Michigan (Coursera)',
-        url: 'https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V',
-        date: 'Sep 2020',
-        note: 'Coursera course certificate. Structured programming foundations.',
-      },
-      {
-        title: 'Python for Everybody Specialization',
-        issuer: 'University of Michigan (Coursera)',
-        url: 'https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ',
-        date: 'Aug 2020',
-        note: 'Coursera course certificate. Python for data retrieval, analysis and visualization.',
+        theme: 'Data and Python',
+        entries: [
+          {
+            title: 'Master Data Science & Machine Learning in Python',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/IWMLJKTM',
+            date: 'Aug 2026',
+            note: 'Applied data science and machine learning workflows in Python.',
+          },
+          {
+            title: 'Python for Data Science and Machine Learning Bootcamp',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-59e88d7a-0769-4a20-8004-8e92567a536d/',
+            date: 'Oct 2021',
+            note: 'Applied Python for statistical modelling and machine learning workflows.',
+          },
+          {
+            title: 'The Complete Python Bootcamp: From Zero to Hero in Python',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-80ffc661-0276-4f33-bcc8-019f44d2cac6/',
+            date: 'Oct 2021',
+            note: 'Python fundamentals for research tooling and automation.',
+          },
+          {
+            title: 'Data Analysis with Pandas and Python',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-54c64218-39de-4e25-9cd3-57191fb605f3/',
+            date: 'Feb 2020',
+            note: 'Data wrangling for empirical research.',
+          },
+          {
+            title: 'MTA: Introduction to Programming Using Python',
+            issuer: 'Microsoft',
+            url: 'https://learn.microsoft.com/en-us/users/ashokm-9619/',
+            date: 'Apr 2021',
+            note: 'Proctored exam. Certification number C7E3AB-86X6EA.',
+          },
+          {
+            title: 'Python 3 Programming Specialization',
+            issuer: 'University of Michigan (Coursera)',
+            url: 'https://www.coursera.org/account/accomplishments/specialization/2NEJHWE9MX2V',
+            date: 'Sep 2020',
+            note: 'Coursera course certificate. Structured programming foundations.',
+          },
+          {
+            title: 'Python for Everybody Specialization',
+            issuer: 'University of Michigan (Coursera)',
+            url: 'https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ',
+            date: 'Aug 2020',
+            note: 'Coursera course certificate. Python for data retrieval, analysis and visualization.',
+          },
+        ],
       },
     ],
   },

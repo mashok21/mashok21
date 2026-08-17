@@ -1,7 +1,8 @@
-export default function Section({ title, style, children }) {
+export default function Section({ title, style, level = 2, children }) {
+  const Heading = `h${level}`
   return (
     <section className="entry-group" style={style}>
-      <h2 className="entry-group__title">{title}</h2>
+      <Heading className="entry-group__title">{title}</Heading>
       {children}
     </section>
   )
