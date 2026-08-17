@@ -8,12 +8,14 @@
 // The former "AI and Tooling" bucket is split into groups that mirror the
 // actual architecture layers of austrianprocess.com. "Tech Stack" nests
 // "Web Full-Stack" (frontend + backend, the two halves of the site's
-// request/response layer) and "Data and Python" (the data layer) as a
-// tree. AI and Agent Orchestration sits above that as its own top-level
-// group rather than a peer of frontend/backend — it's the layer that
-// drives the other two, not one more item alongside them, the same
-// tech-stack-as-narrative principle used to describe that project on the
-// Austrian Process page.
+// request/response layer), "Programming Languages" (general-purpose
+// language fundamentals: C, and Python taught as a language rather than
+// as a data-science tool), and "Data Science" (Python applied to data
+// analysis and ML) as a tree. AI and Agent Orchestration sits above that
+// as its own top-level group rather than a peer of frontend/backend —
+// it's the layer that drives the other two, not one more item alongside
+// them, the same tech-stack-as-narrative principle used to describe that
+// project on the Austrian Process page.
 
 export const certificationGroups = [
   {
@@ -45,47 +47,19 @@ export const certificationGroups = [
                 date: 'Aug 2026',
                 note: 'MongoDB, Express, React and Node, the stack behind this site.',
               },
-              {
-                title: 'C for Beginners',
-                issuer: 'Great Learning',
-                url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
-                date: 'Aug 2026',
-                note: 'Foundational systems programming.',
-              },
             ],
           },
         ],
       },
       {
-        theme: 'Data and Python',
+        theme: 'Programming Languages',
         entries: [
           {
-            title: 'Master Data Science & Machine Learning in Python',
+            title: 'C for Beginners',
             issuer: 'Great Learning',
-            url: 'https://www.mygreatlearning.com/certificate/IWMLJKTM',
+            url: 'https://www.mygreatlearning.com/certificate/RXEIULLC',
             date: 'Aug 2026',
-            note: 'Applied data science and machine learning workflows in Python.',
-          },
-          {
-            title: 'Python for Data Science and Machine Learning Bootcamp',
-            issuer: 'Udemy',
-            url: 'https://www.udemy.com/certificate/UC-59e88d7a-0769-4a20-8004-8e92567a536d/',
-            date: 'Oct 2021',
-            note: 'Applied Python for statistical modelling and machine learning workflows.',
-          },
-          {
-            title: 'The Complete Python Bootcamp: From Zero to Hero in Python',
-            issuer: 'Udemy',
-            url: 'https://www.udemy.com/certificate/UC-80ffc661-0276-4f33-bcc8-019f44d2cac6/',
-            date: 'Oct 2021',
-            note: 'Python fundamentals for research tooling and automation.',
-          },
-          {
-            title: 'Data Analysis with Pandas and Python',
-            issuer: 'Udemy',
-            url: 'https://www.udemy.com/certificate/UC-54c64218-39de-4e25-9cd3-57191fb605f3/',
-            date: 'Feb 2020',
-            note: 'Data wrangling for empirical research.',
+            note: 'Foundational systems programming.',
           },
           {
             title: 'MTA: Introduction to Programming Using Python',
@@ -107,6 +81,39 @@ export const certificationGroups = [
             url: 'https://www.coursera.org/account/accomplishments/specialization/SRB74TUQW5PZ',
             date: 'Aug 2020',
             note: 'Coursera course certificate. Python for data retrieval, analysis and visualization.',
+          },
+          {
+            title: 'The Complete Python Bootcamp: From Zero to Hero in Python',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-80ffc661-0276-4f33-bcc8-019f44d2cac6/',
+            date: 'Oct 2021',
+            note: 'Python fundamentals for research tooling and automation.',
+          },
+        ],
+      },
+      {
+        theme: 'Data Science',
+        entries: [
+          {
+            title: 'Master Data Science & Machine Learning in Python',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/IWMLJKTM',
+            date: 'Aug 2026',
+            note: 'Applied data science and machine learning workflows in Python.',
+          },
+          {
+            title: 'Python for Data Science and Machine Learning Bootcamp',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-59e88d7a-0769-4a20-8004-8e92567a536d/',
+            date: 'Oct 2021',
+            note: 'Applied Python for statistical modelling and machine learning workflows.',
+          },
+          {
+            title: 'Data Analysis with Pandas and Python',
+            issuer: 'Udemy',
+            url: 'https://www.udemy.com/certificate/UC-54c64218-39de-4e25-9cd3-57191fb605f3/',
+            date: 'Feb 2020',
+            note: 'Data wrangling for empirical research.',
           },
         ],
       },
