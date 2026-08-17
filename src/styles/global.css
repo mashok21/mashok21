@@ -204,7 +204,7 @@ a:hover {
    .entry-tree, both get a connector line back to the trunk. */
 .entry-tree__branches > * {
   position: relative;
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
 }
 
 .entry-tree__branches > *::before {
@@ -221,6 +221,7 @@ a:hover {
 .entry-tree__branches .entry-tree__title {
   border-bottom: none;
   padding-bottom: 0;
+  margin-bottom: var(--space-1);
 }
 
 .entry-list {
