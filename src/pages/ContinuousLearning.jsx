@@ -1,7 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
-import Section from '../components/Section'
-import EntryList from '../components/EntryList'
-import ExternalLink from '../components/ExternalLink'
+import EntryGroupTree from '../components/EntryGroupTree'
 import { certificationGroups } from '../data/certifications'
 
 export default function ContinuousLearning() {
@@ -14,60 +12,9 @@ export default function ContinuousLearning() {
           intro="Organized by theme, not by date. Certifications and coursework that feed directly into research, teaching or the tools used to build things."
         />
 
-        {certificationGroups.map((group) =>
-          group.subgroups ? (
-            <section className="entry-tree" key={group.theme}>
-              <h2 className="entry-tree__title">{group.theme}</h2>
-              {group.note ? <p className="text-muted entry-tree__note">{group.note}</p> : null}
-              <div className="entry-tree__branches">
-                {group.subgroups.map((subgroup) => (
-                  <Section
-                    title={subgroup.theme}
-                    level={3}
-                    style={{ marginBottom: 'var(--space-3)' }}
-                    key={subgroup.theme}
-                  >
-                    <EntryList items={subgroup.entries}>
-                      {(entry) => (
-                        <>
-                          <span className="entry__title">{entry.title}</span>
-                          <span className="entry__meta">
-                            {entry.url ? (
-                              <ExternalLink href={entry.url}>{entry.issuer}</ExternalLink>
-                            ) : (
-                              entry.issuer
-                            )}
-                            , {entry.date}
-                          </span>
-                          <div className="entry__note">{entry.note}</div>
-                        </>
-                      )}
-                    </EntryList>
-                  </Section>
-                ))}
-              </div>
-            </section>
-          ) : (
-            <Section title={group.theme} key={group.theme}>
-              <EntryList items={group.entries}>
-                {(entry) => (
-                  <>
-                    <span className="entry__title">{entry.title}</span>
-                    <span className="entry__meta">
-                      {entry.url ? (
-                        <ExternalLink href={entry.url}>{entry.issuer}</ExternalLink>
-                      ) : (
-                        entry.issuer
-                      )}
-                      , {entry.date}
-                    </span>
-                    <div className="entry__note">{entry.note}</div>
-                  </>
-                )}
-              </EntryList>
-            </Section>
-          )
-        )}
+        {certificationGroups.map((group) => (
+          <EntryGroupTree group={group} key={group.theme} />
+        ))}
       </div>
     </div>
   )

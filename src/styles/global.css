@@ -21,7 +21,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--font-serif);
   color: var(--navy);
   font-weight: 600;
@@ -39,6 +40,10 @@ h2 {
 
 h3 {
   font-size: 1.15rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 p {
@@ -194,11 +199,15 @@ a:hover {
   margin-left: var(--space-1);
 }
 
-.entry-tree__branches .entry-group {
+/* Generic so it applies at any nesting depth: a branch's direct children
+   are either a leaf .entry-group (from Section) or another nested
+   .entry-tree, both get a connector line back to the trunk. */
+.entry-tree__branches > * {
   position: relative;
+  margin-bottom: var(--space-3);
 }
 
-.entry-tree__branches .entry-group::before {
+.entry-tree__branches > *::before {
   content: '';
   position: absolute;
   top: 0.6em;
@@ -208,7 +217,8 @@ a:hover {
   background: var(--border);
 }
 
-.entry-tree__branches .entry-group__title {
+.entry-tree__branches .entry-group__title,
+.entry-tree__branches .entry-tree__title {
   border-bottom: none;
   padding-bottom: 0;
 }
