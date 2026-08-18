@@ -75,3 +75,14 @@ export const teachingRoles = [
       'Taught a full-cycle, roughly 40-session data science curriculum in R and Python: statistical foundations (descriptive statistics, hypothesis testing, ANOVA, chi-square), regression and classification (linear and multiple regression, logistic regression, decision trees, KNN, SVM, Naive Bayes, and ensemble methods including Random Forest, XGBoost and LightGBM), unsupervised learning (hierarchical and K-means clustering, DBSCAN, PCA, association rules, recommendation systems), neural networks, text mining, and time-series forecasting, through to model deployment and a capstone project. Mentored roughly 200 students across two institutions.',
   },
 ]
+
+export const talks = [
+  {
+    title: 'How Data Science Can Help Auditors',
+    venue: 'Special Webinar, Institute of Internal Auditors (IIA) Madras Chapter',
+    date: '23 Jun 2023',
+    url: 'https://www.youtube.com/watch?v=VI6wwqzftXo&t=3753s',
+    description:
+      'Invited session for the internal audit profession on applying data science techniques to audit sampling, anomaly detection and risk assessment.',
+  },
+]
