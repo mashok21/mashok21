@@ -1,11 +1,11 @@
 // Sourced from master_profile.md Section 3 (Professional / Practitioner Experience).
-// Grouped by function rather than strict chronology: Financial Research
-// (equity/macro/portfolio research) vs Corporate Finance (CFO, deal work,
-// valuation practice, and the audit/accounting foundation behind them).
-// Roles are reverse-chronological within each group. Mannheim Capital has
-// its own dedicated subpage (`/mannheim-capital`) since it's a live
-// regulated advisory practice, not just a past role, so this entry links
-// there rather than duplicating detail.
+// Scoped to third-party industry experience only -- Mannheim Capital is an
+// own venture, not employment, and already has its own dedicated subpage
+// (`/mannheim-capital`), so it's deliberately excluded here rather than
+// duplicated. Grouped by function rather than strict chronology: Financial
+// Research (equity/macro research and investment banking/deal analysis) vs
+// Corporate Finance (CFO work and the audit/accounting foundation behind
+// it). Roles are reverse-chronological within each group.
 
 export const experienceGroups = [
   {
@@ -19,6 +19,15 @@ export const experienceGroups = [
         status: 'current',
         description:
           'Independent macro research engagement focused on capital markets. Produces periodic commentary on credit conditions, liquidity cycles, and interest-rate transmission, analysed through an Austrian capital theory lens, to inform capital allocation decisions for investment teams.',
+      },
+      {
+        title: 'Investment Banking Analyst (Private Markets)',
+        employer: 'RiverBridge Investment Advisors Private Limited',
+        period: 'Feb 2013 – Feb 2014',
+        location: 'Chennai Area',
+        status: 'past',
+        description:
+          'Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.',
       },
       {
         title: 'Wealth Management & Portfolio Research',
@@ -44,31 +53,12 @@ export const experienceGroups = [
     theme: 'Corporate Finance',
     roles: [
       {
-        title: 'Founder',
-        employer: 'Mannheim Capital',
-        period: 'Apr 2014 – Present',
-        location: 'Bengaluru',
-        status: 'current',
-        path: '/mannheim-capital',
-        description:
-          'Boutique wealth practice offering mutual fund distribution and, separately, IBBI-registered valuation services for securities and financial assets, alongside portfolio construction and macro-driven asset allocation for HNW clients.',
-      },
-      {
         title: 'Chief Financial Officer',
         employer: 'Medicount India',
         period: 'Jan 2018 – Mar 2021',
         status: 'past',
         description:
           'Led financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
-      },
-      {
-        title: 'Investment Banking Analyst (Private Markets)',
-        employer: 'RiverBridge Investment Advisors Private Limited',
-        period: 'Feb 2013 – Feb 2014',
-        location: 'Chennai Area',
-        status: 'past',
-        description:
-          'Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.',
       },
       {
         title: 'Assistant Audit Manager',
