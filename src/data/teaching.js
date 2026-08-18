@@ -61,7 +61,7 @@ export const teachingRoles = [
   {
     title: 'CFA Trainer',
     institution: 'EduPristine',
-    period: '2012 – 2016, guest sessions resumed 2020',
+    period: '2012 – 2016',
     status: 'past',
     description:
       'Taught Financial Reporting and Analysis, Economics and Alternative Investments for CFA Levels I and II. Over 100 hours of classes, with feedback ratings above 4.2/5.',

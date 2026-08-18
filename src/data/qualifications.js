@@ -16,7 +16,6 @@ export const qualifications = [
     meta: 'Insolvency and Bankruptcy Board of India, 2021',
     path: '/ibbi-valuation',
   },
-  { title: 'PhD Scholar, Economics', meta: 'Srinivas University, in progress' },
 ]
 
 export const honors = [
