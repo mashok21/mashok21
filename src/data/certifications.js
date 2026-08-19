@@ -12,7 +12,7 @@
 // language fundamentals: C, and Python taught as a language rather than
 // as a data-science tool), and "Data Science" (Python applied to data
 // analysis and ML) as a tree. AI and Agent Orchestration sits above that
-// as its own top-level group rather than a peer of frontend/backend —
+// as its own top-level group rather than a peer of frontend/backend –
 // it's the layer that drives the other two, not one more item alongside
 // them, the same tech-stack-as-narrative principle used to describe that
 // project on the Austrian Process page.

@@ -8,7 +8,7 @@ export default function Consulting() {
         <SectionHeader
           eyebrow="Practice"
           title="Consulting"
-          intro="Independent macro research advisory for Stonelink Investment Labs — putting Austrian capital theory to work as a paid, ongoing engagement, not an academic exercise."
+          intro="Independent macro research advisory for Stonelink Investment Labs – putting Austrian capital theory to work as a paid, ongoing engagement, not an academic exercise."
         />
 
         <Section title="Stonelink Investment Labs">
@@ -27,7 +27,7 @@ export default function Consulting() {
         <Section title="The Austrian hat">
           <p>
             The mandate is narrow and deliberate: read credit conditions, liquidity cycles and
-            interest-rate transmission the way the Austrian school reads them — as signals about
+            interest-rate transmission the way the Austrian school reads them – as signals about
             the real structure of capital, not just aggregate demand. That lens is what
             distinguishes the commentary from conventional macro research, and it's the same
             theoretical grounding behind Austrian Process.

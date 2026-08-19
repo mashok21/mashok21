@@ -70,7 +70,7 @@ export default function IbbiValuation() {
             share capital by way of preferential allotment (Section 62(1)(c) of the Companies
             Act, 2013, read with Rule 13(1) of the Companies (Share Capital and Debentures)
             Rules, 2014) and for share buy-backs (Section 68 of the Companies Act, 2013, read
-            with the same Rules) — a statutory requirement of those processes, not a
+            with the same Rules) – a statutory requirement of those processes, not a
             discretionary exercise.
           </p>
         </Section>

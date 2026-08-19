@@ -23,7 +23,7 @@ export const experienceGroups = [
       },
       {
         title: 'Wealth Management & Portfolio Research',
-        employer: 'Wealth Advisors (India) Pvt Ltd',
+        employer: 'Wealth Advisors (India) Pvt Ltd (acquired by IIFL Wealth, now 360 ONE, in 2018)',
         period: 'Jan 2011 – Feb 2013',
         location: 'Chennai Area',
         status: 'past',
@@ -32,7 +32,7 @@ export const experienceGroups = [
       },
       {
         title: 'Senior Research Analyst',
-        employer: 'Crisil Intelligence',
+        employer: 'Irevna (subsequently integrated into CRISIL as CRISIL Intelligence)',
         period: 'Jun 2006 – Dec 2010',
         location: 'Chennai',
         status: 'past',
@@ -45,12 +45,12 @@ export const experienceGroups = [
     theme: 'Corporate Finance',
     roles: [
       {
-        title: 'Chief Financial Officer',
+        title: 'Chief Financial Officer (Consulting Engagement)',
         employer: 'Medicount India',
         period: 'Jan 2018 – Mar 2021',
         status: 'past',
         description:
-          'Led financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
+          'Consulting CFO engagement leading financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
       },
       {
         title: 'Assistant Audit Manager',
