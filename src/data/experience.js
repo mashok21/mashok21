@@ -45,7 +45,7 @@ export const experienceGroups = [
     theme: 'Corporate Finance',
     roles: [
       {
-        title: 'Chief Financial Officer (Consulting Engagement)',
+        title: 'India CFO (Consulting Engagement)',
         employer: 'Medicount (including Medicount Healthcare Pvt Ltd and MediCount Global Ltd), a digital health-financing venture backed by Allianz SE',
         period: 'Jan 2018 – Mar 2021',
         status: 'past',
