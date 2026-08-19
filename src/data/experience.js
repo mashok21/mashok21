@@ -46,11 +46,11 @@ export const experienceGroups = [
     roles: [
       {
         title: 'Chief Financial Officer (Consulting Engagement)',
-        employer: 'Medicount India',
+        employer: 'Medicount (including Medicount Healthcare Pvt Ltd and MediCount Global Ltd), a digital health-financing venture backed by Allianz SE',
         period: 'Jan 2018 – Mar 2021',
         status: 'past',
         description:
-          'Consulting CFO engagement leading financial strategy, budgeting, cash flow and governance for a healthcare technology company. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
+          'Consulting CFO engagement leading financial strategy, budgeting, cash flow and governance for a fintech and telemedicine venture offering OPD wellness concepts and health-savings wallets in emerging markets including India. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
       },
       {
         title: 'Assistant Audit Manager',
