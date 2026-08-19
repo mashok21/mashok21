@@ -1,7 +1,8 @@
 // Sourced from master_profile.md Section 3 (Professional / Practitioner Experience).
-// Scoped to third-party industry experience only -- Mannheim Capital is an
-// own venture, not employment, and already has its own dedicated subpage
-// (`/mannheim-capital`), so it's deliberately excluded here rather than
+// Scoped to third-party industry experience only -- Mannheim Capital and the
+// Stonelink consulting engagement are own/independent practice, not
+// employment, and each has its own dedicated page (`/mannheim-capital`,
+// `/consulting`), so both are deliberately excluded here rather than
 // duplicated. Grouped by function rather than strict chronology: Financial
 // Research (equity/macro research and investment banking/deal analysis) vs
 // Corporate Finance (CFO work and the audit/accounting foundation behind
@@ -11,15 +12,6 @@ export const experienceGroups = [
   {
     theme: 'Financial Research',
     roles: [
-      {
-        title: 'Research Economist',
-        employer: 'Stonelink Investment Labs Pvt Ltd',
-        period: 'Jan 2026 – Present',
-        location: 'Bengaluru',
-        status: 'current',
-        description:
-          'Independent macro research engagement focused on capital markets. Produces periodic commentary on credit conditions, liquidity cycles, and interest-rate transmission, analysed through an Austrian capital theory lens, to inform capital allocation decisions for investment teams.',
-      },
       {
         title: 'Investment Banking Analyst (Private Markets)',
         employer: 'RiverBridge Investment Advisors Private Limited',

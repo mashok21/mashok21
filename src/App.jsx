@@ -7,6 +7,7 @@ import Research from './pages/Research'
 import AustrianProcess from './pages/AustrianProcess'
 import Teaching from './pages/Teaching'
 import MannheimCapital from './pages/MannheimCapital'
+import Consulting from './pages/Consulting'
 import IbbiValuation from './pages/IbbiValuation'
 import TechStack from './pages/TechStack'
 import Qualifications from './pages/Qualifications'
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/austrianprocess" element={<AustrianProcess />} />
           <Route path="/teaching" element={<Teaching />} />
           <Route path="/mannheim-capital" element={<MannheimCapital />} />
+          <Route path="/consulting" element={<Consulting />} />
           <Route path="/ibbi-valuation" element={<IbbiValuation />} />
           <Route path="/tech-stack" element={<TechStack />} />
         </Routes>

@@ -7,6 +7,7 @@ const links = [
   { to: '/research', label: 'Research' },
   { to: '/austrianprocess', label: 'Austrian Process' },
   { to: '/mannheim-capital', label: 'Mannheim Capital' },
+  { to: '/consulting', label: 'Consulting' },
   { to: '/ibbi-valuation', label: 'IBBI Valuation' },
   { to: '/tech-stack', label: 'Tech Stack' },
   { to: '/teaching', label: 'Teaching' },
