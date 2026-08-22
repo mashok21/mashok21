@@ -21,14 +21,6 @@ export const teachingRoles = [
       'Foundation Course Series for MBA and BBA students, delivered fully online across four live Saturday sessions.',
   },
   {
-    title: 'Board of Studies Member (Invited Industry Expert)',
-    institution: 'JAIN Online, JAIN (Deemed-to-be University), Bengaluru',
-    period: 'Jun 2025',
-    status: 'past',
-    description:
-      'Invited as a Chartered Accountant with an investment industry background to contribute to curriculum design and syllabus review for Academic Year 2025-2026, ahead of joining as Adjunct Faculty.',
-  },
-  {
     title: 'Adjunct Faculty, Indian Ethos and Business Ethics (EMBA)',
     institution: 'RV University, School for Continuing Education & Professional Studies (SCEPS)',
     period: 'Apr 2026 – Jun 2026',
@@ -85,6 +77,13 @@ export const teachingRoles = [
 ]
 
 export const talks = [
+  {
+    title: 'Board of Studies Member (Invited Industry Expert)',
+    venue: 'JAIN Online, JAIN (Deemed-to-be University), Centre for Distance and Online Education, Bengaluru',
+    date: '24 Jun 2025',
+    description:
+      'Invited as a Chartered Accountant with an investment industry background to contribute to curriculum design and syllabus review for Academic Year 2025-2026, ahead of joining as Adjunct Faculty.',
+  },
   {
     title: 'How Data Science Can Help Auditors',
     venue: 'Special Webinar, Institute of Internal Auditors (IIA) Madras Chapter',
