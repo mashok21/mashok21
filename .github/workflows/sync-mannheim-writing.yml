@@ -1,0 +1,31 @@
+name: Sync Mannheim writing
+
+on:
+  schedule:
+    # 06:00 UTC daily
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run sync:mannheim
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- src/data/mannheimWriting.js; then
+            echo "No new articles, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/mannheimWriting.js
+          git commit -m "Sync latest Mannheim Capital writing"
+          git push

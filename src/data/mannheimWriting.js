@@ -1,6 +1,15 @@
 // Sourced directly from mannheimcapital.com/writing.
+// Synced automatically by scripts/sync-mannheim-writing.mjs via the
+// "Sync Mannheim writing" GitHub Actions workflow. Do not edit by hand —
+// run `npm run sync:mannheim` locally to refresh, or wait for the
+// scheduled sync.
 
 export const mannheimArticles = [
+  {
+    title: 'Individual Investors Are Still Equity-Heavy',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/individual-investors-are-still-equity-heavy',
+  },
   {
     title: 'On Booking Profits',
     date: 'Jul 2026',
@@ -45,10 +54,5 @@ export const mannheimArticles = [
     title: 'What an MFD Does and Does Not Do',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/what-an-mfd-does-and-does-not-do',
-  },
-  {
-    title: 'Why We Do Not Time Markets',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/why-we-do-not-time-markets',
   },
 ]
