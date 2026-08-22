@@ -9,9 +9,9 @@ const links = [
   { to: '/mannheim-capital', label: 'Mannheim Capital' },
   { to: '/consulting', label: 'Consulting' },
   { to: '/ibbi-valuation', label: 'IBBI Valuation' },
-  { to: '/tech-stack', label: 'Tech Stack' },
   { to: '/teaching', label: 'Teaching' },
   { to: '/continuous-learning', label: 'Continuous Learning' },
+  { to: '/tech-stack', label: 'Tech Stack' },
 ]
 
 export default function Nav() {
