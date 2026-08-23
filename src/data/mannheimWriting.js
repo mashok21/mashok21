@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'NFOs: Bought High, Sold on Hype',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/sector-funds-get-launched-at-the-top-not-the-bottom',
+  },
+  {
     title: 'Individual Investors Are Still Equity-Heavy',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/individual-investors-are-still-equity-heavy',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'Discipline Over Prediction',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/discipline-over-prediction',
-  },
-  {
-    title: 'What an MFD Does and Does Not Do',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/what-an-mfd-does-and-does-not-do',
   },
 ]
