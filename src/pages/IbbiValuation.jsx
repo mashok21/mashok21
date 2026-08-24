@@ -108,8 +108,10 @@ export default function IbbiValuation() {
             </ul>
             <p>
               – a statutory requirement of those processes, not a discretionary exercise. Sample
-              assignments have used the <em>Income Approach</em> (Discounted Free Cash Flow
-              method) on a going-concern basis, with a CAPM-derived cost of equity.
+              engagements have spanned <em>deep-tech manufacturing</em> (an AI-robotics hardware
+              company) and <em>technology services</em> (a software and data-analytics
+              consultancy), using the Income Approach (Discounted Free Cash Flow method) on a
+              going-concern basis, with a CAPM-derived cost of equity.
             </p>
           </div>
         </Section>
