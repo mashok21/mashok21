@@ -162,12 +162,9 @@ a:hover {
   text-underline-offset: 4px;
 }
 
-.site-nav__kind {
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--gold);
+.site-nav__sublabel {
+  font-size: 0.68rem;
+  color: var(--text-muted);
 }
 
 /* Footer */

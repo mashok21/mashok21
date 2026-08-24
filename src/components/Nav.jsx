@@ -29,8 +29,8 @@ export default function Nav() {
                 end={link.end}
                 className={({ isActive }) => (isActive ? 'active' : undefined)}
               >
-                <span className="site-nav__label">{link.label}</span>
-                {link.kind ? <span className="site-nav__kind">{link.kind}</span> : null}
+                <span className="site-nav__label">{link.kind || link.label}</span>
+                {link.kind ? <span className="site-nav__sublabel">{link.label}</span> : null}
               </NavLink>
             </li>
           ))}
