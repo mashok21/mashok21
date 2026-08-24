@@ -4,12 +4,12 @@ const links = [
   { to: '/', label: 'Home', end: true },
   { to: '/experience', label: 'Experience' },
   { to: '/qualifications', label: 'Qualifications' },
-  { to: '/research', label: 'Research' },
-  { to: '/austrianprocess', label: 'Austrian Process' },
-  { to: '/mannheim-capital', label: 'Mannheim Capital' },
-  { to: '/consulting', label: 'Consulting' },
-  { to: '/ibbi-valuation', label: 'IBBI Valuation' },
-  { to: '/teaching', label: 'Teaching' },
+  { to: '/research', label: 'Research', kind: 'Scholarship' },
+  { to: '/austrianprocess', label: 'Austrian Process', kind: 'Applied Philosophy' },
+  { to: '/mannheim-capital', label: 'Mannheim Capital', kind: 'Venture' },
+  { to: '/consulting', label: 'Consulting', kind: 'Engagement' },
+  { to: '/ibbi-valuation', label: 'IBBI Valuation', kind: 'Credential' },
+  { to: '/teaching', label: 'Teaching', kind: 'Academia' },
   { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/tech-stack', label: 'Tech Stack' },
 ]
@@ -29,7 +29,8 @@ export default function Nav() {
                 end={link.end}
                 className={({ isActive }) => (isActive ? 'active' : undefined)}
               >
-                {link.label}
+                <span className="site-nav__label">{link.label}</span>
+                {link.kind ? <span className="site-nav__kind">{link.kind}</span> : null}
               </NavLink>
             </li>
           ))}
