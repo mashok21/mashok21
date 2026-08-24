@@ -38,7 +38,14 @@ export default function Qualifications() {
                 <span className="entry__title">{item.degree}</span>
                 <span className="entry__meta">
                   {item.institution}
-                  {item.period ? ` · ${item.period}` : ''}
+                  {item.period ? (
+                    <>
+                      {' · '}
+                      {item.period === 'In progress' ? <em>{item.period}</em> : item.period}
+                    </>
+                  ) : (
+                    ''
+                  )}
                 </span>
               </>
             )}

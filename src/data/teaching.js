@@ -24,7 +24,7 @@ export const teachingRoles = [
     title: 'Adjunct Faculty, Indian Ethos and Business Ethics (EMBA)',
     institution: 'RV University, School for Continuing Education & Professional Studies (SCEPS)',
     period: 'Apr 2026 – Jun 2026',
-    status: 'current',
+    status: 'past',
     description:
       'Blended course for a cohort of mid-to-senior working professionals, part of the EMBA program.',
   },
@@ -32,7 +32,7 @@ export const teachingRoles = [
     title: 'Adjunct Faculty, Ethical Foundations of Finance and Auditing',
     institution: 'School of Business, RV University',
     period: 'Jan 2026 – Apr 2026',
-    status: 'current',
+    status: 'past',
     description:
       'Taught to undergraduate management students. Emphasis on classical moral philosophy, particularly Adam Smith’s framework, applied to contemporary financial decision-making. Focus on developing normative reasoning alongside technical competence.',
   },

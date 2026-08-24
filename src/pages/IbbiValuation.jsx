@@ -27,8 +27,16 @@ const credentials = [
 ]
 
 const resources = [
-  { label: 'Insolvency and Bankruptcy Board of India (IBBI)', href: 'https://ibbi.gov.in' },
-  { label: 'IOV Registered Valuers Foundation (IOV RVF)', href: 'https://iovrvf.org' },
+  {
+    label: 'Insolvency and Bankruptcy Board of India (IBBI)',
+    href: 'https://ibbi.gov.in',
+    note: 'The statutory valuation authority under Section 247 of the Companies Act, 2013, and the regulator of the Registered Valuer framework under the Companies (Registered Valuers and Valuation) Rules, 2017.',
+  },
+  {
+    label: 'IOV Registered Valuers Foundation (IOV RVF)',
+    href: 'https://iovrvf.org',
+    note: 'The IBBI-recognised Registered Valuers Organisation (RVO) I am enrolled with for the Securities or Financial Assets asset class.',
+  },
 ]
 
 export default function IbbiValuation() {
@@ -55,11 +63,17 @@ export default function IbbiValuation() {
 
         <Section title="Scope">
           <p>
-            The Securities or Financial Assets category covers valuation of shares, financial
-            instruments and other financial assets under the Companies (Registered Valuers and
-            Valuation) Rules, 2017. Registered Valuers in this category are engaged in matters
-            including insolvency resolution, corporate restructuring and statutory valuation
-            requirements under Indian company law.
+            Securities or Financial Assets (SFA) is one of three IBBI asset classes for
+            Registered Valuers – alongside Land & Building and Plant & Machinery – each with its
+            own registration and valuation examination under the Companies (Registered Valuers
+            and Valuation) Rules, 2017, framed under Section 247 of the Companies Act, 2013,
+            which designates IBBI as the valuation authority. The SFA class covers valuation of
+            shares, debentures and other securities or financial instruments, and is engaged
+            wherever company law or insolvency law specifically calls for a Registered Valuer in
+            this class: statutory share valuations under the Companies Act (including
+            preferential allotments, buy-backs and schemes of compromise or arrangement), and
+            fair value and liquidation value determinations for financial assets during corporate
+            insolvency resolution and liquidation under the IBC.
           </p>
         </Section>
 
@@ -77,7 +91,14 @@ export default function IbbiValuation() {
 
         <Section title="Resources">
           <EntryList items={resources} itemKey={(item) => item.href}>
-            {(item) => <ExternalLink href={item.href}>{item.label}</ExternalLink>}
+            {(item) => (
+              <>
+                <span className="entry__title">
+                  <ExternalLink href={item.href}>{item.label}</ExternalLink>
+                </span>
+                <div className="entry__note">{item.note}</div>
+              </>
+            )}
           </EntryList>
         </Section>
       </div>

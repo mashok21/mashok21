@@ -8,7 +8,7 @@ export default function Consulting() {
         <SectionHeader
           eyebrow="Practice"
           title="Consulting"
-          intro="Independent macro research advisory for Stonelink Investment Labs – putting Austrian capital theory to work as a paid, ongoing engagement, not an academic exercise."
+          intro="Independent macro research advisory for Stonelink Investment Labs – putting Austrian capital theory to work as an industry consulting engagement, not an academic exercise."
         />
 
         <Section title="Stonelink Investment Labs">
