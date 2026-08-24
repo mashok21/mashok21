@@ -282,28 +282,23 @@ a:hover {
   color: var(--bg-elevated);
 }
 
-.stacked-link {
+.btn--gold {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.btn--gold:hover {
+  background: var(--gold);
+  color: var(--bg-elevated);
+}
+
+.btn--linkedin {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.3em;
-  color: var(--navy);
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
   line-height: 1.1;
   text-align: center;
-}
-
-.stacked-link:hover {
-  color: var(--gold);
-}
-
-.stacked-link__accent {
-  text-decoration: underline;
-  text-decoration-color: var(--gold);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
 }
 
 .sr-only {
