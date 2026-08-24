@@ -372,11 +372,18 @@ a:hover {
 }
 
 /* Full-stack layer diagram */
-.stack {
+.stack-layer--orchestration {
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
   margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.stack {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .stack-layer {

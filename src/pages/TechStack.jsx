@@ -1,13 +1,26 @@
 import SectionHeader from '../components/SectionHeader'
 import ExternalLink from '../components/ExternalLink'
 
+const orchestration = {
+  key: 'orchestration',
+  label: 'ai & agent orchestration',
+  color: 'var(--navy-deep)',
+  tags: ['LangGraph', 'RAG', 'Gemini', 'Claude'],
+}
+
 const layers = [
   { key: 'frontend', label: 'frontend', color: 'var(--navy)', tags: ['React', 'Vite'] },
   {
-    key: 'backend',
-    label: 'backend',
+    key: 'backend-mern',
+    label: 'backend · mern',
     color: 'var(--gold)',
-    tags: ['Node.js', 'Express', 'Django', 'DRF', 'MongoDB'],
+    tags: ['Node.js', 'Express', 'MongoDB'],
+  },
+  {
+    key: 'backend-python',
+    label: 'backend · python',
+    color: 'var(--gold)',
+    tags: ['Django', 'DRF'],
   },
   {
     key: 'data',
@@ -59,6 +72,21 @@ export default function TechStack() {
           eyebrow="$ cat tech_stack.json"
           title="{ full-stack · python · applied data science }"
         />
+
+        <div
+          className="stack-layer stack-layer--orchestration"
+          style={{ '--layer-color': orchestration.color }}
+        >
+          <div className="stack-layer__label">{orchestration.label}</div>
+          <div className="tech-tags">
+            {orchestration.tags.map((tag) => (
+              <span className="tech-tag" key={tag}>
+                {tag}
+              </span>
+            ))}
+          </div>
+          <span className="stack-layer__connector">▾</span>
+        </div>
 
         <div className="stack">
           {layers.map((layer, i) => (
