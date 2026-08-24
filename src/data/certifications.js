@@ -7,15 +7,17 @@
 //
 // The former "AI and Tooling" bucket is split into groups that mirror the
 // actual architecture layers of austrianprocess.com. "Tech Stack" nests
-// "Web Full-Stack" (frontend + backend, the two halves of the site's
-// request/response layer), "Programming Languages" (general-purpose
-// language fundamentals: C, and Python taught as a language rather than
-// as a data-science tool), and "Data Science" (Python applied to data
-// analysis and ML) as a tree. AI and Agent Orchestration sits above that
-// as its own top-level group rather than a peer of frontend/backend –
-// it's the layer that drives the other two, not one more item alongside
-// them, the same tech-stack-as-narrative principle used to describe that
-// project on the Austrian Process page.
+// "Web Full-Stack" (a flat list, not split into Frontend/Backend – the
+// only "backend" credential on hand, the MERN course, is itself a
+// full-stack certificate, so filing it under "Backend" alongside a
+// frontend-only JS credential misrepresented it), "Programming Languages"
+// (general-purpose language fundamentals: C, and Python taught as a
+// language rather than as a data-science tool), and "Data Science"
+// (Python applied to data analysis and ML) as a tree. AI and Agent
+// Orchestration sits above that as its own top-level group rather than a
+// peer of frontend/backend – it's the layer that drives the other two,
+// not one more item alongside them, the same tech-stack-as-narrative
+// principle used to describe that project on the Austrian Process page.
 
 export const certificationGroups = [
   {
@@ -24,30 +26,20 @@ export const certificationGroups = [
     subgroups: [
       {
         theme: 'Web Full-Stack',
-        subgroups: [
+        entries: [
           {
-            theme: 'Frontend',
-            entries: [
-              {
-                title: 'Introduction to JavaScript',
-                issuer: 'Great Learning',
-                url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
-                date: 'Aug 2026',
-                note: 'Core language for the front end of this site.',
-              },
-            ],
+            title: 'Introduction to JavaScript',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/BJWLOGFC',
+            date: 'Aug 2026',
+            note: 'Core language for the front end of this site.',
           },
           {
-            theme: 'Backend',
-            entries: [
-              {
-                title: 'Full Stack Web Development with MERN Stack',
-                issuer: 'Great Learning',
-                url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
-                date: 'Aug 2026',
-                note: 'MongoDB, Express, React and Node, the stack behind this site.',
-              },
-            ],
+            title: 'Full Stack Web Development with MERN Stack',
+            issuer: 'Great Learning',
+            url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
+            date: 'Aug 2026',
+            note: 'MongoDB, Express, React and Node — the full stack behind this site.',
           },
         ],
       },
