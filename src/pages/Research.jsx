@@ -8,7 +8,7 @@ export default function Research() {
   return (
     <div className="page">
       <div className="container">
-        <SectionHeader eyebrow="Research" title="Doctoral work, publications and presentations" />
+        <SectionHeader eyebrow="Scholarship" title="Doctoral work, publications and presentations" />
 
         <Section title="PhD progress">
           <p>

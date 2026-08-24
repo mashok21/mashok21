@@ -6,7 +6,7 @@ export default function Consulting() {
     <div className="page">
       <div className="container">
         <SectionHeader
-          eyebrow="Practice"
+          eyebrow="Engagement"
           title="Consulting"
           intro="Independent macro research advisory for Stonelink Investment Labs – putting Austrian capital theory to work as an industry consulting engagement, not an academic exercise."
         />

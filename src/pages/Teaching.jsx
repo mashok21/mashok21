@@ -79,7 +79,7 @@ export default function Teaching() {
   return (
     <div className="page">
       <div className="container">
-        <SectionHeader eyebrow="Teaching" title="Current and past teaching roles" intro={pedagogyNote} />
+        <SectionHeader eyebrow="Academia" title="Current and past teaching roles" intro={pedagogyNote} />
         <RoleList roles={current} label="Current" />
         {past.length > 0 ? <EntryGroupTree group={pastTree} /> : null}
         <TalkList items={talks} />

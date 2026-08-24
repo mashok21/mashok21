@@ -44,7 +44,7 @@ export default function IbbiValuation() {
     <div className="page">
       <div className="container">
         <SectionHeader
-          eyebrow="Practice"
+          eyebrow="Credential"
           title="IBBI Registered Valuer"
           intro="Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
         />
@@ -107,10 +107,10 @@ export default function IbbiValuation() {
               </li>
             </ul>
             <p>
-              – a statutory requirement of those processes, not a discretionary exercise. Sample
-              engagements have spanned <em>deep-tech manufacturing</em> (an AI-robotics hardware
-              company) and <em>technology services</em> (a software and data-analytics
-              consultancy), using the Income Approach (Discounted Free Cash Flow method) on a
+              – a statutory requirement of those processes, not a discretionary exercise.
+              Assignments to date have included clients in <em>deep-tech manufacturing</em>
+              (AI-robotics hardware) and <em>technology services</em> (software and
+              data-analytics), using the Income Approach (Discounted Free Cash Flow method) on a
               going-concern basis, with a CAPM-derived cost of equity.
             </p>
           </div>

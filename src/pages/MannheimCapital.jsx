@@ -9,7 +9,7 @@ export default function MannheimCapital() {
     <div className="page">
       <div className="container">
         <SectionHeader
-          eyebrow="Practice"
+          eyebrow="Venture"
           title="Mannheim Capital"
           intro="A boutique mutual fund distribution practice in Bengaluru. The practice is built on capital stewardship aligned with time, not prediction or market timing."
         />
