@@ -50,6 +50,24 @@ p {
   margin: 0 0 var(--space-2);
 }
 
+.prose ul {
+  margin: 0 0 var(--space-2);
+  padding-left: 1.3em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose li::marker {
+  color: var(--gold);
+}
+
+.prose em {
+  font-style: italic;
+  color: var(--navy);
+}
+
 a {
   color: var(--navy);
   text-decoration-color: var(--gold);

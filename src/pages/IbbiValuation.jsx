@@ -62,33 +62,56 @@ export default function IbbiValuation() {
         </Section>
 
         <Section title="Scope">
-          <p>
-            Securities or Financial Assets (SFA) is one of three IBBI asset classes for
-            Registered Valuers – alongside Land & Building and Plant & Machinery – each with its
-            own registration and valuation examination under the Companies (Registered Valuers
-            and Valuation) Rules, 2017, framed under Section 247 of the Companies Act, 2013,
-            which designates IBBI as the valuation authority. The SFA class covers valuation of
-            shares, debentures and other securities or financial instruments, and is engaged
-            wherever company law or insolvency law specifically calls for a Registered Valuer in
-            this class: statutory share valuations under the Companies Act (including
-            preferential allotments, buy-backs and schemes of compromise or arrangement), and
-            fair value and liquidation value determinations for financial assets during corporate
-            insolvency resolution and liquidation under the IBC.
-          </p>
+          <div className="prose">
+            <p>
+              <em>Securities or Financial Assets (SFA)</em> is one of three IBBI asset classes
+              for Registered Valuers – alongside <em>Land & Building</em> and{' '}
+              <em>Plant & Machinery</em> – each with its own registration and valuation
+              examination under the Companies (Registered Valuers and Valuation) Rules, 2017,
+              framed under <em>Section 247</em> of the Companies Act, 2013, which designates IBBI
+              as the valuation authority.
+            </p>
+            <p>
+              The SFA class covers valuation of shares, debentures and other securities or
+              financial instruments, and is engaged wherever company law or insolvency law
+              specifically calls for a Registered Valuer in this class:
+            </p>
+            <ul>
+              <li>
+                <em>Statutory share valuations</em> under the Companies Act – including
+                preferential allotments, buy-backs and schemes of compromise or arrangement
+              </li>
+              <li>
+                <em>Fair value</em> and <em>liquidation value</em> determinations for financial
+                assets during corporate insolvency resolution and liquidation under the IBC
+              </li>
+            </ul>
+          </div>
         </Section>
 
         <Section title="Assignments">
-          <p>
-            Assignments to date have been equity share valuations for unlisted private limited
-            companies. An SFA Registered Valuer is typically required for the further issue of
-            share capital by way of preferential allotment (Section 62(1)(c) of the Companies
-            Act, 2013, read with Rule 13(1) of the Companies (Share Capital and Debentures)
-            Rules, 2014) and for share buy-backs (Section 68 of the Companies Act, 2013, read
-            with the same Rules) – a statutory requirement of those processes, not a
-            discretionary exercise. Sample assignments have used the Income Approach
-            (Discounted Free Cash Flow method) on a going-concern basis, with a CAPM-derived
-            cost of equity.
-          </p>
+          <div className="prose">
+            <p>
+              Assignments to date have been <em>equity share valuations</em> for unlisted private
+              limited companies. An SFA Registered Valuer is typically required for:
+            </p>
+            <ul>
+              <li>
+                the <em>further issue of share capital</em> by way of preferential allotment
+                (Section 62(1)(c) of the Companies Act, 2013, read with Rule 13(1) of the
+                Companies (Share Capital and Debentures) Rules, 2014)
+              </li>
+              <li>
+                <em>share buy-backs</em> (Section 68 of the Companies Act, 2013, read with the
+                same Rules)
+              </li>
+            </ul>
+            <p>
+              – a statutory requirement of those processes, not a discretionary exercise. Sample
+              assignments have used the <em>Income Approach</em> (Discounted Free Cash Flow
+              method) on a going-concern basis, with a CAPM-derived cost of equity.
+            </p>
+          </div>
         </Section>
 
         <Section title="Resources">
