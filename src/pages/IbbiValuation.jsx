@@ -85,7 +85,9 @@ export default function IbbiValuation() {
             Act, 2013, read with Rule 13(1) of the Companies (Share Capital and Debentures)
             Rules, 2014) and for share buy-backs (Section 68 of the Companies Act, 2013, read
             with the same Rules) – a statutory requirement of those processes, not a
-            discretionary exercise.
+            discretionary exercise. Sample assignments have used the Income Approach
+            (Discounted Free Cash Flow method) on a going-concern basis, with a CAPM-derived
+            cost of equity.
           </p>
         </Section>
 
