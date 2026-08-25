@@ -26,7 +26,7 @@ export const teachingRoles = [
     period: 'Apr 2026 – Jun 2026',
     status: 'past',
     description:
-      'Blended course for a cohort of mid-to-senior working professionals, part of the EMBA program.',
+      "Blended course for a cohort of mid-to-senior working professionals, pairing Western business-ethics frameworks with Indian philosophical concepts rather than teaching them as separate tracks: the Fraud Triangle read through Raga, Maya and Viveka; information asymmetry through Satya; the Triple Bottom Line through Dharma and Lokasamgraha; and a session on Vedanta contrasting Indian, US and East Asian models of work culture around Dharma as contextual duty. Grounded in cases including Satyam, Wells Fargo and Theranos.",
   },
   {
     title: 'Adjunct Faculty, Ethical Foundations of Finance and Auditing',
