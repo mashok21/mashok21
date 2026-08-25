@@ -10,7 +10,7 @@ export const teachingRoles = [
     period: 'Sep 2025 – Present',
     status: 'current',
     description:
-      'Teaching Statistics for Decision Making, Managerial Economics and Business Research Methods to MBA students across two semesters. All three courses are practitioner-anchored, with emphasis on reading quantitative patterns and economic reasoning in real business contexts.',
+      'Teaching Statistics for Decision Making, Managerial Economics and Business Research Methods across two semesters, to an MBA cohort that includes Indian defence personnel on study leave. All three courses are practitioner-anchored, with emphasis on reading quantitative patterns and economic reasoning in real business contexts.',
   },
   {
     title: 'Adjunct Faculty, Business Economics (Foundation Course, MBA & BBA)',
