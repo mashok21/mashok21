@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'Duration Is the Only Risk',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/duration-is-the-only-risk',
+  },
+  {
     title: 'NFOs: Bought High, Sold on Hype',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/sector-funds-get-launched-at-the-top-not-the-bottom',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'We Have a Coordination Problem',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/we-have-a-coordination-problem',
-  },
-  {
-    title: 'Discipline Over Prediction',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/discipline-over-prediction',
   },
 ]
