@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'Insurance - Are We Solving the Wrong Problem?',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/are-we-solving-the-wrong-problem',
+  },
+  {
     title: 'Duration Is the Only Risk',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/duration-is-the-only-risk',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'Why Quiet Markets Deserve More Suspicion',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/to-samuelson-with-marginal-annotations',
-  },
-  {
-    title: 'We Have a Coordination Problem',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/we-have-a-coordination-problem',
   },
 ]
