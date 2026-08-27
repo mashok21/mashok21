@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'Two Kinds of Bets',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/two-kinds-of-bets',
+  },
+  {
     title: 'Insurance - Are We Solving the Wrong Problem?',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/are-we-solving-the-wrong-problem',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'Policy Rate Is the Headline',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/policy-rate-is-the-headline',
-  },
-  {
-    title: 'Why Quiet Markets Deserve More Suspicion',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/to-samuelson-with-marginal-annotations',
   },
 ]
