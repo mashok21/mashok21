@@ -35,7 +35,7 @@ This file is the single source of truth for mashok21.com. Items marked `[MISSING
 
 ---
 
-## 2. Continuous Learning (Licenses & Certifications — 21 total)
+## 2. Continuous Learning (Licenses & Certifications — 22 total)
 
 **Site treatment:** each entry's issuer name links out where the author supplied a live verification URL (14 of 21, corrected several credential-ID OCR misreads from the original LinkedIn screenshots in the process — see below). The remaining 7 fall back to the issuing organization's homepage rather than a guessed or constructed verify link. Implemented in `src/data/certifications.js`. The former "AI and Tooling" bucket is split into four groups (Frontend; Backend and Full-Stack; AI and Agent Orchestration; Data and Python) that mirror the architecture layers of austrianprocess.com — the same tech-stack-as-narrative principle used on the Austrian Process page.
 
@@ -51,6 +51,7 @@ AI and Agent Orchestration
 - Certificate of Completion: AI Fluency Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Fluency: Framework & Foundations — Anthropic — Issued Aug 2026 — Credential ID cxi7mj9yzs8h
 - AI Agent Workflows Using LangGraph — Great Learning — Issued Aug 2026 — Credential ID NBLBREOQ (corrected; verify URL extracted directly from the certificate PDF's text layer)
+- TCS iON Career Edge - Generative AI Essentials — Tata Consultancy Services — Issued 27 Aug 2026 — Cert ID 8766-33344903-1016. Course 05–27 Aug 2026; assessment score 92/100 (pass mark 60), Completed/Pass. No public verify URL found; links to tcsion.com homepage. Source: certificate and activity report PDFs found in Windows Downloads folder.
 - Foundation: Introduction to LangGraph - Python — LangChain — Issued Aug 2026 — Credential ID lcopyzzetp
 - AI For Everyone — DeepLearning.AI — Issued Oct 2021 — Credential ID DQNYV34AHLSS
 

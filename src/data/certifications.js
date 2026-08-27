@@ -136,6 +136,13 @@ export const certificationGroups = [
         note: 'Multi-step agent orchestration, informs the RAG system behind austrianprocess.com.',
       },
       {
+        title: 'TCS iON Career Edge - Generative AI Essentials',
+        issuer: 'Tata Consultancy Services',
+        url: 'https://www.tcsion.com',
+        date: 'Aug 2026',
+        note: 'Foundations of AI/ML, generative AI fundamentals, and prompt engineering. Scored 92/100.',
+      },
+      {
         title: 'Foundation: Introduction to LangGraph (Python)',
         issuer: 'LangChain',
         url: 'https://academy.langchain.com/certificates/lcopyzzetp',
