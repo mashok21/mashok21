@@ -7,7 +7,8 @@ function EntryRow(entry) {
     <>
       <span className="entry__title">{entry.title}</span>
       <span className="entry__meta">
-        {entry.url ? <ExternalLink href={entry.url}>{entry.issuer}</ExternalLink> : entry.issuer}, {entry.date}
+        {entry.url ? <ExternalLink href={entry.url}>{entry.issuer}</ExternalLink> : entry.issuer}
+        {entry.date ? <>, {entry.date === 'In progress' ? <em>{entry.date}</em> : entry.date}</> : null}
       </span>
       <div className="entry__note">{entry.note}</div>
     </>

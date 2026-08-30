@@ -44,9 +44,9 @@ export default function IbbiValuation() {
     <div className="page">
       <div className="container">
         <SectionHeader
-          eyebrow="Credential"
+          eyebrow="Practice"
           title="IBBI Registered Valuer"
-          intro="Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
+          intro="Equity valuations for closely held and venture-backed companies — primary funding rounds, secondary transfers and buy-backs — as a Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
         />
 
         <Section title="Credential">

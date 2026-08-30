@@ -8,7 +8,7 @@ const links = [
   { to: '/austrianprocess', label: 'Austrian Process', kind: 'Applied Philosophy' },
   { to: '/mannheim-capital', label: 'Mannheim Capital', kind: 'Venture' },
   { to: '/consulting', label: 'Consulting', kind: 'Engagement' },
-  { to: '/ibbi-valuation', label: 'IBBI Valuation', kind: 'Credential' },
+  { to: '/ibbi-valuation', label: 'IBBI Valuation', kind: 'Practice' },
   { to: '/teaching', label: 'Teaching', kind: 'Academia' },
   { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/tech-stack', label: 'Tech Stack' },
