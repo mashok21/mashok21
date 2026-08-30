@@ -46,7 +46,7 @@ export default function IbbiValuation() {
         <SectionHeader
           eyebrow="Practice"
           title="IBBI Registered Valuer"
-          intro="Equity valuations for closely held and venture-backed companies — primary funding rounds, secondary transfers and buy-backs — as a Registered Valuer, Securities or Financial Assets, empanelled with the Insolvency and Bankruptcy Board of India."
+          intro="Equity valuations for closely held and venture-backed companies — primary funding rounds, secondary transfers and buy-backs — carried out as a government-licensed valuer under India's Insolvency and Bankruptcy Board (IBBI), the regulator that certifies valuers for company law and insolvency matters."
         />
 
         <Section title="Credential">
