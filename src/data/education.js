@@ -1,8 +1,7 @@
-// Sourced from master_profile.md, Appendix: Education, plus the CFA/CA
-// credentials from Section 2 (moved here under "Professional" so the tree
-// covers the full academic + professional path in one place; the
-// All-India Rank 45 honor nests under FCA as its `note`, rather than
-// living in a separate flat Honors section).
+// Sourced from master_profile.md, Appendix: Education.
+// CFA, FCA and the IBBI Registered Valuer license are professional
+// qualifications, not academic education — they live in
+// `qualifications.js` instead.
 
 export const educationTree = {
   theme: 'Education',
@@ -49,23 +48,6 @@ export const educationTree = {
           title: 'High School',
           issuer: 'The Hyderabad Public School Ramanthapur (HPS-R)',
           date: '',
-        },
-      ],
-    },
-    {
-      theme: 'Professional',
-      entries: [
-        {
-          title: 'CFA Charterholder',
-          issuer: 'CFA Institute',
-          date: '2011',
-          url: 'https://credentials.cfainstitute.org/d9c923b3-0c64-4dd1-9e1d-b3a6d5facf13#acc.kOMDRatq',
-        },
-        {
-          title: 'Fellow Chartered Accountant (FCA)',
-          issuer: 'Institute of Chartered Accountants of India',
-          date: 'Associate (ACA) Feb 2005 → Fellow (FCA) Oct 2015',
-          note: 'All-India Rank 45, ICAI Professional Education Examination-II (May 2003).',
         },
       ],
     },

@@ -16,7 +16,7 @@ export default function Qualifications() {
           title="Qualifications, education and honors"
         />
 
-        <Section title="Qualifications">
+        <Section title="Professional Qualifications">
           <EntryList items={qualifications}>
             {(q) => (
               <>
