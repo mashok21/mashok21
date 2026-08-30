@@ -232,7 +232,7 @@ a:hover {
   left: calc(-1 * var(--space-3) - 2px);
   width: var(--space-3);
   height: 1px;
-  background: var(--border);
+  background: var(--branch-color, var(--border));
 }
 
 .entry-tree__branches .entry-group__title,

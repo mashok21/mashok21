@@ -21,11 +21,12 @@ function EntryRow(entry) {
 // as a tree. Heading level increases with depth so nesting is legible.
 export default function EntryGroupTree({ group, depth = 0 }) {
   const level = Math.min(2 + depth, 6)
+  const branchStyle = group.color ? { '--branch-color': group.color } : undefined
 
   if (group.subgroups) {
     const Heading = `h${level}`
     return (
-      <section className="entry-tree">
+      <section className="entry-tree" style={branchStyle}>
         <Heading className="entry-tree__title">{group.theme}</Heading>
         {group.note ? <p className="text-muted entry-tree__note">{group.note}</p> : null}
         <div className="entry-tree__branches">
@@ -38,7 +39,7 @@ export default function EntryGroupTree({ group, depth = 0 }) {
   }
 
   return (
-    <Section title={group.theme} level={level}>
+    <Section title={group.theme} level={level} style={branchStyle}>
       <EntryList items={group.entries}>{EntryRow}</EntryList>
     </Section>
   )

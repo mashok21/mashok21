@@ -2,12 +2,18 @@
 // CFA, FCA and the IBBI Registered Valuer license are professional
 // qualifications, not academic education — they live in
 // `qualifications.js` instead.
+//
+// Each branch's `color` sets the tree connector's tint, darkest at the
+// highest level (Doctoral) and fading toward the default border color at
+// the lowest (Undergraduate & School), so the tree reads as a progression
+// rather than a flat list.
 
 export const educationTree = {
   theme: 'Education',
   subgroups: [
     {
       theme: 'Doctoral Studies',
+      color: 'var(--gold)',
       entries: [
         {
           title: 'Doctor of Philosophy (PhD), Economics',
@@ -18,6 +24,7 @@ export const educationTree = {
     },
     {
       theme: 'Postgraduate Studies',
+      color: 'var(--gold-soft)',
       entries: [
         {
           title: 'Master of Arts (MA), Economics',
