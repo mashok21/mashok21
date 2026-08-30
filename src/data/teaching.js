@@ -26,7 +26,7 @@ export const teachingRoles = [
     period: 'Apr 2026 – Jun 2026',
     status: 'past',
     description:
-      "Blended course for a cohort of mid-to-senior working professionals, reading Western business ethics through an Indian philosophical lens — Dharma, Satya, the Bhagavad Gita's Sthitaprajna — grounded in cases like Satyam and Wells Fargo.",
+      "Blended course for a cohort of mid-to-senior working professionals. It reads Western business ethics through an Indian philosophical lens, including Dharma, Satya and the Bhagavad Gita's Sthitaprajna, grounded in cases like Satyam and Wells Fargo.",
   },
   {
     title: 'Adjunct Faculty, Ethical Foundations of Finance and Auditing',

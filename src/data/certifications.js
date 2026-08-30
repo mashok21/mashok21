@@ -39,7 +39,7 @@ export const certificationGroups = [
             issuer: 'Great Learning',
             url: 'https://www.mygreatlearning.com/certificate/QTVXTJMW',
             date: 'Aug 2026',
-            note: 'MongoDB, Express, React and Node — the full stack behind this site.',
+            note: 'MongoDB, Express, React and Node. The full stack behind this site.',
           },
         ],
       },

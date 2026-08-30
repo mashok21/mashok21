@@ -5,7 +5,7 @@ export const phd = {
   institution: 'Srinivas University',
   status: 'In progress',
   description:
-    'Doctoral research in Austrian economics, capital theory and business cycles, applying Austrian Business Cycle Theory (ABCT) to the current technology and AI investment cycle – reading capital-structure distortions, credit-fuelled malinvestment and entrepreneurial decision-making under uncertainty in how the sector allocates capital.',
+    "Doctoral research in Austrian economics, capital theory and business cycles. It applies Austrian Business Cycle Theory (ABCT) to the current technology and AI investment cycle, reading capital-structure distortions, credit-fuelled malinvestment and entrepreneurial decision-making under uncertainty in how the sector allocates capital.",
 }
 
 export const publications = [

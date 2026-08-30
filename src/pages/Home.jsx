@@ -22,7 +22,7 @@ export default function Home() {
         <p className="eyebrow">Bengaluru, India</p>
         <h1>Ashok M</h1>
         <p style={{ fontSize: '1.1rem', maxWidth: '38rem' }}>
-          Ashok M works at the intersection of economic theory and capital markets – through
+          Ashok M works at the intersection of economic theory and capital markets. His work spans
           independent macro research, a boutique valuation and wealth advisory practice (Mannheim
           Capital), and teaching at Bengaluru business schools.
         </p>

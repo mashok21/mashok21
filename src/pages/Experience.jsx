@@ -34,7 +34,7 @@ export default function Experience() {
         <SectionHeader
           eyebrow="Background"
           title="Work history and industry experience"
-          intro="Twenty years in financial markets – equity research, wealth management, investment banking and corporate-finance leadership – grounded in an early foundation in audit, before returning to independent research and practice."
+          intro="Twenty years in financial markets, including equity research, wealth management, investment banking and corporate-finance leadership. It began with an early foundation in audit, before returning to independent research and practice."
         />
         {experienceGroups.map((group) => (
           <RoleGroup group={group} key={group.theme} />

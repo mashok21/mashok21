@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'stonelink-monte-carlo-simulation',
     tags: ['Django', 'DRF', 'React', 'NumPy'],
-    desc: 'Monte Carlo portfolio risk engine – 3,000-path simulations, NumPy-vectorized, positive semi-definite covariance repair. Deployed on Railway + Vercel for Stonelink Investment Labs; codebase client-confidential.',
+    desc: 'Monte Carlo portfolio risk engine. Runs 3,000-path simulations, NumPy-vectorized, with positive semi-definite covariance repair. Deployed on Railway + Vercel for Stonelink Investment Labs. Codebase is client-confidential.',
     links: (
       <>
         <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
@@ -49,7 +49,7 @@ const projects = [
   {
     name: 'mutualfundsanalysis',
     tags: ['Python', 'PCA', 'k-means'],
-    desc: 'Mutual fund scheme analysis – descriptive stats, structural PCA, k-means clustering, governed next-month forecasting on scheme-level panel data.',
+    desc: 'Mutual fund scheme analysis. Covers descriptive stats, structural PCA, k-means clustering, and governed next-month forecasting on scheme-level panel data.',
     links: (
       <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
         github.com/mashok21/mutualfundsanalysis
@@ -59,7 +59,7 @@ const projects = [
   {
     name: 'ask-austrian',
     tags: ['LangGraph', 'RAG', 'Gemini', 'Claude'],
-    desc: 'Retrieval-augmented research assistant – MongoDB Atlas vector search, Gemini primary with automatic Claude fallback, dual guardrails blocking financial/investment advice.',
+    desc: 'Retrieval-augmented research assistant. Uses MongoDB Atlas vector search, with Gemini primary and automatic Claude fallback, plus dual guardrails blocking financial or investment advice.',
     links: <ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>,
   },
 ]
