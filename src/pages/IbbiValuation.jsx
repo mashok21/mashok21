@@ -46,7 +46,15 @@ export default function IbbiValuation() {
         <SectionHeader
           eyebrow="Practice"
           title="Private Company Share Valuations"
-          intro="I do equity valuations for closely held and venture-backed companies. This covers primary funding rounds, secondary transfers and buy-backs. I do this work as a government-licensed valuer under India's Insolvency and Bankruptcy Board (IBBI), the regulator that certifies valuers for company law and insolvency matters."
+          intro={
+            <>
+              I do equity valuations for closely held and venture-backed companies, through{' '}
+              <ExternalLink href="https://capadvisors.in">capadvisors.in</ExternalLink>. This
+              covers primary funding rounds, secondary transfers and buy-backs. I do this work as
+              a government-licensed valuer under India's Insolvency and Bankruptcy Board (IBBI),
+              the regulator that certifies valuers for company law and insolvency matters.
+            </>
+          }
         />
 
         <Section title="Credential">
