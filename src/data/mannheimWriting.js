@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'Insurance - How Much Cover Do You Actually Need?',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/how-much-cover-do-you-actually-need',
+  },
+  {
     title: 'Two Kinds of Bets',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/two-kinds-of-bets',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'India Credit: Capex, NBFC Funding, and Refinancing Risk',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/india-credit-capex-nbfc-funding-and-refinancing-risk',
-  },
-  {
-    title: 'Policy Rate Is the Headline',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/policy-rate-is-the-headline',
   },
 ]
