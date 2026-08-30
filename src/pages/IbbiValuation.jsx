@@ -30,12 +30,12 @@ const resources = [
   {
     label: 'Insolvency and Bankruptcy Board of India (IBBI)',
     href: 'https://ibbi.gov.in',
-    note: 'The statutory valuation authority under Section 247 of the Companies Act, 2013, and the regulator of the Registered Valuer framework under the Companies (Registered Valuers and Valuation) Rules, 2017.',
+    note: 'The government body that licenses valuers and regulates company insolvency and liquidation in India, under Section 247 of the Companies Act, 2013 and the Companies (Registered Valuers and Valuation) Rules, 2017.',
   },
   {
     label: 'IOV Registered Valuers Foundation (IOV RVF)',
     href: 'https://iovrvf.org',
-    note: 'The IBBI-recognised Registered Valuers Organisation (RVO) I am enrolled with for the Securities or Financial Assets asset class.',
+    note: 'The IBBI-recognised professional body I am enrolled with for the Securities or Financial Assets license.',
   },
 ]
 
@@ -45,7 +45,7 @@ export default function IbbiValuation() {
       <div className="container">
         <SectionHeader
           eyebrow="Practice"
-          title="IBBI Registered Valuer"
+          title="Private Company Share Valuations"
           intro="Equity valuations for closely held and venture-backed companies — primary funding rounds, secondary transfers and buy-backs — carried out as a government-licensed valuer under India's Insolvency and Bankruptcy Board (IBBI), the regulator that certifies valuers for company law and insolvency matters."
         />
 
@@ -64,26 +64,25 @@ export default function IbbiValuation() {
         <Section title="Scope">
           <div className="prose">
             <p>
-              <em>Securities or Financial Assets (SFA)</em> is one of three IBBI asset classes
-              for Registered Valuers – alongside <em>Land & Building</em> and{' '}
-              <em>Plant & Machinery</em> – each with its own registration and valuation
-              examination under the Companies (Registered Valuers and Valuation) Rules, 2017,
-              framed under <em>Section 247</em> of the Companies Act, 2013, which designates IBBI
-              as the valuation authority.
+              Indian law requires sign-off from an independent, government-licensed valuer for
+              certain private-company share transactions — new shares being issued, a company
+              buying back its own shares, or a company going through insolvency. That licensing
+              is split into three specialisms: <em>Securities or Financial Assets (SFA)</em> –
+              shares, debentures and similar instruments, which is mine – alongside separate
+              licenses for <em>Land & Building</em> and <em>Plant & Machinery</em>. The regulator
+              is the Insolvency and Bankruptcy Board of India (IBBI), under the Companies
+              (Registered Valuers and Valuation) Rules, 2017 (Section 247 of the Companies Act,
+              2013).
             </p>
-            <p>
-              The SFA class covers valuation of shares, debentures and other securities or
-              financial instruments, and is engaged wherever company law or insolvency law
-              specifically calls for a Registered Valuer in this class:
-            </p>
+            <p>An SFA-licensed valuer is called in for:</p>
             <ul>
               <li>
-                <em>Statutory share valuations</em> under the Companies Act – including
-                preferential allotments, buy-backs and schemes of compromise or arrangement
+                <em>Statutory share valuations</em> – new share issuances, buy-backs, and mergers
+                or restructuring schemes, wherever company law requires an independent valuation
               </li>
               <li>
                 <em>Fair value</em> and <em>liquidation value</em> determinations for financial
-                assets during corporate insolvency resolution and liquidation under the IBC
+                assets during corporate insolvency and liquidation proceedings
               </li>
             </ul>
           </div>
@@ -92,26 +91,20 @@ export default function IbbiValuation() {
         <Section title="Assignments">
           <div className="prose">
             <p>
-              Assignments to date have been <em>equity share valuations</em> for unlisted private
-              limited companies. An SFA Registered Valuer is typically required for:
+              Work to date has been <em>equity share valuations</em> for unlisted private
+              companies – the kind of valuation a founder or board needs for a funding round or a
+              buy-back, which the law requires be certified by a licensed valuer rather than done
+              in-house. Clients so far have been in <em>deep-tech manufacturing</em> (AI-robotics
+              hardware) and <em>technology services</em> (software and data analytics).
             </p>
-            <ul>
-              <li>
-                the <em>further issue of share capital</em> by way of preferential allotment
-                (Section 62(1)(c) of the Companies Act, 2013, read with Rule 13(1) of the
-                Companies (Share Capital and Debentures) Rules, 2014)
-              </li>
-              <li>
-                <em>share buy-backs</em> (Section 68 of the Companies Act, 2013, read with the
-                same Rules)
-              </li>
-            </ul>
             <p>
-              – a statutory requirement of those processes, not a discretionary exercise.
-              Assignments to date have included clients in <em>deep-tech manufacturing</em>
-              (AI-robotics hardware) and <em>technology services</em> (software and
-              data-analytics), using the Income Approach (Discounted Free Cash Flow method) on a
-              going-concern basis, with a CAPM-derived cost of equity.
+              The valuations use the <em>Income Approach</em> (Discounted Free Cash Flow) on a
+              going-concern basis, with the cost of equity derived from CAPM – the same core
+              methodology used across investment banking and private equity, applied here under a
+              specific statutory mandate: preferential share allotments (Section 62(1)(c) of the
+              Companies Act, 2013, read with Rule 13(1) of the Companies (Share Capital and
+              Debentures) Rules, 2014) and share buy-backs (Section 68 of the Companies Act, 2013,
+              read with the same Rules).
             </p>
           </div>
         </Section>
