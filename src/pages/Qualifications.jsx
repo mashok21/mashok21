@@ -20,6 +20,7 @@ export default function Qualifications() {
           <EntryList items={qualifications}>
             {(q) => (
               <>
+                {q.logo ? <img className="entry__icon" src={q.logo} alt="" /> : null}
                 <span className="entry__title">
                   {q.path ? <Link to={q.path}>{q.title}</Link> : q.title}
                 </span>

@@ -257,6 +257,21 @@ a:hover {
   border-bottom: none;
 }
 
+.entry__icon {
+  height: 1.1em;
+  width: auto;
+  max-width: 90px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  filter: grayscale(1) opacity(0.75);
+}
+
+@media (prefers-color-scheme: dark) {
+  .entry__icon {
+    filter: grayscale(1) invert(1) opacity(0.75);
+  }
+}
+
 .entry__title {
   font-weight: 600;
   color: var(--text);
