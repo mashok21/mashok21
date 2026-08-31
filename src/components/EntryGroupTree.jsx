@@ -21,7 +21,13 @@ function EntryRow(entry) {
 // as a tree. Heading level increases with depth so nesting is legible.
 export default function EntryGroupTree({ group, depth = 0 }) {
   const level = Math.min(2 + depth, 6)
-  const branchStyle = group.color ? { '--branch-color': group.color } : undefined
+  const branchStyle =
+    group.color || group.gradient
+      ? {
+          ...(group.color ? { '--branch-color': group.color } : null),
+          ...(group.gradient ? { '--branch-gradient': group.gradient } : null),
+        }
+      : undefined
 
   if (group.subgroups) {
     const Heading = `h${level}`

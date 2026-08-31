@@ -216,9 +216,19 @@ a:hover {
 }
 
 .entry-tree__branches {
-  border-left: 2px solid var(--border);
+  position: relative;
   padding-left: var(--space-3);
   margin-left: var(--space-1);
+}
+
+.entry-tree__branches::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background: var(--branch-gradient, var(--border));
 }
 
 /* Generic so it applies at any nesting depth: a branch's direct children

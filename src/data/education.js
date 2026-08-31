@@ -3,13 +3,14 @@
 // qualifications, not academic education — they live in
 // `qualifications.js` instead.
 //
-// Each branch's `color` sets the tree connector's tint, darkest at the
-// highest level (Doctoral) and fading through the gold gradient down to
-// the lowest (Undergraduate & School), so the tree reads as a progression
+// The trunk `gradient` runs the vertical connector line through the gold
+// scale top to bottom; each branch's `color` tints its own tick to match
+// its position on that gradient, so the tree reads as a progression
 // rather than a flat list.
 
 export const educationTree = {
   theme: 'Education',
+  gradient: 'linear-gradient(to bottom, var(--gold), var(--gold-soft), var(--gold-pale))',
   subgroups: [
     {
       theme: 'Doctoral Studies',
