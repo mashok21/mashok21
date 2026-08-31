@@ -13,14 +13,15 @@ export default function Consulting() {
 
         <Section title="Stonelink Investment Labs">
           <p>
-            A private research and intelligence firm incorporated on 9 September 2019 and
-            headquartered in R.A. Puram, Chennai, tracking Indian capital markets, macro research
-            and quantitative analysis.
+            Stonelink is a private research and intelligence firm based in R.A. Puram, Chennai,
+            incorporated in September 2019. It tracks Indian capital markets through macro
+            research and quantitative analysis.
           </p>
           <p>
-            Research Economist, Jan 2026 – Present, Bengaluru. Produces periodic commentary on
-            credit conditions, liquidity cycles, and interest-rate transmission to inform capital
-            allocation decisions for investment teams.
+            I've served as Research Economist since January 2026, working out of Bengaluru. The
+            role involves producing periodic commentary on credit conditions, liquidity cycles,
+            and interest-rate transmission, work that feeds directly into capital allocation
+            decisions for investment teams.
           </p>
         </Section>
 
