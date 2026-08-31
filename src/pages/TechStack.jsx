@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'stonelink-monte-carlo-simulation',
     tags: ['Django', 'DRF', 'React', 'NumPy'],
-    desc: 'Monte Carlo portfolio risk engine. Runs 3,000-path simulations, NumPy-vectorized, with positive semi-definite covariance repair. Deployed on Railway + Vercel for Stonelink Investment Labs. Codebase is client-confidential.',
+    desc: 'A Monte Carlo portfolio risk engine built for Stonelink Investment Labs and deployed on Railway and Vercel. It runs 3,000-path simulations, vectorized with NumPy, and repairs the covariance matrix to keep it positive semi-definite. The codebase is client-confidential.',
     links: (
       <>
         <ExternalLink href="https://github.com/mashok21/stonelink-monte-carlo-simulation">
@@ -49,7 +49,7 @@ const projects = [
   {
     name: 'mutualfundsanalysis',
     tags: ['Python', 'PCA', 'k-means'],
-    desc: 'Mutual fund scheme analysis. Covers descriptive stats, structural PCA, k-means clustering, and governed next-month forecasting on scheme-level panel data.',
+    desc: 'An analysis of mutual fund schemes that starts with descriptive stats, moves through structural PCA and k-means clustering, and ends with governed next-month forecasting on scheme-level panel data.',
     links: (
       <ExternalLink href="https://github.com/mashok21/mutualfundsanalysis">
         github.com/mashok21/mutualfundsanalysis
@@ -59,7 +59,7 @@ const projects = [
   {
     name: 'ask-austrian',
     tags: ['LangGraph', 'RAG', 'Gemini', 'Claude'],
-    desc: 'Retrieval-augmented research assistant. Uses MongoDB Atlas vector search, with Gemini primary and automatic Claude fallback, plus dual guardrails blocking financial or investment advice.',
+    desc: 'A retrieval-augmented research assistant that searches over MongoDB Atlas vector search, running Gemini as the primary model with automatic fallback to Claude. Dual guardrails keep it from giving financial or investment advice.',
     links: <ExternalLink href="https://austrianprocess.com">austrianprocess.com</ExternalLink>,
   },
 ]
