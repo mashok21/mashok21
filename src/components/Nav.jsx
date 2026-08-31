@@ -27,9 +27,10 @@ export default function Nav() {
               <NavLink
                 to={link.to}
                 end={link.end}
+                title={link.kind}
                 className={({ isActive }) => (isActive ? 'active' : undefined)}
               >
-                {link.kind || link.label}
+                {link.label}
               </NavLink>
             </li>
           ))}

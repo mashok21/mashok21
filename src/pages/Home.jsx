@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { interests } from '../data/home'
 import ExternalLink from '../components/ExternalLink'
 import EntryList from '../components/EntryList'
@@ -34,6 +35,12 @@ export default function Home() {
             Download CV
           </a>
         </div>
+
+        <p className="text-muted page-intro" style={{ marginTop: '1.5rem' }}>
+          Currently building <Link to="/austrianprocess">Austrian Process</Link>, an interactive
+          platform that turns Austrian capital theory into hands-on tools: a live model of capital
+          structure, real interest-rate data, and a research assistant grounded in primary texts.
+        </p>
 
         <Section title="Interests" style={{ marginTop: '3rem' }}>
           <EntryList items={interests} itemKey={(item) => item}>
