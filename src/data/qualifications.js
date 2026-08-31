@@ -9,15 +9,18 @@ export const qualifications = [
     title: 'CFA Charterholder',
     meta: 'CFA Institute, 2011',
     url: 'https://credentials.cfainstitute.org/d9c923b3-0c64-4dd1-9e1d-b3a6d5facf13#acc.kOMDRatq',
+    logo: '/images/logos/cfa-institute.svg',
   },
   {
     title: 'Fellow Chartered Accountant (FCA)',
     meta: 'Institute of Chartered Accountants of India',
     note: 'Associate (ACA) Feb 2005 → Fellow (FCA) Oct 2015. All-India Rank 45, ICAI Professional Education Examination-II (May 2003).',
+    logo: '/images/logos/icai.png',
   },
   {
     title: 'Registered Valuer, Securities or Financial Assets',
     meta: 'Insolvency and Bankruptcy Board of India, 2021',
     path: '/ibbi-valuation',
+    logo: '/images/logos/ibbi.png',
   },
 ]

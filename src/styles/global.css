@@ -257,6 +257,35 @@ a:hover {
   border-bottom: none;
 }
 
+.entry:has(.entry__logo-wrap) {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.entry__logo-wrap {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 44px;
+  padding: 0.35em;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.entry__logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.entry__body {
+  min-width: 0;
+}
+
 .entry__title {
   font-weight: 600;
   color: var(--text);
