@@ -272,7 +272,6 @@ a:hover {
   height: 44px;
   padding: 0.35em;
   background: #ffffff;
-  border: 1px solid var(--border);
   border-radius: 6px;
 }
 
