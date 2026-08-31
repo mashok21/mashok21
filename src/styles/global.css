@@ -257,19 +257,32 @@ a:hover {
   border-bottom: none;
 }
 
-.entry__icon {
-  height: 1.1em;
-  width: auto;
-  max-width: 90px;
-  vertical-align: middle;
-  margin-right: 0.5em;
-  filter: grayscale(1) opacity(0.75);
+.entry:has(.entry__logo-wrap) {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
-@media (prefers-color-scheme: dark) {
-  .entry__icon {
-    filter: grayscale(1) invert(1) opacity(0.75);
-  }
+.entry__logo-wrap {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 44px;
+  padding: 0.35em;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.entry__logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.entry__body {
+  min-width: 0;
 }
 
 .entry__title {
@@ -290,6 +303,24 @@ a:hover {
 
 .entry__meta a:hover {
   color: var(--navy);
+}
+
+.credentials-list .entry {
+  padding: var(--space-2) 0;
+  gap: var(--space-2);
+}
+
+.credentials-list .entry__logo-wrap {
+  width: 64px;
+  height: 64px;
+  padding: 0.6em;
+  border-radius: 8px;
+}
+
+.credentials-list .entry__meta {
+  display: block;
+  margin-left: 0;
+  margin-top: 0.2em;
 }
 
 .entry__note {
