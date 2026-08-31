@@ -30,12 +30,12 @@ const resources = [
   {
     label: 'Insolvency and Bankruptcy Board of India (IBBI)',
     href: 'https://ibbi.gov.in',
-    note: 'The government body that licenses valuers and regulates company insolvency and liquidation in India, under Section 247 of the Companies Act, 2013 and the Companies (Registered Valuers and Valuation) Rules, 2017.',
+    note: 'Designated the Authority for registered valuers by the Central Government under Section 458 of the Companies Act, 2013. Licenses valuers and regulates company insolvency and liquidation in India under the Companies (Registered Valuers and Valuation) Rules, 2017.',
   },
   {
     label: 'IOV Registered Valuers Foundation (IOV RVF)',
     href: 'https://iovrvf.org',
-    note: 'The IBBI-recognised professional body I am enrolled with for the Securities or Financial Assets license.',
+    note: 'The Registered Valuers Organisation (RVO) I am enrolled with for the Securities or Financial Assets Asset Class. IBBI designates RVOs as the first line of regulators for valuers.',
   },
 ]
 
@@ -45,14 +45,14 @@ export default function IbbiValuation() {
       <div className="container">
         <SectionHeader
           eyebrow="Practice"
-          title="Private Company Share Valuations"
+          title="Securities or Financial Assets Valuations"
           intro={
             <>
-              I do equity valuations for closely held and venture-backed companies, through{' '}
+              I do valuations of securities and financial assets, listed and unlisted, through{' '}
               <ExternalLink href="https://capadvisors.in">capadvisors.in</ExternalLink>. This
-              covers primary funding rounds, secondary transfers and buy-backs. I do this work as
-              a government-licensed valuer under India's Insolvency and Bankruptcy Board (IBBI),
-              the regulator that certifies valuers for company law and insolvency matters.
+              covers company law, insolvency, SEBI, and FEMA matters wherever an independent
+              registered valuer is required. Client work to date has focused on equity
+              valuations for closely held and venture-backed companies.
             </>
           }
         />
@@ -72,26 +72,33 @@ export default function IbbiValuation() {
         <Section title="Scope">
           <div className="prose">
             <p>
-              Indian law requires sign-off from an independent, government-licensed valuer for
-              certain private-company share transactions. This includes new shares being issued,
-              a company buying back its own shares, or a company going through insolvency.
-              Valuer licensing is split into three specialisms. Mine is{' '}
-              <em>Securities or Financial Assets (SFA)</em>: shares, debentures and similar
-              instruments. The other two cover <em>Land & Building</em> and{' '}
-              <em>Plant & Machinery</em>. The regulator is the Insolvency and Bankruptcy Board of
-              India (IBBI), under the Companies (Registered Valuers and Valuation) Rules, 2017
-              (Section 247 of the Companies Act, 2013).
+              Since 1 February 2019, only a registered valuer can sign off a valuation under the
+              Companies Act, 2013 or the Insolvency and Bankruptcy Code, 2016. IBBI splits valuer
+              registration into three Asset Classes. Mine is{' '}
+              <em>Securities or Financial Assets (SFA)</em>: equity shares, preference shares,
+              debentures and other securities, listed or unlisted. The other two are{' '}
+              <em>Land & Building</em> and <em>Plant & Machinery</em>. The regulator, the
+              Insolvency and Bankruptcy Board of India (IBBI), is designated the Authority for
+              registered valuers under Section 247 of the Companies Act, 2013, and administers
+              registration under the Companies (Registered Valuers and Valuation) Rules, 2017.
             </p>
             <p>An SFA-licensed valuer is called in for:</p>
             <ul>
               <li>
-                <em>Statutory share valuations.</em> This covers new share issuances, buy-backs,
-                and mergers or restructuring schemes, wherever company law requires an independent
-                valuation.
+                <em>Statutory share valuations.</em> New share issuances, buy-backs, mergers,
+                demergers and other restructuring schemes, and winding up, wherever company law
+                requires an independent valuation.
               </li>
               <li>
                 <em>Fair value</em> and <em>liquidation value</em> determinations for financial
-                assets during corporate insolvency and liquidation proceedings.
+                assets during corporate insolvency and liquidation proceedings under the IBC.
+              </li>
+              <li>
+                <em>SEBI-regulated matters</em> involving listed companies: open offers and
+                takeovers, delisting, and employee stock schemes.
+              </li>
+              <li>
+                <em>Cross-border share pricing</em> under FEMA and RBI regulations.
               </li>
             </ul>
           </div>
@@ -103,9 +110,8 @@ export default function IbbiValuation() {
               Work to date has been <em>equity share valuations</em> for unlisted private
               companies. This is the kind of valuation a founder or board needs for a funding
               round or a buy-back. The law requires it be certified by a licensed valuer rather
-              than done in-house. Clients so far have been in <em>deep-tech manufacturing</em>
-              (AI-robotics hardware) and <em>technology services</em> (software and data
-              analytics).
+              than done in-house. Clients so far have included an <em>AI-robotics hardware
+              manufacturer</em> and a <em>software and data-analytics services company</em>.
             </p>
             <p>
               The valuations use the <em>Income Approach</em> (Discounted Free Cash Flow) on a
