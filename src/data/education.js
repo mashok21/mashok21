@@ -4,7 +4,7 @@
 // `qualifications.js` instead.
 //
 // Each branch's `color` sets the tree connector's tint, darkest at the
-// highest level (Doctoral) and fading toward the default border color at
+// highest level (Doctoral) and fading through the gold gradient down to
 // the lowest (Undergraduate & School), so the tree reads as a progression
 // rather than a flat list.
 
@@ -40,6 +40,7 @@ export const educationTree = {
     },
     {
       theme: 'Undergraduate & School',
+      color: 'var(--gold-pale)',
       entries: [
         {
           title: 'Bachelor of Commerce (BCom), Distance Education',
