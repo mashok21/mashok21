@@ -81,7 +81,7 @@ a:hover {
 
 .container {
   max-width: var(--max-width);
-  margin: 0;
+  margin: 0 auto;
   padding: 0 var(--space-3);
 }
 
@@ -114,7 +114,7 @@ a:hover {
 
 .site-nav__inner {
   max-width: var(--max-width);
-  margin: 0;
+  margin: 0 auto;
   padding: var(--space-2) var(--space-3);
   display: flex;
   flex-wrap: wrap;
@@ -162,7 +162,7 @@ a:hover {
 
 .site-footer__inner {
   max-width: var(--max-width);
-  margin: 0;
+  margin: 0 auto;
   padding: var(--space-3);
   display: flex;
   justify-content: space-between;
