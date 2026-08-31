@@ -257,34 +257,6 @@ a:hover {
   border-bottom: none;
 }
 
-.entry:has(.entry__logo-wrap) {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-}
-
-.entry__logo-wrap {
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 44px;
-  padding: 0.3em 0.6em;
-  background: #ffffff;
-  border-radius: 6px;
-}
-
-.entry__logo {
-  height: 100%;
-  width: auto;
-  max-width: 220px;
-  object-fit: contain;
-}
-
-.entry__body {
-  min-width: 0;
-}
-
 .entry__title {
   font-weight: 600;
   color: var(--text);

@@ -20,20 +20,13 @@ export default function Qualifications() {
           <EntryList items={qualifications}>
             {(q) => (
               <>
-                {q.logo ? (
-                  <span className="entry__logo-wrap">
-                    <img className="entry__logo" src={q.logo} alt={`${q.meta} logo`} />
-                  </span>
-                ) : null}
-                <div className="entry__body">
-                  <span className="entry__title">
-                    {q.path ? <Link to={q.path}>{q.title}</Link> : q.title}
-                  </span>
-                  <span className="entry__meta">
-                    {q.url ? <ExternalLink href={q.url}>{q.meta}</ExternalLink> : q.meta}
-                  </span>
-                  {q.note ? <div className="entry__note">{q.note}</div> : null}
-                </div>
+                <span className="entry__title">
+                  {q.path ? <Link to={q.path}>{q.title}</Link> : q.title}
+                </span>
+                <span className="entry__meta">
+                  {q.url ? <ExternalLink href={q.url}>{q.meta}</ExternalLink> : q.meta}
+                </span>
+                {q.note ? <div className="entry__note">{q.note}</div> : null}
               </>
             )}
           </EntryList>
