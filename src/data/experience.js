@@ -1,17 +1,28 @@
 // Sourced from master_profile.md Section 3 (Professional / Practitioner Experience).
-// Scoped to third-party industry experience only -- Mannheim Capital and the
-// Stonelink consulting engagement are own/independent practice, not
-// employment, and each has its own dedicated page (`/mannheim-capital`,
-// `/consulting`), so both are deliberately excluded here rather than
-// duplicated. Grouped by function rather than strict chronology: Financial
-// Research (equity/macro research and investment banking/deal analysis) vs
-// Corporate Finance (CFO work and the audit/accounting foundation behind
-// it). Roles are reverse-chronological within each group.
+// Mannheim Capital and the IBBI valuation practice are independent practice,
+// not employment, but are listed alongside it since both run concurrently
+// with everything else here; each also has its own dedicated page
+// (`/mannheim-capital`, `/ibbi-valuation`). The Stonelink consulting
+// engagement has its own page too (`/consulting`) and stays excluded here.
+// Grouped by function rather than strict chronology: Financial Research
+// (equity/macro research and investment banking/deal analysis) vs Corporate
+// Finance (CFO work and the audit/accounting foundation behind it). Roles
+// are reverse-chronological within each group.
 
 export const experienceGroups = [
   {
     theme: 'Financial Research',
     roles: [
+      {
+        title: 'Founder',
+        employer: 'Mannheim Capital',
+        period: 'Apr 2014 – Present',
+        location: 'Bengaluru',
+        status: 'current',
+        path: '/mannheim-capital',
+        description:
+          'Independent boutique mutual fund distribution practice, built on capital stewardship aligned with time rather than prediction or market timing.',
+      },
       {
         title: 'Investment Banking Analyst (Private Markets)',
         employer: 'RiverBridge Investment Advisors Private Limited',
@@ -44,6 +55,15 @@ export const experienceGroups = [
   {
     theme: 'Corporate Finance',
     roles: [
+      {
+        title: 'IBBI-Registered Valuer, Securities or Financial Assets',
+        employer: 'capadvisors.in',
+        period: '2021 – Present',
+        status: 'current',
+        path: '/ibbi-valuation',
+        description:
+          'Independent registered-valuer practice: valuations of listed and unlisted securities and financial assets for company law, insolvency, SEBI and FEMA matters.',
+      },
       {
         title: 'India CFO (Consulting Engagement)',
         employer: 'Medicount (including Medicount Healthcare Pvt Ltd and MediCount Global Ltd), a digital health-financing venture backed by Allianz SE',

@@ -39,16 +39,6 @@ export default function Experience() {
         {experienceGroups.map((group) => (
           <RoleGroup group={group} key={group.theme} />
         ))}
-
-        <p
-          className="text-muted"
-          style={{ borderTop: '1px solid var(--border)', paddingTop: 'var(--space-2)' }}
-        >
-          Concurrently, since April 2014, I've run independent practice:{' '}
-          <Link to="/mannheim-capital">Mannheim Capital</Link>, a boutique wealth practice, and,
-          since 2021, IBBI-registered valuation work through{' '}
-          <Link to="/ibbi-valuation">capadvisors.in</Link>.
-        </p>
       </div>
     </div>
   )
