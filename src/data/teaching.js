@@ -16,7 +16,7 @@ export const teachingRoles = [
     title: 'Adjunct Faculty, Business Economics (Foundation Course, MBA & BBA)',
     institution: 'JAIN Online, JAIN (Deemed-to-be University), Bengaluru',
     period: 'Aug 2026',
-    status: 'current',
+    status: 'past',
     description:
       'Foundation Course Series for MBA and BBA students, delivered fully online across four live Saturday sessions.',
   },
