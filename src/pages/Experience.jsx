@@ -36,18 +36,19 @@ export default function Experience() {
           title="Work history and industry experience"
           intro="Twenty years in financial markets, including equity research, wealth management, investment banking and corporate-finance leadership. It began with an early foundation in audit, before returning to independent research and practice."
         />
-        <RoleGroup group={experienceGroups[0]} />
+        {experienceGroups.map((group) => (
+          <RoleGroup group={group} key={group.theme} />
+        ))}
 
-        <p className="text-muted page-intro">
+        <p
+          className="text-muted"
+          style={{ borderTop: '1px solid var(--border)', paddingTop: 'var(--space-2)' }}
+        >
           Concurrently, since April 2014, I've run independent practice:{' '}
           <Link to="/mannheim-capital">Mannheim Capital</Link>, a boutique wealth practice, and,
           since 2021, IBBI-registered valuation work through{' '}
           <Link to="/ibbi-valuation">capadvisors.in</Link>.
         </p>
-
-        {experienceGroups.slice(1).map((group) => (
-          <RoleGroup group={group} key={group.theme} />
-        ))}
       </div>
     </div>
   )
