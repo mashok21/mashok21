@@ -56,6 +56,10 @@ p {
   margin: 0 0 var(--space-2);
 }
 
+.prose {
+  max-width: 42rem;
+}
+
 .prose ul {
   margin: 0 0 var(--space-2);
   padding-left: 1.3em;
@@ -365,7 +369,7 @@ a:hover {
 }
 
 .entry {
-  padding: var(--space-1) 0;
+  padding: var(--space-2) 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -407,9 +411,10 @@ a:hover {
 }
 
 .entry__meta {
-  font-size: 0.85rem;
+  display: block;
+  font-size: 0.9rem;
   color: var(--gold-text);
-  margin-left: 0.4em;
+  margin-top: 0.2em;
 }
 
 .entry__meta a {
@@ -423,7 +428,6 @@ a:hover {
 
 .credentials-list .entry {
   align-items: flex-start;
-  padding: var(--space-2) 0;
   gap: var(--space-3);
   border-bottom: none;
 }
@@ -449,19 +453,13 @@ a:hover {
   font-size: 1.05rem;
 }
 
-.credentials-list .entry__meta {
-  display: block;
-  margin-left: 0;
-  margin-top: 0.25em;
-}
-
 .credentials-list .entry__note {
   margin-top: 0.4em;
 }
 
 .entry__note {
   color: var(--text-muted);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   margin-top: 0.15em;
 }
 
