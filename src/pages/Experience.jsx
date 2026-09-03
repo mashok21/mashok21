@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import EntryList from '../components/EntryList'
+import PositionRow from '../components/PositionRow'
 import { experienceGroups } from '../data/experience'
 import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
@@ -11,16 +11,14 @@ function RoleGroup({ group }) {
       <div className="entry-tree__branches">
         <EntryList items={group.roles} itemKey={(role) => `${role.title}-${role.employer}`}>
           {(role) => (
-            <>
-              <span className="entry__title">
-                {role.path ? <Link to={role.path}>{role.title}</Link> : role.title}
-              </span>
-              <span className="entry__meta">{role.period}</span>
-              <div className="entry__note">
-                <strong>{role.employer}</strong>
-                {role.location ? ` · ${role.location}` : ''}. {role.description}
-              </div>
-            </>
+            <PositionRow
+              title={role.title}
+              path={role.path}
+              institution={role.employer}
+              location={role.location}
+              period={role.period}
+              description={role.description}
+            />
           )}
         </EntryList>
       </div>
