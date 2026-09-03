@@ -11,6 +11,7 @@ function TeachingPositionRow(role) {
   return (
     <PositionRow
       title={role.title}
+      topic={role.topic}
       institution={role.institution}
       period={role.period}
       description={role.description}
