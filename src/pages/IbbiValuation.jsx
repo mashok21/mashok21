@@ -2,6 +2,7 @@ import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
+import usePageMeta from '../hooks/usePageMeta'
 
 const credentials = [
   {
@@ -40,6 +41,11 @@ const resources = [
 ]
 
 export default function IbbiValuation() {
+  usePageMeta(
+    'IBBI Valuation',
+    'IBBI-registered valuations of listed and unlisted securities and financial assets through capadvisors.in, covering company law, insolvency, SEBI and FEMA matters.'
+  )
+
   return (
     <div className="page">
       <div className="container">

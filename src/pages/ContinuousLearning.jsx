@@ -1,8 +1,14 @@
 import SectionHeader from '../components/SectionHeader'
 import EntryGroupTree from '../components/EntryGroupTree'
 import { certificationGroups } from '../data/certifications'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function ContinuousLearning() {
+  usePageMeta(
+    'Continuous Learning',
+    'Certifications and coursework that feed directly into research, teaching or the tools used to build things.'
+  )
+
   return (
     <div className="page">
       <div className="container">

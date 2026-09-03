@@ -12,6 +12,7 @@ import IbbiValuation from './pages/IbbiValuation'
 import TechStack from './pages/TechStack'
 import Qualifications from './pages/Qualifications'
 import Experience from './pages/Experience'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/consulting" element={<Consulting />} />
           <Route path="/ibbi-valuation" element={<IbbiValuation />} />
           <Route path="/tech-stack" element={<TechStack />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

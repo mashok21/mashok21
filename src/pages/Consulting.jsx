@@ -1,7 +1,13 @@
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Consulting() {
+  usePageMeta(
+    'Consulting',
+    'Independent macro research advisory for Stonelink Investment Labs, putting Austrian capital theory to work as an industry consulting engagement.'
+  )
+
   return (
     <div className="page">
       <div className="container">

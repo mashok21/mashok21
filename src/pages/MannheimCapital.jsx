@@ -3,8 +3,14 @@ import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
 import { mannheimArticles } from '../data/mannheimWriting'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function MannheimCapital() {
+  usePageMeta(
+    'Mannheim Capital',
+    'A boutique mutual fund distribution practice in Bengaluru, built on capital stewardship aligned with time, not prediction or market timing.'
+  )
+
   return (
     <div className="page">
       <div className="container">

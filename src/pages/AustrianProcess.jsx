@@ -1,8 +1,14 @@
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import ExternalLink from '../components/ExternalLink'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function AustrianProcess() {
+  usePageMeta(
+    'Austrian Process',
+    'An educational platform that turns Austrian capital theory into interactive tools: a visual model of capital structure, live interest-rate data, and a research assistant grounded in primary texts.'
+  )
+
   return (
     <div className="page">
       <div className="container">

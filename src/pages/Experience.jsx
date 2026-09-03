@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import EntryList from '../components/EntryList'
 import { experienceGroups } from '../data/experience'
+import usePageMeta from '../hooks/usePageMeta'
 
 function RoleGroup({ group }) {
   return (
@@ -28,6 +29,11 @@ function RoleGroup({ group }) {
 }
 
 export default function Experience() {
+  usePageMeta(
+    'Experience',
+    'Twenty years in financial markets, including equity research, wealth management, investment banking and corporate-finance leadership.'
+  )
+
   return (
     <div className="page">
       <div className="container">

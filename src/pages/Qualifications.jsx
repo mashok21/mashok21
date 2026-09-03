@@ -6,8 +6,14 @@ import EntryGroupTree from '../components/EntryGroupTree'
 import ExternalLink from '../components/ExternalLink'
 import { qualifications } from '../data/qualifications'
 import { educationTree } from '../data/education'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Qualifications() {
+  usePageMeta(
+    'Qualifications',
+    'CFA Charterholder, Fellow Chartered Accountant and IBBI Registered Valuer, plus education from a PhD in progress through school.'
+  )
+
   return (
     <div className="page">
       <div className="container">

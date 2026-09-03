@@ -3,8 +3,14 @@ import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
 import { phd, publications, presentations } from '../data/research'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Research() {
+  usePageMeta(
+    'Research',
+    'Doctoral work in Economics, journal publications and conference presentations.'
+  )
+
   return (
     <div className="page">
       <div className="container">

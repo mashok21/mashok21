@@ -4,6 +4,7 @@ import EntryList from '../components/EntryList'
 import EntryGroupTree from '../components/EntryGroupTree'
 import ExternalLink from '../components/ExternalLink'
 import { pedagogyNote, teachingRoles, talks } from '../data/teaching'
+import usePageMeta from '../hooks/usePageMeta'
 
 // Groups past roles by their start year (first 4-digit year found in the
 // period string) so the Past section reads as a tree, most recent year
@@ -72,6 +73,8 @@ function TalkList({ items }) {
 }
 
 export default function Teaching() {
+  usePageMeta('Teaching', pedagogyNote)
+
   const current = teachingRoles.filter((r) => r.status === 'current')
   const past = teachingRoles.filter((r) => r.status === 'past')
   const pastTree = { theme: 'Past', subgroups: groupPastRolesByYear(past) }

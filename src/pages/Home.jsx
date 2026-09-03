@@ -3,8 +3,14 @@ import { interests } from '../data/home'
 import ExternalLink from '../components/ExternalLink'
 import EntryList from '../components/EntryList'
 import Section from '../components/Section'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Home() {
+  usePageMeta(
+    null,
+    'Ashok M — Research economist, investment practitioner, and educator. CFA, FCA, PhD scholar in Economics.'
+  )
+
   return (
     <div className="page">
       <div className="container">
