@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: "Insurance - What's the Gap Between 'Approved' and 'Paid'?",
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/the-gap-between-approved-and-paid',
+  },
+  {
     title: 'Insurance - How Much Cover Do You Actually Need?',
     date: 'Aug 2026',
     url: 'https://mannheimcapital.com/writing/how-much-cover-do-you-actually-need',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: 'The Inflation Corridor Is Splitting',
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/the-inflation-corridor-is-splitting',
-  },
-  {
-    title: 'India Credit: Capex, NBFC Funding, and Refinancing Risk',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/india-credit-capex-nbfc-funding-and-refinancing-risk',
   },
 ]
