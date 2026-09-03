@@ -1,3 +1,15 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/experience", "destination": "/experience.html" },
+    { "source": "/qualifications", "destination": "/qualifications.html" },
+    { "source": "/research", "destination": "/research.html" },
+    { "source": "/austrianprocess", "destination": "/austrianprocess.html" },
+    { "source": "/teaching", "destination": "/teaching.html" },
+    { "source": "/mannheim-capital", "destination": "/mannheim-capital.html" },
+    { "source": "/consulting", "destination": "/consulting.html" },
+    { "source": "/ibbi-valuation", "destination": "/ibbi-valuation.html" },
+    { "source": "/tech-stack", "destination": "/tech-stack.html" },
+    { "source": "/continuous-learning", "destination": "/continuous-learning.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

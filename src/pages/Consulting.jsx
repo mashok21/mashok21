@@ -1,12 +1,9 @@
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
-import usePageMeta from '../hooks/usePageMeta'
+import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 export default function Consulting() {
-  usePageMeta(
-    'Consulting',
-    'Independent macro research advisory for Stonelink Investment Labs, putting Austrian capital theory to work as an industry consulting engagement.'
-  )
+  usePageMetaForRoute('/consulting')
 
   return (
     <div className="page">

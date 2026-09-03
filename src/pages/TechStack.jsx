@@ -1,6 +1,6 @@
 import SectionHeader from '../components/SectionHeader'
 import ExternalLink from '../components/ExternalLink'
-import usePageMeta from '../hooks/usePageMeta'
+import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 const orchestration = {
   key: 'orchestration',
@@ -66,10 +66,7 @@ const projects = [
 ]
 
 export default function TechStack() {
-  usePageMeta(
-    'Tech Stack',
-    'The full-stack toolkit behind these projects: React and Vite on the frontend, a MERN backend, and Python for applied data science and AI/agent orchestration.'
-  )
+  usePageMetaForRoute('/tech-stack')
 
   return (
     <div className="page tech-page">

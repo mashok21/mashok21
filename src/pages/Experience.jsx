@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import EntryList from '../components/EntryList'
 import { experienceGroups } from '../data/experience'
-import usePageMeta from '../hooks/usePageMeta'
+import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 function RoleGroup({ group }) {
   return (
@@ -29,10 +29,7 @@ function RoleGroup({ group }) {
 }
 
 export default function Experience() {
-  usePageMeta(
-    'Experience',
-    'Twenty years in financial markets, including equity research, wealth management, investment banking and corporate-finance leadership.'
-  )
+  usePageMetaForRoute('/experience')
 
   return (
     <div className="page">
