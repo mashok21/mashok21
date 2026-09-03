@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import EntryList from '../components/EntryList'
@@ -44,9 +43,7 @@ export default function MannheimCapital() {
             The practice is for investors who have moved past the noise and want one trusted
             relationship to bring order to their financial life. It offers mutual fund
             distribution alongside portfolio construction and macro-driven asset allocation for
-            high-net-worth clients. Separately, it also covers IBBI-registered valuation of
-            securities and financial assets, detailed on its own{' '}
-            <Link to="/ibbi-valuation">page</Link>.
+            high-net-worth clients.
           </p>
         </Section>
 
