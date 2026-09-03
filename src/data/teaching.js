@@ -14,7 +14,8 @@ export const teachingRoles = [
       'Teaching Welfare Economics, Behavioural Economics and Statistics for Economics to M.A. Economics students, delivered fully online.',
   },
   {
-    title: 'Adjunct Professor',
+    title:
+      'Adjunct Professor, Statistics for Decision Making, Managerial Economics and Business Research Methods (MBA)',
     institution: 'Srinivas University',
     period: 'Sep 2025 – Present',
     status: 'current',
@@ -68,7 +69,8 @@ export const teachingRoles = [
     description: 'Taught Advanced Corporate Accounting to CMA Final students.',
   },
   {
-    title: 'CFA Trainer',
+    title:
+      'CFA Trainer, Financial Reporting and Analysis, Economics and Alternative Investments (CFA Levels I & II)',
     institution: 'EduPristine',
     period: '2012 – 2016',
     status: 'past',
