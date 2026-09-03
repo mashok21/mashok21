@@ -4,6 +4,10 @@
   --gold: #b8912a;
   --gold-soft: #d9b768;
   --gold-pale: #e8d4a3;
+  /* Darker than --gold specifically for body text (institution/date meta
+     lines) — --gold on --bg is ~2.8:1 contrast, below WCAG AA's 4.5:1 for
+     text. --gold stays as-is for decorative use (rules, connectors, links). */
+  --gold-text: #7d5f1c;
 
   --bg: #faf8f4;
   --bg-elevated: #ffffff;
@@ -38,6 +42,7 @@
     --gold: #d9b768;
     --gold-soft: #e8cd8f;
     --gold-pale: #f2e2b6;
+    --gold-text: #d9b768;
 
     --bg: #0e1a2e;
     --bg-elevated: #142443;
