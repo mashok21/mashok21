@@ -5,6 +5,15 @@ export const pedagogyNote =
 
 export const teachingRoles = [
   {
+    title:
+      'Adjunct Faculty, Welfare Economics, Behavioural Economics and Statistics for Economics (M.A. Economics)',
+    institution: 'JAIN Online, JAIN (Deemed-to-be University), Bengaluru',
+    period: 'Sep 2026 – Present',
+    status: 'current',
+    description:
+      'Teaching Welfare Economics, Behavioural Economics and Statistics for Economics to M.A. Economics students, delivered fully online.',
+  },
+  {
     title: 'Adjunct Professor',
     institution: 'Srinivas University',
     period: 'Sep 2025 – Present',
