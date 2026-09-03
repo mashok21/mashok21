@@ -115,18 +115,25 @@ export default function IbbiValuation() {
             <p>
               Work to date has been <em>equity share valuations</em> for unlisted private
               companies. This is the kind of valuation a founder or board needs for a funding
-              round or a buy-back. The law requires it be certified by a licensed valuer rather
-              than done in-house. Clients so far have included an <em>AI-robotics hardware
-              manufacturer</em> and a <em>software and data-analytics services company</em>.
+              round or a buy-back. For a funding round, the law requires it be certified by a
+              registered valuer rather than done in-house. For a buy-back, a rigorous valuation
+              isn't itself a legal mandate, but it's what a defensible price and the auditor's
+              solvency certificate both rest on. Clients so far have included an
+              <em>AI-robotics hardware manufacturer</em> and a{' '}
+              <em>software and data-analytics services company</em>.
             </p>
             <p>
               The valuations use the <em>Income Approach</em> (Discounted Free Cash Flow) on a
               going-concern basis, with the cost of equity derived from CAPM. This is the same
-              core methodology used across investment banking and private equity. Here it is
-              applied under a specific statutory mandate: preferential share allotments (Section
-              62(1)(c) of the Companies Act, 2013, read with Rule 13(1) of the Companies (Share
-              Capital and Debentures) Rules, 2014) and share buy-backs (Section 68 of the
-              Companies Act, 2013, read with the same Rules).
+              core methodology used across investment banking and private equity. For
+              preferential share allotments (Section 62(1)(c) of the Companies Act, 2013), it is
+              applied under a specific statutory mandate: Rule 13(1) of the Companies (Share
+              Capital and Debentures) Rules, 2014 requires a registered valuer's report before the
+              price is fixed. Share buy-backs (Section 68) don't carry that same registered-valuer
+              mandate under Rule 17 of the same Rules, which only requires the buy-back price and
+              its basis to be disclosed. The same DCF approach is still applied there, both to
+              ground a defensible price and to give the statutory auditor's solvency certificate
+              something rigorous to rely on.
             </p>
           </div>
         </Section>
