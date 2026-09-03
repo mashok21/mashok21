@@ -21,7 +21,7 @@ export const experienceGroups = [
         status: 'current',
         path: '/mannheim-capital',
         description:
-          'Independent boutique mutual fund distribution practice, built on capital stewardship aligned with time rather than prediction or market timing.',
+          'Runs an independent boutique mutual fund distribution practice, built on capital stewardship aligned with time rather than prediction or market timing.',
       },
       {
         title: 'Investment Banking Analyst (Private Markets)',
@@ -30,7 +30,7 @@ export const experienceGroups = [
         location: 'Chennai Area',
         status: 'past',
         description:
-          'Financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.',
+          'Conducted financial analysis, valuation and due diligence for private market transactions. Supported deal structuring and investment memoranda from financial modelling through to execution.',
       },
       {
         title: 'Wealth Management & Portfolio Research',
@@ -39,7 +39,7 @@ export const experienceGroups = [
         location: 'Chennai Area',
         status: 'past',
         description:
-          'Fund and manager research across asset classes to support portfolio construction and asset allocation. Evaluated portfolio performance and risk metrics and translated market views into client investment guidance.',
+          'Researched funds and managers across asset classes to support portfolio construction and asset allocation. Evaluated portfolio performance and risk metrics, and translated market views into client investment guidance.',
       },
       {
         title: 'Senior Research Analyst',
@@ -48,7 +48,7 @@ export const experienceGroups = [
         location: 'Chennai',
         status: 'past',
         description:
-          'Equity research covering company valuation, financial statement analysis and sector coverage. Produced research reports and investment insights grounded in fundamental and comparative valuation.',
+          'Conducted equity research covering company valuation, financial statement analysis and sector coverage. Produced research reports and investment insights grounded in fundamental and comparative valuation.',
       },
     ],
   },
@@ -62,7 +62,7 @@ export const experienceGroups = [
         status: 'current',
         path: '/ibbi-valuation',
         description:
-          'Independent registered-valuer practice: valuations of listed and unlisted securities and financial assets for company law, insolvency, SEBI and FEMA matters.',
+          'Runs an independent registered-valuer practice, valuing listed and unlisted securities and financial assets for company law, insolvency, SEBI and FEMA matters.',
       },
       {
         title: 'India CFO (Consulting Engagement)',
@@ -70,7 +70,7 @@ export const experienceGroups = [
         period: 'Jan 2018 – Mar 2021',
         status: 'past',
         description:
-          'Consulting CFO engagement leading financial strategy, budgeting, cash flow and governance for a fintech and telemedicine venture offering OPD wellness concepts and health-savings wallets in emerging markets including India. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
+          'Led financial strategy, budgeting, cash flow and governance as consulting CFO for a fintech and telemedicine venture offering OPD wellness concepts and health-savings wallets in emerging markets including India. Worked closely with leadership on pricing, capital allocation and strategic decisions.',
       },
       {
         title: 'Assistant Audit Manager',
@@ -78,7 +78,7 @@ export const experienceGroups = [
         period: 'Sep 2005 – May 2006',
         location: 'Bangalore',
         status: 'past',
-        description: 'Statutory audit and financial reporting for corporate clients.',
+        description: 'Led statutory audit and financial reporting for corporate clients.',
       },
       {
         title: 'Article Trainee',
@@ -86,7 +86,7 @@ export const experienceGroups = [
         period: 'Jul 2001 – Jun 2004',
         location: 'Bengaluru',
         status: 'past',
-        description: 'CA articleship covering audit, accounting and compliance functions.',
+        description: 'Completed a CA articleship covering audit, accounting and compliance functions.',
       },
     ],
   },

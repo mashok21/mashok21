@@ -30,12 +30,14 @@ export const educationTree = {
         {
           title: 'Master of Arts (MA), Economics',
           issuer: 'Jain (Deemed-to-be University)',
-          date: 'Degree conferred with Distinction, 25 Jul 2024 · Reg. No. 211VMAR00052',
+          date: 'Degree conferred with Distinction, 25 Jul 2024',
+          note: 'Reg. No. 211VMAR00052',
         },
         {
           title: 'Master of Business Administration (MBA), Finance',
           issuer: 'University of Mysore',
-          date: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735 · Convocation 18 Jan 2025 · Reg. No. MBF21024',
+          date: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735 · Convocation 18 Jan 2025',
+          note: 'Reg. No. MBF21024',
         },
       ],
     },

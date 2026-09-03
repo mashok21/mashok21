@@ -18,7 +18,7 @@ export const teachingRoles = [
     period: 'Aug 2026',
     status: 'past',
     description:
-      'Foundation Course Series for MBA and BBA students, delivered fully online across four live Saturday sessions.',
+      'Taught the Foundation Course Series for MBA and BBA students, delivered fully online across four live Saturday sessions.',
   },
   {
     title: 'Adjunct Faculty, Indian Ethos and Business Ethics (EMBA)',
@@ -34,7 +34,7 @@ export const teachingRoles = [
     period: 'Jan 2026 – Apr 2026',
     status: 'past',
     description:
-      'Taught to undergraduate management students. Emphasis on classical moral philosophy, particularly Adam Smith’s framework, applied to contemporary financial decision-making. Focus on developing normative reasoning alongside technical competence.',
+      "Taught undergraduate management students, drawing on classical moral philosophy, particularly Adam Smith's framework, applied to contemporary financial decision-making. The course aimed to develop normative reasoning alongside technical competence.",
   },
   {
     title: 'Visiting Faculty, Digital Technology in Finance (MBA545F)',
@@ -64,7 +64,7 @@ export const teachingRoles = [
     period: '2012 – 2016',
     status: 'past',
     description:
-      'Taught Financial Reporting and Analysis, Economics and Alternative Investments for CFA Levels I and II. Over 100 hours of classes, with feedback ratings above 4.2/5.',
+      'Taught Financial Reporting and Analysis, Economics and Alternative Investments for CFA Levels I and II, delivering over 100 hours of classes with feedback ratings above 4.2/5.',
   },
   {
     title: 'Instructor, Data Science',
@@ -72,7 +72,7 @@ export const teachingRoles = [
     period: 'Jan 2022 – Dec 2023',
     status: 'past',
     description:
-      'Taught a full-cycle, roughly 40-session data science curriculum in R and Python: statistical foundations (descriptive statistics, hypothesis testing, ANOVA, chi-square), regression and classification (linear and multiple regression, logistic regression, decision trees, KNN, SVM, Naive Bayes, and ensemble methods including Random Forest, XGBoost and LightGBM), unsupervised learning (hierarchical and K-means clustering, DBSCAN, PCA, association rules, recommendation systems), neural networks, text mining, and time-series forecasting, through to model deployment and a capstone project. Mentored roughly 200 students across two institutions.',
+      'Taught a full-cycle, roughly 40-session data science curriculum in R and Python, running from statistical foundations like hypothesis testing and ANOVA through regression, classification and ensemble methods such as Random Forest, XGBoost and LightGBM. The syllabus continued into unsupervised learning, including clustering, PCA and recommendation systems, then neural networks, text mining and time-series forecasting, ending in model deployment and a capstone project. Mentored roughly 200 students across two institutions.',
   },
 ]
 
