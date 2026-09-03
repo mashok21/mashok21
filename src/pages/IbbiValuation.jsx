@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import EntryList from '../components/EntryList'
@@ -53,12 +52,10 @@ export default function IbbiValuation() {
           intro={
             <>
               I do valuations of securities and financial assets, listed and unlisted, through{' '}
-              <ExternalLink href="https://capadvisors.in">capadvisors.in</ExternalLink>, run
-              alongside the wealth practice at{' '}
-              <Link to="/mannheim-capital">Mannheim Capital</Link>. This covers company law,
-              insolvency, SEBI, and FEMA matters wherever an independent registered valuer is
-              required. Client work to date has focused on equity valuations for closely held and
-              venture-backed companies.
+              <ExternalLink href="https://capadvisors.in">capadvisors.in</ExternalLink>. This
+              covers company law, insolvency, SEBI, and FEMA matters wherever an independent
+              registered valuer is required. Client work to date has focused on equity
+              valuations for closely held and venture-backed companies.
             </>
           }
         />
