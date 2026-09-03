@@ -18,6 +18,8 @@ const moreLinks = [
   { to: '/tech-stack', label: 'Tech Stack' },
 ]
 
+const allLinks = [...primaryLinks, ...moreLinks]
+
 function NavItem({ link }) {
   return (
     <li key={link.to}>
@@ -81,7 +83,45 @@ function MoreMenu() {
   )
 }
 
+function MobileToggle({ open, onToggle }) {
+  return (
+    <button
+      type="button"
+      className="site-nav__toggle"
+      aria-expanded={open}
+      aria-controls="site-nav-drawer"
+      aria-label={open ? 'Close menu' : 'Open menu'}
+      onClick={onToggle}
+    >
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        {open ? (
+          <path
+            d="M5 5l12 12M17 5L5 17"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+          />
+        ) : (
+          <path
+            d="M3 6h16M3 11h16M3 16h16"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+          />
+        )}
+      </svg>
+    </button>
+  )
+}
+
 export default function Nav() {
+  const [drawerOpen, setDrawerOpen] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    setDrawerOpen(false)
+  }, [location.pathname])
+
   return (
     <nav className="site-nav">
       <div className="site-nav__inner">
@@ -94,7 +134,15 @@ export default function Nav() {
           ))}
           <MoreMenu />
         </ul>
+        <MobileToggle open={drawerOpen} onToggle={() => setDrawerOpen((v) => !v)} />
       </div>
+      {drawerOpen ? (
+        <ul className="site-nav__drawer" id="site-nav-drawer">
+          {allLinks.map((link) => (
+            <NavItem link={link} key={link.to} />
+          ))}
+        </ul>
+      ) : null}
     </nav>
   )
 }
