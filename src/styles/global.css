@@ -546,7 +546,7 @@ a:hover {
   padding: 0.2em 0.6em;
   border: 1px solid var(--border);
   border-radius: 4px;
-  color: var(--gold);
+  color: var(--gold-text);
   background: rgba(184, 145, 42, 0.07);
 }
 
@@ -580,7 +580,6 @@ a:hover {
 .stack-layer--orchestration {
   border: 1px solid var(--border);
   border-radius: 8px;
-  overflow: hidden;
   margin-top: var(--space-3);
   margin-bottom: var(--space-3);
 }
@@ -615,16 +614,16 @@ a:hover {
 .stack-layer__connector {
   position: absolute;
   left: 50%;
-  bottom: -0.7em;
+  bottom: -0.75em;
   transform: translateX(-50%);
-  width: 1.4em;
-  height: 1.4em;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 50%;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;

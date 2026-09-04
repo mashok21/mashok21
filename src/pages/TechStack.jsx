@@ -5,7 +5,7 @@ import { usePageMetaForRoute } from '../hooks/usePageMeta'
 const orchestration = {
   key: 'orchestration',
   label: 'ai & agent orchestration',
-  color: 'var(--navy-deep)',
+  color: 'var(--gold-soft)',
   tags: ['LangGraph', 'RAG', 'Gemini', 'Claude'],
 }
 
@@ -20,13 +20,13 @@ const layers = [
   {
     key: 'backend-python',
     label: 'backend · python',
-    color: 'var(--gold)',
+    color: 'var(--text-muted)',
     tags: ['Django', 'DRF'],
   },
   {
     key: 'data',
     label: 'data science',
-    color: 'var(--text-muted)',
+    color: 'var(--navy-deep)',
     tags: ['Python', 'pandas', 'scikit-learn', 'NumPy', 'statistical modeling', 'ML'],
   },
 ]
