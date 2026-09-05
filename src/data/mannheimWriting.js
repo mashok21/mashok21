@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: "A Life Cycle Fund's Discipline Expires in Year Four",
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/lifecycle-funds-discipline-expires-in-year-four',
+  },
+  {
     title: "Insurance - What's the Gap Between 'Approved' and 'Paid'?",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/the-gap-between-approved-and-paid',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: "India's Borrowed Equilibrium",
     date: 'Jun 2026',
     url: 'https://mannheimcapital.com/writing/indias-borrowed-equilibrium',
-  },
-  {
-    title: 'The Inflation Corridor Is Splitting',
-    date: 'Jun 2026',
-    url: 'https://mannheimcapital.com/writing/the-inflation-corridor-is-splitting',
   },
 ]
