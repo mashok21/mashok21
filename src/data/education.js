@@ -48,7 +48,7 @@ export const educationTree = {
         {
           title: 'Bachelor of Commerce (BCom), Distance Education',
           issuer: 'Annamalai University',
-          date: 'May 2002 – May 2005',
+          date: 'May 2002 – May 2005 · First Class',
         },
         {
           title: 'Pre-University Course, Commerce',
