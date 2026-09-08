@@ -36,7 +36,7 @@ export const educationTree = {
         {
           title: 'Master of Business Administration (MBA), Finance',
           issuer: 'University of Mysore',
-          date: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735 · Convocation 18 Jan 2025',
+          date: 'Jul 2021 – Nov 2023 · First Class, CGPA 7.735',
           note: 'Reg. No. MBF21024',
         },
       ],
