@@ -79,13 +79,20 @@ async function fetchArticles() {
   const html = await res.text()
 
   const articles = []
-  const itemRe = /<a class="article-item" href="([^"]+)">(.*?)<\/a>/gs
+  // Tolerant of attribute order and of the heading level used for the
+  // title: the page groups articles under per-year <h2> headings, so the
+  // title itself sits in an <h3> (it was an <h2> before the grouping).
+  const itemRe = /<a\b([^>]*)>(.*?)<\/a>/gs
+  const itemClassRe = /\bclass="(?:[^"]*\s)?article-item(?:\s[^"]*)?"/
   let match
   while ((match = itemRe.exec(html)) !== null) {
-    const [, href, inner] = match
+    const [, attrs, inner] = match
+    if (!itemClassRe.test(attrs)) continue
+    const hrefMatch = attrs.match(/\bhref="([^"]+)"/)
     const dateMatch = inner.match(/<span>([^<]+)<\/span>/)
-    const titleMatch = inner.match(/<h2 class="article-item-title">([^<]+)<\/h2>/)
-    if (!dateMatch || !titleMatch) continue
+    const titleMatch = inner.match(/<h[1-6][^>]*class="[^"]*\barticle-item-title\b[^"]*"[^>]*>([^<]+)<\/h[1-6]>/)
+    if (!hrefMatch || !dateMatch || !titleMatch) continue
+    const href = hrefMatch[1]
     articles.push({
       title: decodeEntities(titleMatch[1].trim()),
       date: abbreviateDate(decodeEntities(dateMatch[1])),

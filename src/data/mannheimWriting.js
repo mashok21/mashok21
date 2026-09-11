@@ -6,6 +6,36 @@
 
 export const mannheimArticles = [
   {
+    title: "Medical Inflation in India: The Number Everyone Quotes Isn't a Price Index",
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/medical-inflation-is-not-a-price-index',
+  },
+  {
+    title: 'India Had the FIRE Writing Before It Had the Index Funds',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/india-had-the-fire-writing-before-it-had-the-index-funds',
+  },
+  {
+    title: "India's Swap Window: The RBI Didn't Waive a Cost, It Took a Position",
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/indias-swap-window-the-rbi-took-a-position',
+  },
+  {
+    title: 'Probate Stopped Being Mandatory in December 2025',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/probate-stopped-being-mandatory-in-december-2025',
+  },
+  {
+    title: 'An SGB Bought on the Exchange No Longer Gets the Tax Exemption',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/an-sgb-bought-on-the-exchange-no-longer-gets-the-tax-exemption',
+  },
+  {
+    title: 'CAS Fixed One Closing-Price Problem and Created Another',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/cas-fixed-one-closing-price-problem-and-created-another',
+  },
+  {
     title: "A Life Cycle Fund's Discipline Expires in Year Four",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/lifecycle-funds-discipline-expires-in-year-four',
@@ -16,43 +46,13 @@ export const mannheimArticles = [
     url: 'https://mannheimcapital.com/writing/the-gap-between-approved-and-paid',
   },
   {
-    title: 'Insurance - How Much Cover Do You Actually Need?',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/how-much-cover-do-you-actually-need',
-  },
-  {
-    title: 'Two Kinds of Bets',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/two-kinds-of-bets',
-  },
-  {
-    title: 'Insurance - Are We Solving the Wrong Problem?',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/are-we-solving-the-wrong-problem',
-  },
-  {
-    title: 'Duration Is the Only Risk',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/duration-is-the-only-risk',
-  },
-  {
-    title: 'NFOs: Bought High, Sold on Hype',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/sector-funds-get-launched-at-the-top-not-the-bottom',
-  },
-  {
-    title: 'Individual Investors Are Still Equity-Heavy',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/individual-investors-are-still-equity-heavy',
-  },
-  {
-    title: 'On Booking Profits',
-    date: 'Jul 2026',
-    url: 'https://mannheimcapital.com/writing/on-booking-profits',
-  },
-  {
     title: "India's Borrowed Equilibrium",
-    date: 'Jun 2026',
+    date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/indias-borrowed-equilibrium',
+  },
+  {
+    title: 'India Has No Law for What Happens to Your Digital Assets',
+    date: 'Aug 2026',
+    url: 'https://mannheimcapital.com/writing/india-has-no-law-for-what-happens-to-your-digital-assets',
   },
 ]
