@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: "India's Expense Ratio Reforms: The Boundary Has Moved More Than the Number",
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/indias-expense-ratio-reforms-the-boundary-moved-more-than-the-number',
+  },
+  {
     title: "Medical Inflation in India: The Number Everyone Quotes Isn't a Price Index",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/medical-inflation-is-not-a-price-index',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: "India's Borrowed Equilibrium",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/indias-borrowed-equilibrium',
-  },
-  {
-    title: 'India Has No Law for What Happens to Your Digital Assets',
-    date: 'Aug 2026',
-    url: 'https://mannheimcapital.com/writing/india-has-no-law-for-what-happens-to-your-digital-assets',
   },
 ]
