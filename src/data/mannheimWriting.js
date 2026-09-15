@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'True Lies',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/true-lies',
+  },
+  {
     title: "India's Expense Ratio Reforms: The Boundary Has Moved More Than the Number",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/indias-expense-ratio-reforms-the-boundary-moved-more-than-the-number',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: "Insurance - What's the Gap Between 'Approved' and 'Paid'?",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/the-gap-between-approved-and-paid',
-  },
-  {
-    title: "India's Borrowed Equilibrium",
-    date: 'Sep 2026',
-    url: 'https://mannheimcapital.com/writing/indias-borrowed-equilibrium',
   },
 ]
