@@ -6,6 +6,11 @@
 
 export const mannheimArticles = [
   {
+    title: 'The DPDP Act Has No Small-Distributor Exemption',
+    date: 'Sep 2026',
+    url: 'https://mannheimcapital.com/writing/the-dpdp-act-has-no-small-distributor-exemption',
+  },
+  {
     title: 'True Lies',
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/true-lies',
@@ -49,10 +54,5 @@ export const mannheimArticles = [
     title: "A Life Cycle Fund's Discipline Expires in Year Four",
     date: 'Sep 2026',
     url: 'https://mannheimcapital.com/writing/lifecycle-funds-discipline-expires-in-year-four',
-  },
-  {
-    title: "Insurance - What's the Gap Between 'Approved' and 'Paid'?",
-    date: 'Sep 2026',
-    url: 'https://mannheimcapital.com/writing/the-gap-between-approved-and-paid',
   },
 ]
