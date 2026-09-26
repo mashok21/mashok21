@@ -26,9 +26,9 @@ export const mannheimArticles = [
     url: 'https://mannheimcapital.com/writing/medical-inflation-is-not-a-price-index',
   },
   {
-    title: 'India Had the FIRE Writing Before It Had the Index Funds',
+    title: 'India Had the FIRE Writing Before It Had the Products',
     date: 'Sep 2026',
-    url: 'https://mannheimcapital.com/writing/india-had-the-fire-writing-before-it-had-the-index-funds',
+    url: 'https://mannheimcapital.com/writing/india-had-the-fire-writing-before-it-had-the-products',
   },
   {
     title: "India's Swap Window: The RBI Didn't Waive a Cost, It Took a Position",
