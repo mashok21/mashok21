@@ -28,7 +28,7 @@ export const qualifications = [
   {
     title: 'Registered Valuer, Securities or Financial Assets',
     meta: 'Insolvency and Bankruptcy Board of India, 2021',
-    note: 'Registered in the Securities or Financial Assets asset class in January 2021, after passing the IBBI Valuation Examination in October 2020. Enrolled with IOV Registered Valuers Foundation, the Registered Valuers Organisation (RVO), since January 2023.',
+    note: 'Registered in the Securities or Financial Assets asset class in January 2021, after passing the IBBI Valuation Examination in October 2020. Enrolled with IOV Registered Valuers Foundation, the Registered Valuers Organisation (RVO), since January 2023. Certificate of Practice renewed to 31 March 2027.',
     path: '/ibbi-valuation',
     logo: '/images/logos/ibbi.png',
   },
