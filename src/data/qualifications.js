@@ -9,6 +9,10 @@ export const qualifications = [
     title: 'CFA Charterholder',
     meta: 'CFA Institute, 2011',
     url: 'https://credentials.cfainstitute.org/d9c923b3-0c64-4dd1-9e1d-b3a6d5facf13#acc.kOMDRatq',
+    noteLink: {
+      label: 'View the CFA Institute charter letter (PDF)',
+      url: 'https://drive.google.com/file/d/1tG9ThHmRIe86YgUP0xZaTHz_5xVvy_1H/view',
+    },
     logo: '/images/logos/cfa-institute.svg',
   },
   {

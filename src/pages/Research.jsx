@@ -45,6 +45,11 @@ export default function Research() {
                 )}
               </p>
               <p className="text-muted">{pub.note}</p>
+              {pub.certificateUrl && (
+                <p>
+                  <ExternalLink href={pub.certificateUrl}>View the certificate of publication (PDF)</ExternalLink>
+                </p>
+              )}
             </div>
           ))}
         </Section>
