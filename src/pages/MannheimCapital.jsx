@@ -9,7 +9,7 @@ import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 // Kept deliberately to a practice description plus a link-out to the
 // practice's own writing, not a sales page. Mannheim Capital is a live
-// regulated advisory business, not a portfolio project.
+// regulated mutual fund distribution business, not a portfolio project.
 export default function MannheimCapital() {
   usePageMetaForRoute('/mannheim-capital')
 
