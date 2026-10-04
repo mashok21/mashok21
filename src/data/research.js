@@ -7,7 +7,7 @@ export const phd = {
   thesis:
     'AI Investment Dynamics and Capital Structure Distortions Among NASDAQ-100 Firms: An Austrian Capital-Theoretic Evaluation',
   supervisor:
-    'Prof. V. Basil Hans, Department of Economics Sciences, Institute of Management and Commerce, Srinivas University',
+    'Dr V.B Hans, Research Professor, Institute of Management and Commerce, Srinivas University',
   orcid: '0009-0003-1163-1932',
   description:
     "Doctoral research in Austrian economics, capital theory and business cycles. It applies Austrian Business Cycle Theory (ABCT) to the current technology and AI investment cycle, reading capital-structure distortions, credit-fuelled malinvestment and entrepreneurial decision-making under uncertainty in how the sector allocates capital.",
