@@ -38,7 +38,8 @@ export default function Home() {
         <p style={{ fontSize: '1.1rem', maxWidth: '38rem' }}>
           Ashok M works at the intersection of economic theory and capital markets. His work spans
           independent macro research, a boutique valuation and wealth advisory practice (Mannheim
-          Capital), and teaching at Bengaluru business schools.
+          Capital), and teaching at Bengaluru business schools as a Professor-of-Practice–style
+          educator.
         </p>
         <div className="action-row">
           <ExternalLink className="btn" href="https://www.linkedin.com/in/ashokm-ca-cfa">
