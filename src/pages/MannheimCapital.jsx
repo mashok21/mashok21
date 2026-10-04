@@ -31,7 +31,7 @@ export default function MannheimCapital() {
         <SectionHeader
           eyebrow="Venture"
           title="Mannheim Capital"
-          intro="A boutique wealth practice in Bengaluru, built on capital stewardship aligned with time, not prediction or market timing."
+          intro="A boutique mutual fund distribution practice in Bengaluru, built on capital stewardship aligned with time, not prediction or market timing."
         />
         <p
           className="text-muted"
@@ -43,9 +43,8 @@ export default function MannheimCapital() {
         <Section title="Practice">
           <p>
             The practice is for investors who have moved past the noise and want one trusted
-            relationship to bring order to their financial life. It offers mutual fund
-            distribution alongside portfolio construction and macro-driven asset allocation for
-            high-net-worth clients.
+            relationship to bring order to their financial life. It distributes mutual funds to
+            high-net-worth clients, and any guidance it gives is incidental to that distribution.
           </p>
         </Section>
 
