@@ -12,6 +12,7 @@ const highlights = [
   `${publications.length} journal publications on Austrian economics (2025)`,
   `${presentations.length} international conference presentations (2025)`,
   'CFA Charterholder (2011) and Fellow Chartered Accountant, All-India Rank 45 in the ICAI Professional Education Examination-II (May 2003)',
+  'Mannheim Capital serves 100 high-net-worth families as their independent mutual fund distributor and financial planner',
   'Twenty years in equity research, wealth management, investment banking and corporate finance',
 ]
 
