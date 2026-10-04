@@ -56,6 +56,7 @@ const bodies = {
     li(qualifications.map((q) => `<strong>${e(q.title)}</strong>, ${e(q.meta)}${q.note ? '. ' + e(q.note) : ''}`)),
   '/research': () =>
     `<h2>Doctoral research</h2><p>${e(phd.degree)}, ${e(phd.institution)} (${e(phd.status)}). ${e(phd.description)}</p>` +
+    `<p>Thesis: ${e(phd.thesis)}. Supervisor: ${e(phd.supervisor)}. ORCID: ${e(phd.orcid)}.</p>` +
     `<h2>Publications</h2>${li(publications.map((x) => `${e(x.citation)} ${e(x.note)}`))}` +
     `<h2>Conference presentations</h2>${li(presentations.map((x) => `<strong>${e(x.title)}</strong>, ${e(x.venue)} (${e(x.date)})`))}`,
   '/teaching': () =>

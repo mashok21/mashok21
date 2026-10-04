@@ -48,7 +48,7 @@ export const experienceGroups = [
         location: 'Chennai',
         status: 'past',
         description:
-          'Conducted equity research covering company valuation, financial statement analysis and sector coverage. Produced research reports and investment insights grounded in fundamental and comparative valuation. Included onsite assignments embedded with the research teams of Bank of America and Credit Suisse.',
+          'Conducted equity research tracking global equities, covering company valuation, financial statement analysis and sector coverage. Produced research reports and investment insights grounded in fundamental and comparative valuation. Included onsite assignments embedded with the research teams of Bank of America and Credit Suisse.',
       },
     ],
   },

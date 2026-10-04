@@ -22,6 +22,14 @@ export default function Research() {
             </span>
           </p>
           <p>{phd.description}</p>
+          <p>
+            <strong>Thesis:</strong> {phd.thesis}
+            <br />
+            <strong>Supervisor:</strong> {phd.supervisor}
+            <br />
+            <strong>ORCID:</strong>{' '}
+            <ExternalLink href={`https://orcid.org/${phd.orcid}`}>{phd.orcid}</ExternalLink>
+          </p>
         </Section>
 
         <Section title="Journal articles">

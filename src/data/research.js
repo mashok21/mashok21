@@ -4,6 +4,11 @@ export const phd = {
   degree: 'Doctor of Philosophy (PhD), Economics',
   institution: 'Srinivas University',
   status: 'In progress',
+  thesis:
+    'Entrepreneurship, Time, and Economic Coordination: An Austrian Economic Theory of Intertemporal Market Order',
+  supervisor:
+    'Prof. V. Basil Hans, Department of Economics Sciences, Institute of Management and Commerce, Srinivas University',
+  orcid: '0009-0003-1163-1932',
   description:
     "Doctoral research in Austrian economics, capital theory and business cycles. It applies Austrian Business Cycle Theory (ABCT) to the current technology and AI investment cycle, reading capital-structure distortions, credit-fuelled malinvestment and entrepreneurial decision-making under uncertainty in how the sector allocates capital.",
 }
@@ -11,13 +16,13 @@ export const phd = {
 export const publications = [
   {
     citation:
-      'Ashok M. (2025). A Review of the Austrian Economic Paradigm. World Journal of Economics, Business and Management, 2(1), 27–30.',
+      'Ashok M. (2025). A Review of the Austrian Economic Paradigm. World Journal of Economics, Business and Management, 2(1), 27–30. ISSN 3049-2181.',
     note: 'A review of the core principles of the Austrian school of economics, including subjectivism, entrepreneurship, market processes and methodological foundations.',
     url: 'https://wasrpublication.com/index.php/wjebm/article/view/132',
   },
   {
     citation:
-      'Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. Kronika Journal.',
+      'Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. Kronika Journal, 25(8). ISSN 0023-4923 (Scopus and UGC approved).',
     note: 'An introductory overview of key ideas in Austrian economics, including subjectivism, market processes, entrepreneurship and disequilibrium.',
     url: 'https://doi.org/10.5281/zenodo.16888842',
   },
