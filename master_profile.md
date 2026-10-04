@@ -181,7 +181,7 @@ ORCID: 0009-0003-1163-1932 (https://orcid.org/0009-0003-1163-1932).
 3. **Sustainable Growth Ideas from the Austrian Economics School** — Jan 2025. Conference paper presented at an ICSSR-sponsored international conference on Sustainable Development Goals, hosted by St Aloysius Deemed to be University. Examines sustainable growth through Austrian economics with emphasis on entrepreneurship, market processes, and institutional coordination.
 
 ### Honors & Awards
-- All-India Rank 45 — ICAI CA Final examination, May 2004 (corrected by Ashok 2026-10-04; LinkedIn lists "Professional Education Examination-II", May 2003). Issued by The Institute of Chartered Accountants of India.
+- All-India Rank 45 — ICAI Professional Education Examination-II, May 2003. Verified 2026-10-04 against the ICAI Rank Certificate ("PE-2 RANK.pdf", dated 29 July 2003: "FORTY FIFTH rank"). Issued by The Institute of Chartered Accountants of India. This is the Intermediate-level exam, not CA Final (Final was November 2004, passed; no rank on its marks statement). Ashok's CV says "2004", which is wrong.
 
 ---
 
