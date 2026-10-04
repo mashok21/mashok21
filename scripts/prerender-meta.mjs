@@ -17,6 +17,7 @@ import { experienceGroups } from '../src/data/experience.js'
 import { qualifications } from '../src/data/qualifications.js'
 import { phd, publications, presentations } from '../src/data/research.js'
 import { teachingRoles } from '../src/data/teaching.js'
+import { clientRecommendations, teachingRecommendations } from '../src/data/recommendations.js'
 
 const rootDir = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const distDir = path.join(rootDir, 'dist')
@@ -40,6 +41,8 @@ function replaceAttr(html, selectorPattern, value) {
 // description and the site links.
 const li = (items) => `<ul>${items.map((t) => `<li>${t}</li>`).join('')}</ul>`
 const e = escapeHtml
+const recos = (items) =>
+  items.map((r) => `<blockquote><p>\u201c${e(r.quote)}\u201d</p><footer>${e(r.name)}, ${e(r.role)}</footer></blockquote>`).join('')
 
 const bodies = {
   '/': () => `<h2>Research interests</h2>${li(interests.map(e))}`,
@@ -60,7 +63,9 @@ const bodies = {
     `<h2>Publications</h2>${li(publications.map((x) => `${e(x.citation)} ${e(x.note)}`))}` +
     `<h2>Conference presentations</h2>${li(presentations.map((x) => `<strong>${e(x.title)}</strong>, ${e(x.venue)} (${e(x.date)})`))}`,
   '/teaching': () =>
-    li(teachingRoles.map((r) => `<strong>${e(r.title)}</strong>, ${e(r.institution)} (${e(r.period)}). ${e(r.topic)}`)),
+    li(teachingRoles.map((r) => `<strong>${e(r.title)}</strong>, ${e(r.institution)} (${e(r.period)}). ${e(r.topic)}`)) +
+    `<h2>What learners say</h2>${recos(teachingRecommendations)}`,
+  '/mannheim-capital': () => `<h2>What clients say</h2>${recos(clientRecommendations)}`,
 }
 
 function staticBody(routePath, meta) {

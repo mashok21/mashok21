@@ -2,7 +2,9 @@ import SectionHeader from '../components/SectionHeader'
 import Section from '../components/Section'
 import EntryList from '../components/EntryList'
 import ExternalLink from '../components/ExternalLink'
+import Recommendations from '../components/Recommendations'
 import { mannheimArticles } from '../data/mannheimWriting'
+import { clientRecommendations } from '../data/recommendations'
 import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 // Kept deliberately to a practice description plus a link-out to the
@@ -44,6 +46,13 @@ export default function MannheimCapital() {
             relationship to bring order to their financial life. It offers mutual fund
             distribution alongside portfolio construction and macro-driven asset allocation for
             high-net-worth clients.
+          </p>
+        </Section>
+
+        <Section title="What clients say">
+          <Recommendations items={clientRecommendations} />
+          <p className="text-muted" style={{ fontSize: '0.85rem', marginTop: '1rem' }}>
+            As published on <ExternalLink href="https://mannheimcapital.com/services">mannheimcapital.com</ExternalLink>.
           </p>
         </Section>
 

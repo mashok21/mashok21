@@ -4,7 +4,9 @@ import EntryList from '../components/EntryList'
 import EntryGroupTree from '../components/EntryGroupTree'
 import ExternalLink from '../components/ExternalLink'
 import PositionRow from '../components/PositionRow'
+import Recommendations from '../components/Recommendations'
 import { pedagogyNote, teachingRoles, talks } from '../data/teaching'
+import { teachingRecommendations } from '../data/recommendations'
 import { usePageMetaForRoute } from '../hooks/usePageMeta'
 
 function TeachingPositionRow(role) {
@@ -89,6 +91,9 @@ export default function Teaching() {
           <EntryGroupTree group={pastTree} renderEntry={TeachingPositionRow} />
         ) : null}
         <TalkList items={talks} />
+        <Section title="What learners say">
+          <Recommendations items={teachingRecommendations} />
+        </Section>
       </div>
     </div>
   )
