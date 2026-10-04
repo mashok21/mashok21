@@ -11,6 +11,11 @@ function EntryRow(entry) {
         {entry.date ? <>, {entry.date === 'In progress' ? <em>{entry.date}</em> : entry.date}</> : null}
       </span>
       <div className="entry__note">{entry.note}</div>
+      {entry.certificateUrl ? (
+        <div className="entry__note">
+          <ExternalLink href={entry.certificateUrl}>View the participation certificate (PDF)</ExternalLink>
+        </div>
+      ) : null}
     </>
   )
 }

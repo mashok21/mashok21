@@ -173,6 +173,7 @@ export const certificationGroups = [
         issuer: 'Dr. B.R. Ambedkar School of Economics University, Bengaluru',
         url: 'https://base.ac.in',
         date: '21–25 Jul 2025',
+        certificateUrl: 'https://drive.google.com/file/d/1KpBtX7qfUCGWS5jpvOvW8sYEmmjAmeVF/view',
         note: 'One-week workshop covering empirical modelling methods applied directly in doctoral research.',
       },
       {
