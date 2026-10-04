@@ -15,6 +15,10 @@ export const qualifications = [
     title: 'Fellow Chartered Accountant (FCA)',
     meta: 'Institute of Chartered Accountants of India',
     note: 'Associate (ACA) Feb 2005 → Fellow (FCA) Oct 2015. All-India Rank 45, ICAI Professional Education Examination-II (May 2003).',
+    noteLink: {
+      label: 'View the ICAI rank certificate (PDF)',
+      url: 'https://drive.google.com/file/d/1TQke4ZL-9UKRVm5ynRPw4CuhGUEejG2N/view',
+    },
     logo: '/images/logos/icai.png',
   },
   {
