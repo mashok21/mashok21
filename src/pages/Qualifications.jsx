@@ -26,7 +26,13 @@ export default function Qualifications() {
                 <>
                   {q.logo ? (
                     <span className="entry__logo-wrap">
-                      <img className="entry__logo" src={q.logo} alt={`${q.meta} logo`} />
+                      {q.url ? (
+                        <ExternalLink href={q.url}>
+                          <img className="entry__logo" src={q.logo} alt={`${q.meta} logo, verify credential`} />
+                        </ExternalLink>
+                      ) : (
+                        <img className="entry__logo" src={q.logo} alt={`${q.meta} logo`} />
+                      )}
                     </span>
                   ) : null}
                   <div className="entry__body">
