@@ -157,7 +157,7 @@ The Ask Austrian RAG system's implementation detail (LangGraph agent, MongoDB At
 **Doctor of Philosophy (PhD), Economics — In Progress**
 Srinivas University
 Doctoral research in Austrian economics, capital theory, and business cycles, with emphasis on investment dynamics, credit distortions, and decision-making under uncertainty.
-Thesis: *Entrepreneurship, Time, and Economic Coordination: An Austrian Economic Theory of Intertemporal Market Order*.
+Thesis (per the DCM1 research proposal, May 2026): *AI Investment Dynamics and Capital Structure Distortions Among NASDAQ-100 Firms: An Austrian Capital-Theoretic Evaluation*. Supersedes the earlier "Entrepreneurship, Time, and Economic Coordination" title still on the CV.
 Supervisor: Prof. V. Basil Hans, Department of Economics Sciences, Institute of Management and Commerce, Srinivas University.
 ORCID: 0009-0003-1163-1932 (https://orcid.org/0009-0003-1163-1932).
 

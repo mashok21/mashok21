@@ -5,7 +5,7 @@ export const phd = {
   institution: 'Srinivas University',
   status: 'In progress',
   thesis:
-    'Entrepreneurship, Time, and Economic Coordination: An Austrian Economic Theory of Intertemporal Market Order',
+    'AI Investment Dynamics and Capital Structure Distortions Among NASDAQ-100 Firms: An Austrian Capital-Theoretic Evaluation',
   supervisor:
     'Prof. V. Basil Hans, Department of Economics Sciences, Institute of Management and Commerce, Srinivas University',
   orcid: '0009-0003-1163-1932',
