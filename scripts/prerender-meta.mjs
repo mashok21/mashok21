@@ -60,7 +60,7 @@ const bodies = {
   '/research': () =>
     `<h2>Doctoral research</h2><p>${e(phd.degree)}, ${e(phd.institution)} (${e(phd.status)}). ${e(phd.description)}</p>` +
     `<p>Thesis: ${e(phd.thesis)}. Supervisor: ${e(phd.supervisor)}. ORCID: ${e(phd.orcid)}.</p>` +
-    `<h2>Publications</h2>${li(publications.map((x) => `${e(x.citation)} ${e(x.note)}${x.certificateUrl ? ` (Certificate: ${e(x.certificateUrl)})` : ''}`))}` +
+    `<h2>Publications</h2>${li(publications.map((x) => `${e(x.citation)} ${e(x.note)}${x.paperUrl ? ` (Paper: ${e(x.paperUrl)})` : ''}${x.certificateUrl ? ` (Certificate: ${e(x.certificateUrl)})` : ''}`))}` +
     `<h2>Conference presentations</h2>${li(presentations.map((x) => `<strong>${e(x.title)}</strong>, ${e(x.venue)} (${e(x.date)})${x.certificateUrl ? ` (Certificate: ${e(x.certificateUrl)})` : ''}`))}`,
   '/teaching': () =>
     li(teachingRoles.map((r) => `<strong>${e(r.title)}</strong>, ${e(r.institution)} (${e(r.period)}). ${e(r.topic)}`)) +
