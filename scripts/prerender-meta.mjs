@@ -56,7 +56,7 @@ const bodies = {
       )
       .join(''),
   '/qualifications': () =>
-    li(qualifications.map((q) => `<strong>${e(q.title)}</strong>, ${e(q.meta)}${q.note ? '. ' + e(q.note) : ''}${q.noteLink ? ` (${e(q.noteLink.label)}: ${e(q.noteLink.url)})` : ''}`)),
+    li(qualifications.map((q) => `<strong>${e(q.title)}</strong>, ${e(q.meta)}${q.note ? '. ' + e(q.note) : ''}${q.noteLink ? ` (${e(q.noteLink.label)}: ${e(q.noteLink.url)})` : ''}${(q.noteLinks || []).map((l) => ` (${e(l.label)}: ${e(l.url)})`).join('')}`)),
   '/research': () =>
     `<h2>Doctoral research</h2><p>${e(phd.degree)}, ${e(phd.institution)} (${e(phd.status)}). ${e(phd.description)}</p>` +
     `<p>Thesis: ${e(phd.thesis)}. Supervisor: ${e(phd.supervisor)}. ORCID: ${e(phd.orcid)}.</p>` +

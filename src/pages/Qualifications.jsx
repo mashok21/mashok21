@@ -43,6 +43,13 @@ export default function Qualifications() {
                       {q.url ? <ExternalLink href={q.url}>{q.meta}</ExternalLink> : q.meta}
                     </div>
                     {q.note ? <div className="entry__note">{q.note}</div> : null}
+                    {q.noteLinks
+                      ? q.noteLinks.map((l) => (
+                          <div className="entry__note" key={l.url}>
+                            <ExternalLink href={l.url}>{l.label}</ExternalLink>
+                          </div>
+                        ))
+                      : null}
                     {q.noteLink ? (
                       <div className="entry__note">
                         <ExternalLink href={q.noteLink.url}>{q.noteLink.label}</ExternalLink>

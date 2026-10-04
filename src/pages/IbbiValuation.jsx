@@ -10,18 +10,24 @@ const credentials = [
     meta: 'Jan 2021',
     note: (
       <>
-        Insolvency and Bankruptcy Board of India (IBBI). Credential ID
-        IBBI/RV/13/2021/13794.
+        Insolvency and Bankruptcy Board of India (IBBI). Registration No.
+        IBBI/RV/02/2021/13794, as shown on the current IOV RVF certificate. Certificate of
+        Practice IOVRV01971SFA, effective 27 January 2021 and renewed to 31 March 2027, under
+        Rule 12(2)(b) of the Companies (Registered Valuers and Valuation) Rules, 2017.{' '}
+        <ExternalLink href="https://drive.google.com/file/d/1mY7ixjBiIhamK0Z6tHWo7kIapaZbA8ZW/view">
+          View the current certificate of membership and practice (PDF)
+        </ExternalLink>
       </>
     ),
   },
   {
     title: 'Valuation Examination, Securities or Financial Assets',
-    meta: 'Oct 2020',
+    meta: '22 Oct 2020',
     note: (
       <>
         Passed under the Companies (Registered Valuers and Valuation) Rules, 2017.
-        Certificate No. IBBI/SFA/001706.
+        Certificate No. IBBI/SFA/001706.{' '}
+        <ExternalLink href="https://drive.google.com/file/d/1M7y_kTaWRTMwEzDCjNWkaqumg1oz9O5W/view">View the examination certificate (PDF)</ExternalLink>
       </>
     ),
   },
@@ -36,7 +42,7 @@ const resources = [
   {
     label: 'IOV Registered Valuers Foundation (IOV RVF)',
     href: 'https://iovrvf.org',
-    note: 'The Registered Valuers Organisation (RVO) I am enrolled with for the Securities or Financial Assets Asset Class. IBBI designates RVOs as the first line of regulators for valuers.',
+    note: 'The Registered Valuers Organisation (RVO), recognised by IBBI under No. IBBI/RVO/2017/002, that I am enrolled with for the Securities or Financial Assets Asset Class. My membership moved to IOV RVF in January 2023, when it took over from All India Institute of Valuers Foundation (AIIOVF), my original RVO. IBBI designates RVOs as the first line of regulators for valuers.',
   },
 ]
 
