@@ -55,15 +55,6 @@ export const teachingRoles = [
       "Taught undergraduate management students, drawing on classical moral philosophy, particularly Adam Smith's framework, applied to contemporary financial decision-making. The course aimed to develop normative reasoning alongside technical competence.",
   },
   {
-    title: 'Visiting Faculty (MBA545F)',
-    topic: 'Digital Technology in Finance',
-    institution: 'School of Business and Management, CHRIST (Deemed to be University), Bangalore',
-    period: 'Nov 2022 – Feb 2023',
-    status: 'past',
-    description:
-      'Taught to MBA Finance-specialization students at the Kengeri campus, situating technologies like blockchain within broader capital market and institutional contexts.',
-  },
-  {
     title: 'Faculty (CA Intermediate)',
     topic: 'Economics for Finance',
     institution: 'The Institute of Chartered Accountants of India (ICAI), Bengaluru Branch',
