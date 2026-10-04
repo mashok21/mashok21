@@ -8,12 +8,14 @@ const primaryLinks = [
   { to: '/research', label: 'Research', kind: 'Scholarship' },
 ]
 
+// Labels are generic categories; the specific name of each venture, platform or
+// practice sits in the hover tooltip (`kind`) and on the page itself.
 const moreLinks = [
-  { to: '/austrianprocess', label: 'Austrian Process', kind: 'Applied Philosophy' },
-  { to: '/mannheim-capital', label: 'Mannheim Capital', kind: 'Venture' },
-  { to: '/consulting', label: 'Consulting', kind: 'Engagement' },
-  { to: '/ibbi-valuation', label: 'IBBI Valuation', kind: 'Practice' },
-  { to: '/teaching', label: 'Teaching', kind: 'Academia' },
+  { to: '/austrianprocess', label: 'Research Platform', kind: 'Austrian Process' },
+  { to: '/mannheim-capital', label: 'Venture', kind: 'Mannheim Capital' },
+  { to: '/consulting', label: 'Economic Consulting', kind: 'Stonelink Investment Labs' },
+  { to: '/ibbi-valuation', label: 'Valuation Practice', kind: 'IBBI Registered Valuer' },
+  { to: '/teaching', label: 'Professor of Practice', kind: 'Teaching' },
   { to: '/continuous-learning', label: 'Continuous Learning' },
   { to: '/tech-stack', label: 'Tech Stack' },
 ]
