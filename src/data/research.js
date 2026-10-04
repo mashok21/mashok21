@@ -19,6 +19,7 @@ export const publications = [
       'Ashok, M., & Hans, V. B. (2025). A Review of the Austrian Economic Paradigm. World Journal of Economics, Business and Management, 2(1), 27–30. ISSN 3049-2181.',
     note: 'A review of the core principles of the Austrian school of economics, including subjectivism, entrepreneurship, market processes and methodological foundations.',
     url: 'https://wasrpublication.com/index.php/wjebm/article/view/132',
+    paperUrl: 'https://wasrpublication.com/index.php/wjebm/article/download/132/125',
   },
   {
     citation:
