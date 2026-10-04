@@ -1,9 +1,19 @@
 import { Link } from 'react-router-dom'
 import { interests } from '../data/home'
+import { publications, presentations } from '../data/research'
 import ExternalLink from '../components/ExternalLink'
 import EntryList from '../components/EntryList'
 import Section from '../components/Section'
 import { usePageMetaForRoute } from '../hooks/usePageMeta'
+
+// Counts come from research.js so the strip cannot drift from the Research
+// page; the rest restate facts already on /qualifications and /experience.
+const highlights = [
+  `${publications.length} journal publications on Austrian economics (2025)`,
+  `${presentations.length} international conference presentations (2025)`,
+  'CFA Charterholder (2011) and Fellow Chartered Accountant, All-India Rank 45 in the ICAI Professional Education Examination-II',
+  'Twenty years in equity research, wealth management, investment banking and corporate finance',
+]
 
 export default function Home() {
   usePageMetaForRoute('/')
@@ -44,6 +54,12 @@ export default function Home() {
           platform that turns Austrian capital theory into hands-on tools: a live model of capital
           structure, real interest-rate data, and a research assistant grounded in primary texts.
         </p>
+
+        <Section title="Selected achievements" style={{ marginTop: '3rem' }}>
+          <EntryList items={highlights} itemKey={(item) => item}>
+            {(item) => item}
+          </EntryList>
+        </Section>
 
         <Section title="Interests" style={{ marginTop: '3rem' }}>
           <EntryList items={interests} itemKey={(item) => item}>
