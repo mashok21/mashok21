@@ -11,7 +11,7 @@ import { usePageMetaForRoute } from '../hooks/usePageMeta'
 const highlights = [
   `${publications.length} journal publications on Austrian economics (2025)`,
   `${presentations.length} international conference presentations (2025)`,
-  'CFA Charterholder (2011) and Fellow Chartered Accountant, All-India Rank 45 in the ICAI examination (May 2004)',
+  'CFA Charterholder (2011) and Fellow Chartered Accountant, All-India Rank 45 in the ICAI CA Final examination (May 2004)',
   'Twenty years in equity research, wealth management, investment banking and corporate finance',
 ]
 

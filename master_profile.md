@@ -157,15 +157,18 @@ The Ask Austrian RAG system's implementation detail (LangGraph agent, MongoDB At
 **Doctor of Philosophy (PhD), Economics — In Progress**
 Srinivas University
 Doctoral research in Austrian economics, capital theory, and business cycles, with emphasis on investment dynamics, credit distortions, and decision-making under uncertainty.
+Thesis: *Entrepreneurship, Time, and Economic Coordination: An Austrian Economic Theory of Intertemporal Market Order*.
+Supervisor: Prof. V. Basil Hans, Department of Economics Sciences, Institute of Management and Commerce, Srinivas University.
+ORCID: 0009-0003-1163-1932 (https://orcid.org/0009-0003-1163-1932).
 
 ### Journal Articles (Publications — 4 total, all captured)
 
 1. Ashok M. (2025). A Review of the Austrian Economic Paradigm. *World Journal of Economics, Business and Management*, 2(1), 27–30. https://wasrpublication.com/index.php/wjebm/article/view/132
    Published Jan 24, 2025. A review of the core principles of the Austrian school of economics, including subjectivism, entrepreneurship, market processes, and methodological foundations.
 
-2. Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. *Kronika Journal*. https://doi.org/10.5281/zenodo.16888842
+2. Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. *Kronika Journal*, 25(8). ISSN 0023-4923 (Scopus and UGC approved). https://doi.org/10.5281/zenodo.16888842
    Published Nov 1, 2025. An introductory overview of key ideas in Austrian economics, including subjectivism, market processes, entrepreneurship, and disequilibrium.
-   `[Note: full APA volume/issue/page detail not captured in PDF export — verify before publishing citation]`
+   `[Volume/issue and indexing added from Ashok's CV, 2026-10-04; page range still not captured]`
 
 3. Ashok, M., & Hans, V. B. (2025). Intertemporal coordination mechanism: Austrian insights on market coordination through time. *International Journal of Management, Technology, and Social Sciences (IJMTS)*, 10(1). https://doi.org/10.5281/zenodo.15233720
 
@@ -178,7 +181,7 @@ Doctoral research in Austrian economics, capital theory, and business cycles, wi
 3. **Sustainable Growth Ideas from the Austrian Economics School** — Jan 2025. Conference paper presented at an ICSSR-sponsored international conference on Sustainable Development Goals, hosted by St Aloysius Deemed to be University. Examines sustainable growth through Austrian economics with emphasis on entrepreneurship, market processes, and institutional coordination.
 
 ### Honors & Awards
-- All-India Rank 45 — ICAI examination, May 2004 (corrected by Ashok 2026-10-04; LinkedIn lists "Professional Education Examination-II", May 2003). Issued by The Institute of Chartered Accountants of India.
+- All-India Rank 45 — ICAI CA Final examination, May 2004 (corrected by Ashok 2026-10-04; LinkedIn lists "Professional Education Examination-II", May 2003). Issued by The Institute of Chartered Accountants of India.
 
 ---
 

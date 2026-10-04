@@ -9,7 +9,7 @@ export const routeMeta = {
   '/': {
     title: null,
     description:
-      'Ashok M — Research economist, investment practitioner, and educator. CFA, FCA, PhD scholar in Economics.',
+      'Ashok M — Research economist, investment practitioner, and Professor-of-Practice–style educator. CFA, FCA, PhD scholar in Economics.',
   },
   '/experience': {
     title: 'Experience',
