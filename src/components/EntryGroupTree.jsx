@@ -13,7 +13,7 @@ function EntryRow(entry) {
       <div className="entry__note">{entry.note}</div>
       {entry.certificateUrl ? (
         <div className="entry__note">
-          <ExternalLink href={entry.certificateUrl}>View the participation certificate (PDF)</ExternalLink>
+          <ExternalLink href={entry.certificateUrl}>View the certificate (PDF)</ExternalLink>
         </div>
       ) : null}
     </>

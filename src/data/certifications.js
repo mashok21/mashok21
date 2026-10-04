@@ -166,6 +166,7 @@ export const certificationGroups = [
         issuer: 'Indian Institute of Management, Bangalore',
         url: 'https://www.iimb.ac.in',
         date: '20–25 Apr 2026',
+        certificateUrl: 'https://drive.google.com/file/d/1aj50mCN-CWR1bMs9LpAPv7QZJBZ1Rqt4/view',
         note: 'Six-day workshop on advanced research design and publication-oriented thinking for the PhD.',
       },
       {
