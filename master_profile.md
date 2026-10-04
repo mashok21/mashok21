@@ -178,7 +178,7 @@ Doctoral research in Austrian economics, capital theory, and business cycles, wi
 3. **Sustainable Growth Ideas from the Austrian Economics School** — Jan 2025. Conference paper presented at an ICSSR-sponsored international conference on Sustainable Development Goals, hosted by St Aloysius Deemed to be University. Examines sustainable growth through Austrian economics with emphasis on entrepreneurship, market processes, and institutional coordination.
 
 ### Honors & Awards
-- All-India Rank 45 — ICAI Professional Education Examination-II. Issued by The Institute of Chartered Accountants of India, May 2003. "Secured All-India Rank 45 in the ICAI Professional Education Examination-II."
+- All-India Rank 45 — ICAI examination, May 2004 (corrected by Ashok 2026-10-04; LinkedIn lists "Professional Education Examination-II", May 2003). Issued by The Institute of Chartered Accountants of India.
 
 ---
 
