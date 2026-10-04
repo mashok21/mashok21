@@ -163,7 +163,7 @@ ORCID: 0009-0003-1163-1932 (https://orcid.org/0009-0003-1163-1932).
 
 ### Journal Articles (Publications — 4 total, all captured)
 
-1. Ashok M. (2025). A Review of the Austrian Economic Paradigm. *World Journal of Economics, Business and Management*, 2(1), 27–30. https://wasrpublication.com/index.php/wjebm/article/view/132
+1. Ashok, M., & Hans, V. B. (2025). A Review of the Austrian Economic Paradigm. *World Journal of Economics, Business and Management*, 2(1), 27–30. https://wasrpublication.com/index.php/wjebm/article/view/132
    Published Jan 24, 2025. A review of the core principles of the Austrian school of economics, including subjectivism, entrepreneurship, market processes, and methodological foundations.
 
 2. Ashok M. (2025). Austrian Economic Thought: A Brief Overview and Introduction to Various Aspects. *Kronika Journal*, 25(8). ISSN 0023-4923 (Scopus and UGC approved). https://doi.org/10.5281/zenodo.16888842
