@@ -49,6 +49,7 @@ export const presentations = [
     venue:
       'International Conference on Innovation in Technology and Management (ICITM-2025)',
     date: 'Mar 2025',
+    certificateUrl: 'https://drive.google.com/file/d/1LzCjzs9braCQeSgOFrK9RWG26GNYhE3E/view',
     description:
       'Examines Austrian perspectives on market processes, innovation and disequilibrium dynamics.',
   },
@@ -58,6 +59,7 @@ export const presentations = [
     venue:
       '2nd International Conference on Applied Research in Engineering Sciences (ICARES-2025), Ramaiah Institute of Technology',
     date: 'Feb 2025',
+    certificateUrl: 'https://drive.google.com/file/d/1CqfgfwQiWvBW1ql3BwKPxZx3PL5nyrfo/view',
     description:
       'Examines Austrian microeconomic foundations of market processes, entrepreneurship and disequilibrium dynamics.',
   },
@@ -66,6 +68,7 @@ export const presentations = [
     venue:
       'ICSSR-sponsored international conference on Sustainable Development Goals, St Aloysius Deemed to be University',
     date: 'Jan 2025',
+    certificateUrl: 'https://drive.google.com/file/d/1E3QOI0pAy0l7h6vp_6mnZjtxGeUvqi9e/view',
     description:
       'Examines sustainable growth through Austrian economics, with emphasis on entrepreneurship, market processes and institutional coordination.',
   },

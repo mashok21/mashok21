@@ -63,6 +63,11 @@ export default function Research() {
                 <div className="entry__note">
                   {item.venue}. {item.description}
                 </div>
+                {item.certificateUrl && (
+                  <div className="entry__note">
+                    <ExternalLink href={item.certificateUrl}>View the presentation certificate (PDF)</ExternalLink>
+                  </div>
+                )}
               </>
             )}
           </EntryList>
