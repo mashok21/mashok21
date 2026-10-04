@@ -12,6 +12,11 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { routeMeta } from '../src/routeMeta.js'
+import { interests } from '../src/data/home.js'
+import { experienceGroups } from '../src/data/experience.js'
+import { qualifications } from '../src/data/qualifications.js'
+import { phd, publications, presentations } from '../src/data/research.js'
+import { teachingRoles } from '../src/data/teaching.js'
 
 const rootDir = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const distDir = path.join(rootDir, 'dist')
@@ -28,9 +33,54 @@ function replaceAttr(html, selectorPattern, value) {
   return html.replace(selectorPattern, (match, prefix, suffix) => `${prefix}${escapeHtml(value)}${suffix}`)
 }
 
+// Visible text for non-JS readers (plain fetchers, many AI tools). React's
+// createRoot clears #root on mount, so real visitors never see this block;
+// it is built from the same data modules the pages render from, so it cannot
+// drift from them. Routes without an entry here get just their heading,
+// description and the site links.
+const li = (items) => `<ul>${items.map((t) => `<li>${t}</li>`).join('')}</ul>`
+const e = escapeHtml
+
+const bodies = {
+  '/': () => `<h2>Research interests</h2>${li(interests.map(e))}`,
+  '/experience': () =>
+    experienceGroups
+      .map(
+        (g) =>
+          `<h2>${e(g.theme)}</h2>${li(
+            g.roles.map((r) => `<strong>${e(r.title)}</strong>, ${e(r.employer)} (${e(r.period)}). ${e(r.description)}`),
+          )}`,
+      )
+      .join(''),
+  '/qualifications': () =>
+    li(qualifications.map((q) => `<strong>${e(q.title)}</strong>, ${e(q.meta)}${q.note ? '. ' + e(q.note) : ''}`)),
+  '/research': () =>
+    `<h2>Doctoral research</h2><p>${e(phd.degree)}, ${e(phd.institution)} (${e(phd.status)}). ${e(phd.description)}</p>` +
+    `<h2>Publications</h2>${li(publications.map((x) => `${e(x.citation)} ${e(x.note)}`))}` +
+    `<h2>Conference presentations</h2>${li(presentations.map((x) => `<strong>${e(x.title)}</strong>, ${e(x.venue)} (${e(x.date)})`))}`,
+  '/teaching': () =>
+    li(teachingRoles.map((r) => `<strong>${e(r.title)}</strong>, ${e(r.institution)} (${e(r.period)}). ${e(r.topic)}`)),
+}
+
+function staticBody(routePath, meta) {
+  const heading = meta.title || 'Ashok M — Research Economist'
+  const links = Object.entries(routeMeta)
+    .filter(([p]) => p !== routePath)
+    .map(([p, m]) => `<a href="${p}">${e(m.title || 'Home')}</a>`)
+  const body = bodies[routePath] ? bodies[routePath]() : ''
+  return `<main><h1>${e(heading)}</h1><p>${e(meta.description)}</p>${body}<nav>${links.join(' · ')}</nav></main>`
+}
+
+function withBody(html, routePath, meta) {
+  return html.replace('<div id="root"></div>', `<div id="root">${staticBody(routePath, meta)}</div>`)
+}
+
+// Home: dist/index.html already has Home's tags, so only the body is added.
+writeFileSync(path.join(distDir, 'index.html'), withBody(template, '/', routeMeta['/']))
+
 let count = 0
 for (const [routePath, meta] of Object.entries(routeMeta)) {
-  if (routePath === '/') continue // dist/index.html already has Home's tags
+  if (routePath === '/') continue // handled above
 
   const fullTitle = meta.title ? `${meta.title} — ${SITE_NAME}` : `${SITE_NAME} — Research Economist`
   const url = SITE_URL + routePath
@@ -44,8 +94,10 @@ for (const [routePath, meta] of Object.entries(routeMeta)) {
   html = replaceAttr(html, /(<meta name="twitter:title" content=")[^"]*("[^>]*>)/, fullTitle)
   html = replaceAttr(html, /(<meta name="twitter:description" content=")[^"]*("[^>]*>)/, meta.description)
 
+  html = withBody(html, routePath, meta)
+
   writeFileSync(path.join(distDir, `${routePath.replace(/^\//, '')}.html`), html)
   count++
 }
 
-console.log(`prerender-meta: wrote static title/meta shells for ${count} routes`)
+console.log(`prerender-meta: wrote static shells (meta + body text) for ${count} routes plus Home`)
